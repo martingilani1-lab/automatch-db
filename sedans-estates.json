@@ -1,0 +1,4580 @@
+[
+  {
+    "id": 3,
+    "make": "Škoda",
+    "model": "Octavia",
+    "gen": "Mk3 Hatchback",
+    "years": "2013–2020",
+    "yearFrom": 2013,
+    "yearTo": 2020,
+    "origin": "Czech/German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 590,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "lpg"
+    ],
+    "usageTags": [
+      "daily",
+      "family",
+      "longDistance",
+      "business"
+    ],
+    "pricing": {
+      "skPriceMin": 9000,
+      "skPriceMax": 22000,
+      "euPriceMin": 8500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "60,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Excellent. What Car? #1 reliability 2024. 1.6 TDI manual is benchmark."
+    },
+    "safety": {
+      "ncapYear": 2013,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 69,
+      "safetyAssist": 66
+    },
+    "engines": [
+      {
+        "name": "1.2 TSI 86hp / 110hp (CJZA)",
+        "displacement": 1197,
+        "power": 110,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Timing chain stretch on pre-2015 units — cold start rattle check",
+          "Carbon buildup on intake valves"
+        ],
+        "pros": [
+          "Good city economy",
+          "Adequate everyday performance"
+        ],
+        "cons": [
+          "Chain watch on early units mandatory",
+          "Not for high-mileage use without inspection"
+        ]
+      },
+      {
+        "name": "1.4 TSI 150hp (CZDA)",
+        "displacement": 1395,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain on early Mk3 units",
+          "ACT cylinder deactivation can cause vibration",
+          "Carbon intake buildup"
+        ],
+        "pros": [
+          "Strong performance",
+          "Good motorway cruiser",
+          "ACT improves economy"
+        ],
+        "cons": [
+          "Chain watch",
+          "ACT vibration some owners report"
+        ]
+      },
+      {
+        "name": "1.8 TSI 180hp",
+        "displacement": 1798,
+        "power": 180,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain at 120,000 km",
+          "Oil consumption on some high-mileage units",
+          "Water pump failure on some"
+        ],
+        "pros": [
+          "Excellent performance for family car",
+          "Smooth delivery",
+          "Best petrol for long distance"
+        ],
+        "cons": [
+          "Chain service at 120k",
+          "Higher running costs"
+        ]
+      },
+      {
+        "name": "1.6 TDI 105hp / 110hp",
+        "displacement": 1598,
+        "power": 110,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF fouling on city-only use — need occasional motorway drive",
+          "EGR valve at 150,000 km"
+        ],
+        "pros": [
+          "BEST: What Car? #1 most reliable engine in class",
+          "4.5L/100km real-world",
+          "Proven to 400,000 km with service",
+          "Taxi and fleet favourite"
+        ],
+        "cons": [
+          "DPF needs regular motorway run",
+          "City-only use problematic"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp / 184hp",
+        "displacement": 1968,
+        "power": 184,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km — MUST replace",
+          "DPF and EGR at high mileage",
+          "Injector wear at 200,000 km"
+        ],
+        "pros": [
+          "Strong diesel performance",
+          "Excellent long-distance economy",
+          "Best for high mileage drivers"
+        ],
+        "cons": [
+          "Timing belt critical service item",
+          "More expensive than 1.6 TDI"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ200 (petrol)",
+        "type": "dct-dry",
+        "reliability": "Average",
+        "faults": [
+          "Jerking at low speed",
+          "Mechatronics unit failure €800–1,500"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ200 dry dual-clutch: avoid heavy stop-go city use. Jerking/hesitation at low speed is normal. Oil service every 60,000 km mandatory. Mechatronics failure is main repair (€800–1,500)."
+      },
+      {
+        "name": "6-speed DSG DQ250 (2.0 TDI)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Oil service at 60,000 km critical",
+          "Generally very reliable"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ250 wet dual-clutch: used on higher-torque 2.0 TDI engines. Oil-bath clutch is robust. Service every 60,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Steel wheels 15\"",
+          "Manual AC",
+          "Bolero 6.5\" MirrorLink",
+          "Cloth seats",
+          "Electric windows"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "Alloy wheels 16\"",
+          "Climatronic",
+          "Columbus 8\" Nav or Bolero",
+          "LED DRL",
+          "Cruise control",
+          "Rear sensors",
+          "Cloth/Alcantara seats"
+        ],
+        "targetBuyer": "Most popular — best value"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "Alloy wheels 17\"",
+          "LED headlights",
+          "Full LED taillights",
+          "Alcantara or leather option",
+          "Canton audio option",
+          "Panoramic sunroof option",
+          "Keyless entry"
+        ],
+        "targetBuyer": "Premium spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "17\" or 18\" alloys",
+          "Full leather",
+          "Heated+ventilated seats",
+          "Canton audio",
+          "Matrix LED",
+          "Keyless",
+          "Massage option",
+          "Full luxury spec"
+        ],
+        "targetBuyer": "Flagship luxury spec"
+      }
+    ],
+    "note": "Best value family hatchback in Slovakia. What Car? #1 reliability 2024. 1.6 TDI manual is one of the best used cars available.",
+    "summary": "Excellent reliability especially 1.6 TDI manual. Mk3 What Car? Reliability Award 2024. Key risk: 1.2 TSI chain and DSG service history.",
+    "buyingTip": "1.6 TDI manual with full service history is the benchmark used car. Check DSG service stamps on auto. 1.2 TSI: only buy with cold start test passed."
+  },
+  {
+    "id": 4,
+    "make": "Škoda",
+    "model": "Octavia",
+    "gen": "Mk3 Estate",
+    "years": "2013–2020",
+    "yearFrom": 2013,
+    "yearTo": 2020,
+    "origin": "Czech/German",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 610,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "longDistance",
+      "business",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 10000,
+      "skPriceMax": 24000,
+      "euPriceMin": 9500,
+      "euPriceMax": 25000,
+      "mileageAtMidBudget": "80,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Excellent. Same as hatchback but 610L boot. Best family estate value."
+    },
+    "safety": {
+      "ncapYear": 2013,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 69,
+      "safetyAssist": 66
+    },
+    "engines": [
+      {
+        "name": "1.4 TSI 150hp",
+        "displacement": 1395,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain on early Mk3",
+          "ACT vibration"
+        ],
+        "pros": [
+          "Good performance",
+          "Motorway cruiser"
+        ],
+        "cons": [
+          "Chain watch",
+          "ACT"
+        ]
+      },
+      {
+        "name": "1.8 TSI 180hp",
+        "displacement": 1798,
+        "power": 180,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain at 120,000 km",
+          "Water pump"
+        ],
+        "pros": [
+          "Best petrol performance",
+          "Smooth"
+        ],
+        "cons": [
+          "Chain service"
+        ]
+      },
+      {
+        "name": "1.6 TDI 110hp",
+        "displacement": 1598,
+        "power": 110,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 150,000 km"
+        ],
+        "pros": [
+          "What Car? most reliable",
+          "4.5L/100km",
+          "Taxi proven"
+        ],
+        "cons": [
+          "DPF city"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km",
+          "DPF EGR high mileage"
+        ],
+        "pros": [
+          "Strong performance",
+          "Best long-distance",
+          "Excellent towing for estate"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp 4x4",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Same as 2WD plus Haldex coupling — service every 60,000 km",
+          "Haldex pump failure if oil not changed"
+        ],
+        "pros": [
+          "4x4 excellent for Slovak winters",
+          "Best spec for outdoor use"
+        ],
+        "cons": [
+          "Haldex service mandatory",
+          "Higher running costs than 2WD"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed DSG DQ250",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Oil service critical"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ250 wet dual-clutch: used on higher-torque 2.0 TDI engines. Oil-bath clutch is robust. Service every 60,000 km."
+      },
+      {
+        "name": "7-speed DSG DQ200 (petrol)",
+        "type": "dct-dry",
+        "reliability": "Average",
+        "faults": [
+          "Jerking",
+          "Mechatronics"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ200 dry dual-clutch: avoid heavy stop-go city use. Jerking/hesitation at low speed is normal. Oil service every 60,000 km mandatory. Mechatronics failure is main repair (€800–1,500)."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "Basic infotainment",
+          "Electric windows"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "Alloy wheels 16\"",
+          "Climatronic",
+          "8\" touchscreen",
+          "Rear sensors",
+          "Cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "LED headlights",
+          "17\" alloys",
+          "Canton audio option",
+          "Leather option",
+          "Keyless"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Full leather",
+          "Heated/ventilated seats",
+          "Canton audio",
+          "18\" alloys",
+          "Full premium spec"
+        ],
+        "targetBuyer": "Flagship"
+      },
+      {
+        "trim": "Scout 4x4",
+        "features": [
+          "All-terrain styling",
+          "Roof rails",
+          "Off-road pack",
+          "4x4 drivetrain standard",
+          "Extra ground clearance"
+        ],
+        "targetBuyer": "Outdoor spec"
+      }
+    ],
+    "note": "Best value family estate. 610L boot. 2.0 TDI 4x4 one of best all-round used cars in Slovakia.",
+    "summary": "Same excellent reliability as hatchback. Estate-specific: tailgate struts wear and occasional water ingress.",
+    "buyingTip": "2.0 TDI 150hp manual or DSG estate is the perfect all-rounder. Check tailgate for water. DSG stamps essential."
+  },
+  {
+    "id": 5,
+    "make": "Škoda",
+    "model": "Octavia",
+    "gen": "Mk4 Hatchback",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 600,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "daily",
+      "family",
+      "longDistance",
+      "business"
+    ],
+    "pricing": {
+      "skPriceMin": 18000,
+      "skPriceMax": 38000,
+      "euPriceMin": 17000,
+      "euPriceMax": 39000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good but below exceptional Mk3 standard. PHEV adds complexity. 2021+ preferred."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 74,
+      "safetyAssist": 83
+    },
+    "engines": [
+      {
+        "name": "1.0 TSI 115hp",
+        "displacement": 999,
+        "power": 115,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain tensioner on early 2020 build",
+          "3-cylinder vibration"
+        ],
+        "pros": [
+          "Efficient city engine",
+          "Adequate everyday"
+        ],
+        "cons": [
+          "Motorway marginal"
+        ]
+      },
+      {
+        "name": "1.5 TSI 150hp eTSI",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "48V BSG occasional fault",
+          "ACT vibration",
+          "Chain at 120,000 km"
+        ],
+        "pros": [
+          "Best everyday petrol",
+          "eTSI smooth start/stop",
+          "CO2 reduction"
+        ],
+        "cons": [
+          "eTSI complexity"
+        ]
+      },
+      {
+        "name": "2.0 TSI 190hp",
+        "displacement": 1984,
+        "power": 190,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain service",
+          "DSG mandatory with this engine"
+        ],
+        "pros": [
+          "Excellent performance",
+          "Best petrol for motorway"
+        ],
+        "cons": [
+          "Higher running costs"
+        ]
+      },
+      {
+        "name": "2.0 TDI 115hp",
+        "displacement": 1968,
+        "power": 115,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km",
+          "DPF city",
+          "AdBlue 15,000 km"
+        ],
+        "pros": [
+          "Good economy",
+          "Fleet favourite",
+          "Lower price"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt critical",
+          "DPF city",
+          "Injectors high mileage",
+          "AdBlue"
+        ],
+        "pros": [
+          "Best diesel spec",
+          "Excellent long-distance",
+          "Strong towing"
+        ],
+        "cons": [
+          "Timing belt"
+        ]
+      },
+      {
+        "name": "1.4 TSI eHybrid 204hp PHEV",
+        "displacement": 1395,
+        "power": 204,
+        "fuel": "hybrid",
+        "reliability": "Average",
+        "faults": [
+          "Battery charging system failures on early 2020–2021",
+          "PHEV complexity adds failure modes",
+          "High-voltage system expensive to repair",
+          "Software bugs on early build"
+        ],
+        "pros": [
+          "204hp combined — genuinely quick",
+          "EV mode 55km — low tax",
+          "Fuel costs reduced for short commuters"
+        ],
+        "cons": [
+          "Avoid 2020–2021 PHEV: software and battery issues",
+          "Complex and expensive if faults develop",
+          "Must charge regularly or economy suffers"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ200 (petrol)",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "2020 early build: calibration poor — 2021+ better",
+          "Mechatronics failure still possible"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ200 dry dual-clutch: avoid heavy stop-go city use. Jerking/hesitation at low speed is normal. Oil service every 60,000 km mandatory. Mechatronics failure is main repair (€800–1,500)."
+      },
+      {
+        "name": "7-speed DSG DQ381 (diesel/PHEV)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service oil at 60,000 km"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Steel or alloy wheels 16\"",
+          "Manual AC or Climatronic",
+          "8.25\" infotainment",
+          "App-Connect",
+          "LED DRL",
+          "Safety systems"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "Alloy wheels 16\"",
+          "Climatronic dual-zone",
+          "Columbus 10\" Nav",
+          "Digital cockpit",
+          "Rear sensors",
+          "Smart cruise",
+          "Parking assist"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "17\" alloys",
+          "LED matrix headlights",
+          "Canton audio 9-speaker",
+          "Wireless CarPlay",
+          "Heated seats",
+          "Keyless entry",
+          "Ambient lighting"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "18\" sport alloys",
+          "Sport seats",
+          "Black elements",
+          "Sport steering wheel",
+          "Sportline badges"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Nappa leather",
+          "Heated+ventilated seats",
+          "18\" premium alloys",
+          "Canton 575W audio",
+          "Panoramic sunroof",
+          "Massage seats",
+          "Full premium spec"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "Dropped from What Car? reliability top spot vs Mk3. Still good overall. PHEV version adds complexity.",
+    "summary": "Good reliability but below the exceptional Mk3 standard. Main concern: PHEV complexity and early DSG issues on 2020 build.",
+    "buyingTip": "Buy 2021+ production year. Avoid 2020 early build. Manual transmission most reliable. PHEV: only buy with full Skoda dealer history."
+  },
+  {
+    "id": 6,
+    "make": "Škoda",
+    "model": "Octavia",
+    "gen": "Mk4 Estate",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 640,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "longDistance",
+      "business"
+    ],
+    "pricing": {
+      "skPriceMin": 20000,
+      "skPriceMax": 42000,
+      "euPriceMin": 19000,
+      "euPriceMax": 43000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 640L boot class-leading estate. Same reliability as hatchback."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 74,
+      "safetyAssist": 83
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp eTSI",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "48V BSG fault",
+          "ACT vibration"
+        ],
+        "pros": [
+          "Best everyday estate petrol",
+          "Efficient"
+        ],
+        "cons": [
+          "eTSI complexity"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt critical",
+          "AdBlue",
+          "DPF city"
+        ],
+        "pros": [
+          "Best long-distance estate engine",
+          "640L boot + strong diesel = perfect"
+        ],
+        "cons": [
+          "Timing belt"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp 4x4",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Same as 2WD + Haldex service at 60,000 km"
+        ],
+        "pros": [
+          "4x4 + 640L boot = definitive Slovak family car",
+          "Best winter spec"
+        ],
+        "cons": [
+          "Haldex mandatory service"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ381",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60,000 km"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Steel/alloy 16\"",
+          "Climatronic",
+          "8.25\" infotainment",
+          "App-Connect"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "16\" alloys",
+          "Columbus 10\" Nav",
+          "Digital cockpit",
+          "Rear sensors",
+          "Smart cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "17\" alloys",
+          "LED matrix",
+          "Canton audio",
+          "Wireless CarPlay",
+          "Heated seats",
+          "Keyless"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Full leather",
+          "Nappa",
+          "Ventilated seats",
+          "Canton 575W",
+          "18\" alloys",
+          "Panoramic roof",
+          "Massage"
+        ],
+        "targetBuyer": "Luxury"
+      },
+      {
+        "trim": "Scout 4x4",
+        "features": [
+          "Off-road styling",
+          "Roof rails",
+          "4x4 standard",
+          "Higher ride",
+          "Protective cladding"
+        ],
+        "targetBuyer": "Outdoor spec"
+      }
+    ],
+    "note": "640L boot — class-leading estate. 2.0 TDI 150 DSG is the fleet spec.",
+    "summary": "Best practical family estate at its price. Same Mk4 caveats: prefer 2021+.",
+    "buyingTip": "2.0 TDI 150hp manual 2021+ is the definitive used estate. Check DSG stamps. Scout 4x4 for winter."
+  },
+  {
+    "id": 7,
+    "make": "Škoda",
+    "model": "Superb",
+    "gen": "B6 Liftback",
+    "years": "2008–2015",
+    "yearFrom": 2008,
+    "yearTo": 2015,
+    "origin": "Czech/German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 565,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 5500,
+      "skPriceMax": 12000,
+      "euPriceMin": 5000,
+      "euPriceMax": 13000,
+      "mileageAtMidBudget": "120,000–250,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. Budget luxury. More car for less money. 1.8 TSI or 2.0 TDI sweet spot."
+    },
+    "safety": {
+      "ncapYear": 2008,
+      "stars": 5,
+      "adultOccupant": 85,
+      "childOccupant": 80,
+      "pedestrian": 60,
+      "safetyAssist": 41
+    },
+    "engines": [
+      {
+        "name": "1.4 TSI 122hp",
+        "displacement": 1390,
+        "power": 122,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Timing chain on early units",
+          "Insufficient power for car size"
+        ],
+        "pros": [
+          "Adequate for city use",
+          "Cheapest to run"
+        ],
+        "cons": [
+          "Underpowered for large car",
+          "Chain watch"
+        ]
+      },
+      {
+        "name": "1.8 TSI 160hp",
+        "displacement": 1798,
+        "power": 160,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Water pump failure at 80,000–120,000 km — preventive replacement recommended",
+          "Timing chain at 120,000 km"
+        ],
+        "pros": [
+          "Good performance for car size",
+          "Adequate long-distance",
+          "Best petrol for this generation"
+        ],
+        "cons": [
+          "Water pump preventive replacement recommended",
+          "Chain service at 120k"
+        ]
+      },
+      {
+        "name": "2.0 TSI 200hp",
+        "displacement": 1984,
+        "power": 200,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain at 120,000 km",
+          "Higher running costs"
+        ],
+        "pros": [
+          "Excellent performance",
+          "Smooth power delivery"
+        ],
+        "cons": [
+          "Chain service",
+          "High fuel use"
+        ]
+      },
+      {
+        "name": "1.6 TDI 105hp",
+        "displacement": 1598,
+        "power": 105,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 150,000 km"
+        ],
+        "pros": [
+          "Very durable",
+          "4.5L/100km",
+          "Cheap to run",
+          "Reliable to 400,000 km"
+        ],
+        "cons": [
+          "DPF city"
+        ]
+      },
+      {
+        "name": "2.0 TDI 140hp / 170hp",
+        "displacement": 1968,
+        "power": 170,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km",
+          "Injectors at high mileage"
+        ],
+        "pros": [
+          "Strong diesel performance",
+          "Best for long distance",
+          "Good towing"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed DSG DQ250",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60,000 km critical"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ250 wet dual-clutch: used on higher-torque 2.0 TDI engines. Oil-bath clutch is robust. Service every 60,000 km."
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80,000 km"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Steel wheels 16\"",
+          "Manual AC",
+          "Standard infotainment",
+          "Cloth seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambiente",
+        "features": [
+          "Alloy wheels 17\"",
+          "Climatronic",
+          "Navigation",
+          "Leather option",
+          "Cruise control",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Elegance",
+        "features": [
+          "18\" alloys",
+          "LED headlights",
+          "Full leather",
+          "Canton audio",
+          "Heated seats",
+          "Panoramic roof",
+          "Keyless"
+        ],
+        "targetBuyer": "Luxury spec"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "18\" alloys",
+          "Sport seats",
+          "Black styling elements"
+        ],
+        "targetBuyer": "Sport look"
+      }
+    ],
+    "note": "Budget luxury: more car for less money. 565L boot. 1.8 TSI or 2.0 TDI the sweet spot at this age.",
+    "summary": "Good reliability for age. Key concerns: 1.8 TSI water pump, timing chain on petrols. Diesel units very durable.",
+    "buyingTip": "2.0 TDI manual B6 is exceptional value. 1.8 TSI: check water pump was replaced. Suspension refresh budget."
+  },
+  {
+    "id": 8,
+    "make": "Škoda",
+    "model": "Superb",
+    "gen": "B6 Estate",
+    "years": "2009–2015",
+    "yearFrom": 2009,
+    "yearTo": 2015,
+    "origin": "Czech/German",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 633,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 6000,
+      "skPriceMax": 13000,
+      "euPriceMin": 5500,
+      "euPriceMax": 14000,
+      "mileageAtMidBudget": "120,000–250,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 633L boot at budget price. Perfect high-mileage family estate."
+    },
+    "safety": {
+      "ncapYear": 2009,
+      "stars": 5,
+      "adultOccupant": 85,
+      "childOccupant": 80,
+      "pedestrian": 60,
+      "safetyAssist": 41
+    },
+    "engines": [
+      {
+        "name": "1.8 TSI 160hp",
+        "displacement": 1798,
+        "power": 160,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Water pump at 80–120k preventive",
+          "Chain at 120,000 km"
+        ],
+        "pros": [
+          "Good performance",
+          "Best petrol for estate"
+        ],
+        "cons": [
+          "Water pump preventive"
+        ]
+      },
+      {
+        "name": "2.0 TDI 140hp",
+        "displacement": 1968,
+        "power": 140,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km",
+          "Injectors high mileage"
+        ],
+        "pros": [
+          "Strong diesel",
+          "Best for estate touring"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 170hp",
+        "displacement": 1968,
+        "power": 170,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Same + more stress on belt"
+        ],
+        "pros": [
+          "Excellent performance for estate",
+          "Good towing"
+        ],
+        "cons": [
+          "Timing belt"
+        ]
+      },
+      {
+        "name": "2.0 TDI 4x4 170hp",
+        "displacement": 1968,
+        "power": 170,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt critical",
+          "Haldex service at 60,000 km"
+        ],
+        "pros": [
+          "4x4 + 633L boot = exceptional Slovakia spec",
+          "Best winter family estate at budget price"
+        ],
+        "cons": [
+          "Haldex mandatory service",
+          "More to maintain"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed DSG DQ250",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k critical"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ250 wet dual-clutch: used on higher-torque 2.0 TDI engines. Oil-bath clutch is robust. Service every 60,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Standard spec",
+          "Cloth seats",
+          "Manual AC"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambiente",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Navigation",
+          "Leather option",
+          "Cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Elegance",
+        "features": [
+          "Full leather",
+          "18\" alloys",
+          "Canton audio",
+          "Heated seats",
+          "Panoramic roof"
+        ],
+        "targetBuyer": "Luxury"
+      },
+      {
+        "trim": "Greenline",
+        "features": [
+          "Eco spec",
+          "Lower ride",
+          "Better aerodynamics",
+          "Low rolling resistance tyres"
+        ],
+        "targetBuyer": "Economy spec"
+      }
+    ],
+    "note": "633L boot at budget price. Perfect high-mileage family estate. 2.0 TDI 4x4 exceptional value.",
+    "summary": "Same as B6 liftback with estate-specific tailgate issues. Excellent value for practical family use.",
+    "buyingTip": "2.0 TDI 4x4 estate is genuinely one of the best value used cars in Slovakia. Budget for suspension refresh."
+  },
+  {
+    "id": 9,
+    "make": "Škoda",
+    "model": "Superb",
+    "gen": "B8 Liftback",
+    "years": "2015–2023",
+    "yearFrom": 2015,
+    "yearTo": 2023,
+    "origin": "Czech/German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 625,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 13000,
+      "skPriceMax": 30000,
+      "euPriceMin": 12000,
+      "euPriceMax": 31000,
+      "mileageAtMidBudget": "40,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Excellent. What Car? 2024 top-ranked large car. Business benchmark."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 75,
+      "safetyAssist": 82
+    },
+    "engines": [
+      {
+        "name": "1.4 TSI 150hp",
+        "displacement": 1395,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain on early 2015–2016",
+          "ACT vibration"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "Most efficient petrol"
+        ],
+        "cons": [
+          "Chain watch early"
+        ]
+      },
+      {
+        "name": "1.8 TSI 180hp",
+        "displacement": 1798,
+        "power": 180,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain at 120,000 km",
+          "Oil consumption high mileage"
+        ],
+        "pros": [
+          "Excellent everyday performance",
+          "Smooth delivery"
+        ],
+        "cons": [
+          "Chain service"
+        ]
+      },
+      {
+        "name": "2.0 TSI 220hp",
+        "displacement": 1984,
+        "power": 220,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain service",
+          "DSG service at 40k"
+        ],
+        "pros": [
+          "Outstanding performance",
+          "Excellent motorway car"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      },
+      {
+        "name": "1.6 TDI 120hp",
+        "displacement": 1598,
+        "power": 120,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 150k",
+          "AdBlue 15k"
+        ],
+        "pros": [
+          "Very reliable",
+          "Good economy",
+          "Fleet favourite"
+        ],
+        "cons": [
+          "AdBlue cost"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 140,000 km",
+          "AdBlue",
+          "DPF city",
+          "Injectors high mileage"
+        ],
+        "pros": [
+          "What Car? top diesel in class",
+          "Excellent long-distance",
+          "Strong towing",
+          "Best spec"
+        ],
+        "cons": [
+          "Timing belt mandatory",
+          "AdBlue"
+        ]
+      },
+      {
+        "name": "2.0 TDI 190hp 4x4",
+        "displacement": 1968,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt critical",
+          "AdBlue",
+          "Haldex at 60k"
+        ],
+        "pros": [
+          "4x4 + excellent diesel + 625L boot = benchmark Slovakia spec",
+          "Outstanding all-weather"
+        ],
+        "cons": [
+          "Timing belt + Haldex both need service"
+        ]
+      },
+      {
+        "name": "1.4 TSI iV PHEV 218hp",
+        "displacement": 1395,
+        "power": 218,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery system 2017–2018 early: occasional faults",
+          "High-voltage system needs dealer service"
+        ],
+        "pros": [
+          "EV mode 50km — practical daily EV+petrol",
+          "Low company car tax",
+          "218hp combined quick"
+        ],
+        "cons": [
+          "Battery degradation on high-mileage used examples",
+          "Must charge regularly for benefit"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ200 (petrol 1.4/1.8)",
+        "type": "dct-dry",
+        "reliability": "Average",
+        "faults": [
+          "Jerking",
+          "Mechatronics"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ200 dry dual-clutch: avoid heavy stop-go city use. Jerking/hesitation at low speed is normal. Oil service every 60,000 km mandatory. Mechatronics failure is main repair (€800–1,500)."
+      },
+      {
+        "name": "7-speed DSG DQ381 (diesel/2.0 TSI)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Alloy wheels 17\"",
+          "Climatronic",
+          "Columbus 8\" Nav",
+          "LED DRL",
+          "Cruise",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "17\" alloys",
+          "Full LED headlights",
+          "Virtual cockpit",
+          "Apple CarPlay",
+          "Heated seats option",
+          "Panoramic roof option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "18\" alloys",
+          "LED matrix headlights",
+          "Canton 9-speaker audio",
+          "Heated+ventilated seats",
+          "Ambient lighting",
+          "Keyless",
+          "Wireless CarPlay"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "18\" sport alloys",
+          "Sport seats",
+          "Black styling",
+          "Lower ride",
+          "Sportline badges"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Nappa leather full",
+          "Ventilated+massage seats",
+          "Canton 575W audio",
+          "18\" L&K alloys",
+          "Panoramic roof",
+          "Ambient lighting",
+          "Full luxury"
+        ],
+        "targetBuyer": "Flagship luxury"
+      }
+    ],
+    "note": "What Car? 2024 Reliability: top-ranked large car. Business liftback or genuine luxury saloon alternative.",
+    "summary": "Excellent reliability. B8 significantly better than B6. Main watch: DSG service history on fleet examples.",
+    "buyingTip": "2.0 TDI 150hp manual is benchmark. Check DSG service on all fleet examples. PHEV: verify battery warranty remaining."
+  },
+  {
+    "id": 10,
+    "make": "Škoda",
+    "model": "Superb",
+    "gen": "B8 Estate",
+    "years": "2015–2023",
+    "yearFrom": 2015,
+    "yearTo": 2023,
+    "origin": "Czech/German",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 660,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 14000,
+      "skPriceMax": 32000,
+      "euPriceMin": 13000,
+      "euPriceMax": 33000,
+      "mileageAtMidBudget": "40,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Excellent. 660L boot. Perfect: business refinement + family practicality."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 75,
+      "safetyAssist": 82
+    },
+    "engines": [
+      {
+        "name": "2.0 TSI 220hp",
+        "displacement": 1984,
+        "power": 220,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain service",
+          "DSG mandatory"
+        ],
+        "pros": [
+          "Excellent performance",
+          "Smooth motorway"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 140,000 km",
+          "AdBlue",
+          "DPF city"
+        ],
+        "pros": [
+          "Best spec: 660L boot + reliable diesel",
+          "Outstanding long-distance"
+        ],
+        "cons": [
+          "Timing belt"
+        ]
+      },
+      {
+        "name": "2.0 TDI 190hp",
+        "displacement": 1968,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt critical",
+          "AdBlue"
+        ],
+        "pros": [
+          "Strong performance estate",
+          "Excellent towing 2,000kg"
+        ],
+        "cons": [
+          "Timing belt"
+        ]
+      },
+      {
+        "name": "2.0 TDI 4x4 190hp",
+        "displacement": 1968,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt critical",
+          "Haldex at 60k",
+          "AdBlue"
+        ],
+        "pros": [
+          "DEFINITIVE SPEC: 4x4 + 660L + diesel = best all-round estate in Slovakia",
+          "Outstanding winter spec"
+        ],
+        "cons": [
+          "Timing belt + Haldex both need attention"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ381",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" Nav",
+          "LED DRL",
+          "Cruise",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "18\" alloys",
+          "LED matrix",
+          "Canton 9-speaker",
+          "Heated/ventilated seats",
+          "Panoramic roof",
+          "Wireless CarPlay"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "18\" sport alloys",
+          "Sport seats",
+          "Sportline badges",
+          "Lower ride"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Nappa leather",
+          "Massage seats",
+          "Canton 575W",
+          "Ventilated seats",
+          "Full premium"
+        ],
+        "targetBuyer": "Flagship luxury"
+      }
+    ],
+    "note": "660L boot. Perfect: business refinement + family practicality + 2,000kg towing.",
+    "summary": "Excellent. Same as liftback. Estate-specific: tailgate struts and boot water.",
+    "buyingTip": "B8 Combi 2.0 TDI 4x4 2018+ is one of Slovakia's best-value used cars. Check tailgate, boot water, DSG service."
+  },
+  {
+    "id": 14,
+    "make": "BMW",
+    "model": "3 Series",
+    "gen": "E90 / E91",
+    "years": "2005–2012",
+    "yearFrom": 2005,
+    "yearTo": 2012,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 460,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "business",
+      "longDistance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 4500,
+      "skPriceMax": 10000,
+      "euPriceMin": 4000,
+      "euPriceMax": 11000,
+      "mileageAtMidBudget": "130,000–280,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Average — BMW complexity shows at age. High repair costs when things go wrong."
+    },
+    "safety": {
+      "ncapYear": 2006,
+      "stars": 5,
+      "adultOccupant": 84,
+      "childOccupant": 75,
+      "pedestrian": 58,
+      "safetyAssist": 27
+    },
+    "engines": [
+      {
+        "name": "2.0i N46 143hp / 170hp",
+        "displacement": 1995,
+        "power": 170,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "VANOS solenoid failure — clatter on startup",
+          "Electric water pump failure at 80–100k",
+          "Timing chain on N46 at high mileage",
+          "Coolant system leaks"
+        ],
+        "pros": [
+          "Good performance for class",
+          "Distinctive inline-4 sound"
+        ],
+        "cons": [
+          "VANOS and water pump expensive",
+          "Coolant system needs attention",
+          "High annual running costs"
+        ]
+      },
+      {
+        "name": "2.5i / 3.0i N52 218hp",
+        "displacement": 2996,
+        "power": 218,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Electric water pump failure at 80,000 km — preventive replacement",
+          "VANOS on both cams",
+          "Coolant system reliability",
+          "Oil leak from valve cover"
+        ],
+        "pros": [
+          "Smooth inline-6 — engine of the year",
+          "Excellent performance",
+          "Best sounding BMW engine"
+        ],
+        "cons": [
+          "Electric water pump must be replaced preventively",
+          "Valve cover oil leak common",
+          "High service costs"
+        ]
+      },
+      {
+        "name": "330i E90 258hp N52",
+        "displacement": 2996,
+        "power": 258,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Same N52 issues — water pump, VANOS, coolant",
+          "Oil consumption at high mileage"
+        ],
+        "pros": [
+          "Outstanding performance",
+          "Sports car refinement",
+          "Best of this generation"
+        ],
+        "cons": [
+          "High running costs",
+          "All N52 issues apply"
+        ]
+      },
+      {
+        "name": "2.0d N47 136hp / 163hp / 177hp",
+        "displacement": 1995,
+        "power": 177,
+        "fuel": "diesel",
+        "reliability": "Poor",
+        "faults": [
+          "CRITICAL: N47 timing chain on REAR of engine — failure at 100,000–150,000 km",
+          "Catastrophic engine damage when chain breaks",
+          "Very expensive repair €3,000–6,000",
+          "Timing chain rattle on cold start = imminent failure"
+        ],
+        "pros": [
+          "Excellent economy for performance",
+          "Strong low-rev torque",
+          "Smooth diesel"
+        ],
+        "cons": [
+          "N47 chain is one of worst diesel faults in EU market",
+          "MUST check cold start for rattle",
+          "Expensive fix if not caught early"
+        ]
+      },
+      {
+        "name": "3.0d E90 231hp",
+        "displacement": 2993,
+        "power": 231,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR at high mileage",
+          "Fuel injectors at 200,000 km"
+        ],
+        "pros": [
+          "Outstanding diesel performance",
+          "Strong and refined",
+          "Better reliability than N47"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100,000 km",
+          "BMW clutch more expensive than average"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed ZF automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service oil at 80,000 km — not sealed-for-life despite BMW claim"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 6HP. Generally good but needs oil service every 80,000 km. BMW claims 'lifetime fill' — do not believe this."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "ES",
+        "features": [
+          "Steel wheels 17\"",
+          "Standard seats",
+          "Manual AC",
+          "Standard infotainment"
+        ],
+        "targetBuyer": "Base spec"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "Alloy wheels 17\"",
+          "Leather option",
+          "iDrive basic",
+          "Climate control",
+          "BMW Business radio"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "M Sport",
+        "features": [
+          "18\" M alloys",
+          "Sport suspension",
+          "Sport seats",
+          "M steering wheel",
+          "M bodykit",
+          "M badges"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "SE with extras",
+        "features": [
+          "Xenon headlights",
+          "Heated seats",
+          "Navigation Professional",
+          "Panoramic roof",
+          "Harman Kardon audio option"
+        ],
+        "targetBuyer": "Best spec"
+      }
+    ],
+    "note": "Budget prestige. High repair costs when things go wrong. 320d M Sport manual is the iconic spec.",
+    "summary": "Average reliability — BMW complexity shows at age. Key issues: electric water pump, VANOS, N47 diesel chain.",
+    "buyingTip": "320d M Sport manual is iconic but know what you buy. N47 diesel chain is critical. Water pump preventive replacement. Full BMW service history essential."
+  },
+  {
+    "id": 15,
+    "make": "BMW",
+    "model": "3 Series",
+    "gen": "F30 / F31",
+    "years": "2012–2019",
+    "yearFrom": 2012,
+    "yearTo": 2019,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 480,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "business",
+      "longDistance",
+      "daily",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 12000,
+      "skPriceMax": 30000,
+      "euPriceMin": 11000,
+      "euPriceMax": 31000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Good — significantly better than E90. ZF 8-speed auto excellent."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": 5,
+      "adultOccupant": 86,
+      "childOccupant": 81,
+      "pedestrian": 60,
+      "safetyAssist": 64
+    },
+    "engines": [
+      {
+        "name": "2.0i B46/N20 184hp",
+        "displacement": 1998,
+        "power": 184,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain on N20 at 60,000–100,000 km — check cold start rattle",
+          "Coolant system leaks on N20",
+          "B47 (post-2015) much better"
+        ],
+        "pros": [
+          "Good performance",
+          "Smooth inline-4"
+        ],
+        "cons": [
+          "N20 chain before 2015 — check",
+          "Coolant watch"
+        ]
+      },
+      {
+        "name": "2.0i 252hp B48 (post-2015)",
+        "displacement": 1998,
+        "power": 252,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil consumption on some units",
+          "Chain at 120,000 km watch"
+        ],
+        "pros": [
+          "Much more reliable than N20",
+          "Good performance",
+          "Smooth delivery"
+        ],
+        "cons": [
+          "Oil consumption check on used examples"
+        ]
+      },
+      {
+        "name": "3.0i B58 340i 326hp",
+        "displacement": 2998,
+        "power": 326,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Minimal — B58 is one of BMW's best modern engines",
+          "Oil change at 8,000 km strictly"
+        ],
+        "pros": [
+          "Outstanding performance",
+          "Smooth inline-6",
+          "Very reliable for output",
+          "Basis for M engines"
+        ],
+        "cons": [
+          "High running costs",
+          "Oil at 8k is non-negotiable"
+        ]
+      },
+      {
+        "name": "2.0d B47 150hp / 190hp (post-2015)",
+        "displacement": 1995,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR valve fouling at 150,000 km",
+          "DPF on city use",
+          "AdBlue refill",
+          "Swirl flap failure on some"
+        ],
+        "pros": [
+          "Much better than N47 — no chain issue",
+          "Good economy 5.5L/100km",
+          "Strong low-rev torque"
+        ],
+        "cons": [
+          "AdBlue and DPF watch",
+          "EGR service recommended at 150k"
+        ]
+      },
+      {
+        "name": "2.0d N47 150hp (pre-2015)",
+        "displacement": 1995,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Poor",
+        "faults": [
+          "SAME CRITICAL CHAIN AS E90 N47 — failure at 100,000–150,000 km",
+          "Cold start rattle = critical"
+        ],
+        "pros": [
+          "Good economy when healthy"
+        ],
+        "cons": [
+          "N47 chain is critical risk — cold start test mandatory"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100,000 km",
+          "BMW clutch expensive"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed ZF Steptronic",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service oil every 80,000 km — not lifetime"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "ES",
+        "features": [
+          "17\" alloys",
+          "Standard AC",
+          "iDrive 6",
+          "Cloth seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Leather option",
+          "iDrive 6 with nav",
+          "Heated seats option"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Sport",
+        "features": [
+          "18\" alloys",
+          "Sport suspension",
+          "Adaptive LED option",
+          "Sport bodykit"
+        ],
+        "targetBuyer": "Sport"
+      },
+      {
+        "trim": "M Sport",
+        "features": [
+          "18\" M alloys",
+          "M sport suspension",
+          "M steering wheel",
+          "M bodykit",
+          "Sport seats",
+          "Adaptive M suspension option"
+        ],
+        "targetBuyer": "Sport flagship"
+      },
+      {
+        "trim": "Luxury",
+        "features": [
+          "18\" alloys",
+          "Luxury trim",
+          "Full leather Dakota",
+          "Wood trim",
+          "LED lights option",
+          "Premium spec"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "Sweet spot BMW. 320d xDrive touring 2016+ is the benchmark. ZF 8-speed auto excellent.",
+    "summary": "Good reliability — significantly better than E90. Main watch: N47 diesel chain pre-2015, B47 much better.",
+    "buyingTip": "B47 diesel (2015+) is the right engine. ZF 8-speed auto is a joy. Full BMW service history. xDrive for Slovak winter."
+  },
+  {
+    "id": 16,
+    "make": "BMW",
+    "model": "3 Series",
+    "gen": "G20",
+    "years": "2019–2025",
+    "yearFrom": 2019,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 480,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "business",
+      "longDistance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 65000,
+      "euPriceMin": 27000,
+      "euPriceMax": 66000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Good. Very good reliability rating. M340i exceptional. 2022+ preferred."
+    },
+    "safety": {
+      "ncapYear": 2019,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 73,
+      "safetyAssist": 84
+    },
+    "engines": [
+      {
+        "name": "2.0i 320i 184hp B48",
+        "displacement": 1998,
+        "power": 184,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil consumption on some units",
+          "Mild hybrid 48V BSG occasional fault"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "Efficient with MHEV",
+          "Smooth"
+        ],
+        "cons": [
+          "Oil consumption check"
+        ]
+      },
+      {
+        "name": "2.0i 330i 258hp B48",
+        "displacement": 1998,
+        "power": 258,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Same B48 oil watch",
+          "Chain at 120k watch"
+        ],
+        "pros": [
+          "Strong performance",
+          "Best everyday petrol spec"
+        ],
+        "cons": [
+          "Oil watch"
+        ]
+      },
+      {
+        "name": "3.0i M340i 387hp B58",
+        "displacement": 2998,
+        "power": 387,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil at 8,000 km strictly",
+          "Chain service at 100,000 km",
+          "Minimal other issues"
+        ],
+        "pros": [
+          "Outstanding performance — 0-100 in 4.4s",
+          "Inline-6 smooth",
+          "Very reliable for output",
+          "Best 3 Series spec"
+        ],
+        "cons": [
+          "High running costs",
+          "Oil at 8k non-negotiable"
+        ]
+      },
+      {
+        "name": "2.0d 320d 150hp B47",
+        "displacement": 1995,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR fouling at 150,000 km",
+          "DPF city",
+          "AdBlue"
+        ],
+        "pros": [
+          "Excellent economy 5.5L/100km",
+          "Good everyday spec",
+          "Fleet favourite"
+        ],
+        "cons": [
+          "EGR service at 150k recommended",
+          "AdBlue"
+        ]
+      },
+      {
+        "name": "2.0d 330d 190hp B57",
+        "displacement": 2993,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR and DPF watch",
+          "AdBlue refill"
+        ],
+        "pros": [
+          "Excellent performance diesel",
+          "Smooth and powerful"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      },
+      {
+        "name": "2.0i 330e PHEV 292hp",
+        "displacement": 1998,
+        "power": 292,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery system complexity",
+          "Must charge monthly minimum — battery health"
+        ],
+        "pros": [
+          "EV mode 50km+",
+          "Low company car tax",
+          "292hp combined quick"
+        ],
+        "cons": [
+          "PHEV complexity adds failure modes",
+          "Service BMW-dealer-only"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed ZF Steptronic",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80,000 km"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Sport",
+        "features": [
+          "18\" alloys",
+          "Sport suspension",
+          "LED headlights",
+          "iDrive 7",
+          "Cloth/leatherette seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "18\" alloys",
+          "Luxury line",
+          "Dakota leather option",
+          "Live Cockpit Plus",
+          "Connected nav"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "M Sport",
+        "features": [
+          "19\" M alloys",
+          "M sport suspension",
+          "M steering",
+          "M aerodynamics",
+          "Sport seats",
+          "M Sport brakes option"
+        ],
+        "targetBuyer": "Sport flagship"
+      },
+      {
+        "trim": "Luxury",
+        "features": [
+          "18\" alloys",
+          "Dakota full leather",
+          "Luxury trim wood",
+          "Ambient lighting",
+          "Harman Kardon audio",
+          "Panoramic roof"
+        ],
+        "targetBuyer": "Luxury line"
+      },
+      {
+        "trim": "M Sport Pro",
+        "features": [
+          "20\" M alloys",
+          "M adaptive suspension",
+          "M differential",
+          "Full M equipment",
+          "Carbon kit option"
+        ],
+        "targetBuyer": "Full M Sport spec"
+      }
+    ],
+    "note": "Latest generation. Very good reliability rating. M340i is exceptional performance saloon. 2022+ preferred.",
+    "summary": "Good reliability for premium class. Main: mild hybrid integration, oil consumption on some petrol units.",
+    "buyingTip": "2021+ preferred. ZF 8-speed auto only. xDrive for Slovak winters. M340i if budget allows — B58 is exceptional."
+  },
+  {
+    "id": 61,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "gen": "W204",
+    "years": "2007–2014",
+    "yearFrom": 2007,
+    "yearTo": 2014,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 475,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "business",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 5500,
+      "skPriceMax": 13000,
+      "euPriceMin": 5000,
+      "euPriceMax": 14000,
+      "mileageAtMidBudget": "120,000–280,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Average — complexity at age. OM651 diesel balance shaft CRITICAL."
+    },
+    "safety": {
+      "ncapYear": 2008,
+      "stars": 5,
+      "adultOccupant": 86,
+      "childOccupant": 80,
+      "pedestrian": 58,
+      "safetyAssist": 32
+    },
+    "engines": [
+      {
+        "name": "C180 CGI 156hp",
+        "displacement": 1796,
+        "power": 156,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "VANOS solenoid",
+          "Timing chain watch",
+          "Coolant system leaks",
+          "Engine mount wear"
+        ],
+        "pros": [
+          "Adequate performance",
+          "Cheap entry"
+        ],
+        "cons": [
+          "Complex for class",
+          "High running costs"
+        ]
+      },
+      {
+        "name": "C200 CGI 184hp",
+        "displacement": 1796,
+        "power": 184,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Same VANOS and chain watch",
+          "Coolant system"
+        ],
+        "pros": [
+          "Better performance",
+          "Most popular petrol"
+        ],
+        "cons": [
+          "All CGI issues"
+        ]
+      },
+      {
+        "name": "C250 CGI 204hp",
+        "displacement": 1796,
+        "power": 204,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Higher boost = more chain stress",
+          "Oil consumption"
+        ],
+        "pros": [
+          "Strong performance",
+          "Smooth delivery"
+        ],
+        "cons": [
+          "Reliability concerns at age"
+        ]
+      },
+      {
+        "name": "C180d / C200d OM651 diesel",
+        "displacement": 2143,
+        "power": 136,
+        "fuel": "diesel",
+        "reliability": "Poor",
+        "faults": [
+          "CRITICAL: OM651 balance shaft bearing failure — costly repair €2,000–4,000",
+          "Pre-2012 worst affected",
+          "Knock or vibration = urgent diagnosis needed",
+          "Head gasket on some high-mileage units"
+        ],
+        "pros": [
+          "Good economy 5.5L/100km",
+          "Smooth diesel"
+        ],
+        "cons": [
+          "OM651 balance shaft is a known serious fault — MUST diagnose before buying",
+          "Pre-2012 units highest risk"
+        ]
+      },
+      {
+        "name": "C220d OM651 170hp",
+        "displacement": 2143,
+        "power": 170,
+        "fuel": "diesel",
+        "reliability": "Average",
+        "faults": [
+          "Same balance shaft concern — less common than C200d but present",
+          "EGR fouling at 150,000 km"
+        ],
+        "pros": [
+          "Most popular diesel C-Class spec",
+          "Better performance"
+        ],
+        "cons": [
+          "Balance shaft check still required"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100,000 km",
+          "Mercedes parts expensive"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7G-Tronic automatic",
+        "type": "auto",
+        "reliability": "Average",
+        "faults": [
+          "Occasional harsh shifting on early 7G-Tronic",
+          "Service oil at 60,000 km — dealer ONLY",
+          "Valve body wear at high mileage"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Mercedes 7G-Tronic. Service oil every 60,000 km with Mercedes-specific fluid. NOT sealed-for-life. Dealer service only for correct calibration."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Classic",
+        "features": [
+          "17\" alloys",
+          "Standard AC",
+          "Comand APS",
+          "Cloth seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Elegance",
+        "features": [
+          "17\" alloys",
+          "Leather option",
+          "Comand Nav",
+          "Heated seats option",
+          "Parking sensors"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Sport",
+        "features": [
+          "18\" alloys",
+          "Sport suspension",
+          "AMG styling pack",
+          "Sport seats",
+          "AIRMATIC option"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "AMG Sport / AMG Line",
+        "features": [
+          "19\" AMG alloys",
+          "AMG bodykit",
+          "AMG seats",
+          "AMG exhaust",
+          "Red calipers option"
+        ],
+        "targetBuyer": "AMG look"
+      }
+    ],
+    "note": "Budget prestige at high risk. OM651 diesel balance shaft CRITICAL. High repair costs guaranteed.",
+    "summary": "Average reliability. Age brings issues. OM651 balance shaft failure is critical known fault.",
+    "buyingTip": "W204 C220d: OM651 balance shaft is make-or-break check. Full underbody rust inspection. 7G-Tronic service history."
+  },
+  {
+    "id": 62,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "gen": "W205",
+    "years": "2014–2021",
+    "yearFrom": 2014,
+    "yearTo": 2021,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 480,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "business",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 16000,
+      "skPriceMax": 38000,
+      "euPriceMin": 15000,
+      "euPriceMax": 39000,
+      "mileageAtMidBudget": "30,000–160,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "LAST IN CLASS: What Car? 2023 put W205 last in executive car class for reliability."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 93,
+      "childOccupant": 86,
+      "pedestrian": 72,
+      "safetyAssist": 88
+    },
+    "engines": [
+      {
+        "name": "C180 1.6T 156hp",
+        "displacement": 1595,
+        "power": 156,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Timing chain",
+          "Coolant system leaks",
+          "Oil consumption on some units"
+        ],
+        "pros": [
+          "Adequate performance",
+          "Smallest engine"
+        ],
+        "cons": [
+          "Complex for class"
+        ]
+      },
+      {
+        "name": "C200 2.0T 184hp",
+        "displacement": 1991,
+        "power": 184,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Coolant system",
+          "Chain watch",
+          "Oil consumption"
+        ],
+        "pros": [
+          "Most popular spec",
+          "Good everyday performance"
+        ],
+        "cons": [
+          "Reliability concerns — W205 last in class"
+        ]
+      },
+      {
+        "name": "C300 2.0T 258hp",
+        "displacement": 1991,
+        "power": 258,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Oil consumption",
+          "Chain watch",
+          "Higher stress on all systems"
+        ],
+        "pros": [
+          "Strong performance",
+          "Comfortable motorway car"
+        ],
+        "cons": [
+          "High running costs + reliability concerns"
+        ]
+      },
+      {
+        "name": "C200d / C220d 2.0T diesel",
+        "displacement": 1950,
+        "power": 194,
+        "fuel": "diesel",
+        "reliability": "Average",
+        "faults": [
+          "EGR fouling at 150,000 km",
+          "DPF city",
+          "AdBlue 15,000 km",
+          "Occasional NOx sensor failures"
+        ],
+        "pros": [
+          "Better reliability than petrol versions",
+          "Good economy 5.5L/100km",
+          "Fleet favourite"
+        ],
+        "cons": [
+          "Still below class average reliability",
+          "W205 diesel better than petrol but still concerns"
+        ]
+      },
+      {
+        "name": "C300e PHEV 320hp",
+        "displacement": 1991,
+        "power": 320,
+        "fuel": "hybrid",
+        "reliability": "Average",
+        "faults": [
+          "Battery system complexity",
+          "PHEV adds failure modes on already-complex car",
+          "High-voltage dealer only"
+        ],
+        "pros": [
+          "Low company car tax",
+          "EV mode 30km+"
+        ],
+        "cons": [
+          "Avoid: too complex for reliability concerns"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "9G-Tronic automatic",
+        "type": "auto",
+        "reliability": "Average",
+        "faults": [
+          "Harsh shifting on cold start — normal with fresh oil",
+          "Software update sometimes needed",
+          "Service at 60,000 km dealer only"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Mercedes 9G-Tronic. Service at 60,000 km with Mercedes-specific fluid. Dealer calibration recommended after service."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Artico leather",
+          "COMAND Online",
+          "Heated seats option",
+          "LED lights"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Sport",
+        "features": [
+          "18\" AMG alloys",
+          "Sport suspension",
+          "AMG line styling",
+          "Sport seats",
+          "AIRMATIC option"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "AMG Line",
+        "features": [
+          "19\" AMG alloys",
+          "AMG bodykit",
+          "Sport seats",
+          "AMG steering wheel",
+          "Night package option"
+        ],
+        "targetBuyer": "AMG look"
+      },
+      {
+        "trim": "AMG Line Premium",
+        "features": [
+          "Full leather",
+          "Burmester audio",
+          "Panoramic roof",
+          "Keyless",
+          "Night camera option",
+          "Blind spot",
+          "360° cameras"
+        ],
+        "targetBuyer": "Full premium spec"
+      }
+    ],
+    "note": "LAST IN CLASS: What Car? 2023 put W205 last in executive car class for reliability.",
+    "summary": "Below average reliability. What Car? Reliability placed W205 last in executive car category 2023.",
+    "buyingTip": "W205 last in class reliability — only buy with full Mercedes service history and extended warranty. Better alternatives: Audi A4 or BMW 3 Series F30."
+  },
+  {
+    "id": 63,
+    "make": "Audi",
+    "model": "A4",
+    "gen": "B9 (4th gen)",
+    "years": "2015–2024",
+    "yearFrom": 2015,
+    "yearTo": 2024,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 480,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "business",
+      "longDistance",
+      "daily",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 16000,
+      "skPriceMax": 48000,
+      "euPriceMin": 15000,
+      "euPriceMax": 49000,
+      "mileageAtMidBudget": "20,000–160,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Good reliability for premium class. Better than C-Class W205."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 72,
+      "safetyAssist": 81
+    },
+    "engines": [
+      {
+        "name": "2.0 TFSI 190hp",
+        "displacement": 1984,
+        "power": 190,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "S tronic service at 40,000 km critical",
+          "Oil consumption on some units",
+          "Chain at 120k watch"
+        ],
+        "pros": [
+          "Good performance",
+          "Smooth S tronic combo",
+          "Best everyday petrol"
+        ],
+        "cons": [
+          "S tronic service is mandatory"
+        ]
+      },
+      {
+        "name": "2.0 TFSI 252hp",
+        "displacement": 1984,
+        "power": 252,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "S tronic service critical",
+          "Chain watch",
+          "Oil consumption"
+        ],
+        "pros": [
+          "Strong performance",
+          "Excellent motorway car"
+        ],
+        "cons": [
+          "S tronic service non-negotiable"
+        ]
+      },
+      {
+        "name": "2.0 TFSI MHEV 204hp (post-2019)",
+        "displacement": 1984,
+        "power": 204,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "48V BSG occasional fault",
+          "S tronic service"
+        ],
+        "pros": [
+          "Best modern petrol spec",
+          "MHEV reduces fuel use",
+          "Smooth"
+        ],
+        "cons": [
+          "S tronic service"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "S tronic service at 40k critical",
+          "EGR at 150,000 km",
+          "DPF city",
+          "AdBlue"
+        ],
+        "pros": [
+          "Excellent economy 5.5L/100km",
+          "Fleet favourite",
+          "Strong and smooth"
+        ],
+        "cons": [
+          "S tronic service is most critical item",
+          "AdBlue and DPF watch"
+        ]
+      },
+      {
+        "name": "2.0 TDI 190hp",
+        "displacement": 1968,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "S tronic service critical",
+          "EGR",
+          "DPF city",
+          "AdBlue",
+          "Injectors at very high mileage"
+        ],
+        "pros": [
+          "Best diesel spec",
+          "Excellent performance for class",
+          "Quattro available"
+        ],
+        "cons": [
+          "S tronic service essential",
+          "Higher running costs"
+        ]
+      },
+      {
+        "name": "3.0 TDI V6 218hp",
+        "displacement": 2967,
+        "power": 218,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR and DPF watch",
+          "AdBlue",
+          "Timing belt at 150,000 km"
+        ],
+        "pros": [
+          "Exceptional refinement — V6 diesel smoothness",
+          "Outstanding long-distance"
+        ],
+        "cons": [
+          "Timing belt critical",
+          "Most expensive to run"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100,000 km",
+          "Quattro manual less common"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed S tronic",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "SERVICE AT 40,000 KM IS MANDATORY — NOT 60k",
+          "Using wrong fluid interval causes failure",
+          "Clutch pack wear if interval missed"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "Audi S tronic: unlike VW DSG, the Audi S tronic requires service every 40,000 km (not 60k). This is the most commonly missed item. Using wrong fluid or missing interval leads to clutch pack failure (€1,500–3,000)."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Virtual cockpit",
+          "Climatronic",
+          "Concert radio",
+          "Leather option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sport",
+        "features": [
+          "18\" alloys",
+          "Sport suspension",
+          "S line styling option",
+          "LED headlights",
+          "Privacy glass"
+        ],
+        "targetBuyer": "Sport look"
+      },
+      {
+        "trim": "S line",
+        "features": [
+          "18\" S line alloys",
+          "S line bodykit",
+          "Sport seats",
+          "S line steering wheel",
+          "Black styling"
+        ],
+        "targetBuyer": "S line spec"
+      },
+      {
+        "trim": "S line Black Edition",
+        "features": [
+          "19\" alloys",
+          "Black roof option",
+          "Full S line pack",
+          "Privacy glass",
+          "Matrix LED option"
+        ],
+        "targetBuyer": "Black Edition"
+      },
+      {
+        "trim": "Vorsprung",
+        "features": [
+          "Full leather Valcona",
+          "Matrix LED",
+          "Bang & Olufsen audio",
+          "Panoramic roof",
+          "Massage seats",
+          "Night vision option",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Flagship spec"
+      }
+    ],
+    "note": "Better reliability than C-Class W205. 2.0 TDI 190hp quattro S tronic is the business fleet spec.",
+    "summary": "Good reliability for premium class. S tronic service at 40k mandatory. Fuel pump recall on 2020–2021.",
+    "buyingTip": "Check 2020–2021 fuel pump recall VIN. S tronic 40k service stamps. Quattro for winter. 2.0 TDI 190hp S tronic Avant quattro: definitive spec."
+  },
+  {
+    "id": 65,
+    "make": "Volvo",
+    "model": "V60",
+    "gen": "2nd gen",
+    "years": "2018–2025",
+    "yearFrom": 2018,
+    "yearTo": 2025,
+    "origin": "Swedish/Chinese",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 529,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "longDistance",
+      "business",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 20000,
+      "skPriceMax": 52000,
+      "euPriceMin": 19000,
+      "euPriceMax": 53000,
+      "mileageAtMidBudget": "15,000–120,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Good. Same SPA platform as XC60. 97% NCAP. Best premium estate for families."
+    },
+    "safety": {
+      "ncapYear": 2018,
+      "stars": 5,
+      "adultOccupant": 97,
+      "childOccupant": 92,
+      "pedestrian": 72,
+      "safetyAssist": 98
+    },
+    "engines": [
+      {
+        "name": "B4 197hp 2.0T",
+        "displacement": 1969,
+        "power": 197,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "48V mild hybrid BSG fault",
+          "Timing belt at 180,000 km"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "MHEV smooth start/stop"
+        ],
+        "cons": [
+          "Timing belt at 180k"
+        ]
+      },
+      {
+        "name": "B5 250hp 2.0T",
+        "displacement": 1969,
+        "power": 250,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 180,000 km",
+          "Oil consumption on some"
+        ],
+        "pros": [
+          "Strong performance",
+          "Comfortable long-distance"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "D3 150hp 2.0d",
+        "displacement": 1969,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR at 150,000 km",
+          "AdBlue",
+          "Timing belt at 180,000 km"
+        ],
+        "pros": [
+          "Good economy 5.5L/100km",
+          "Fleet favourite"
+        ],
+        "cons": [
+          "Timing belt and AdBlue"
+        ]
+      },
+      {
+        "name": "D4 190hp 2.0d",
+        "displacement": 1969,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Same as D3 + higher boost",
+          "Timing belt critical at 180k"
+        ],
+        "pros": [
+          "Best diesel spec",
+          "Excellent performance estate",
+          "Strong towing"
+        ],
+        "cons": [
+          "Timing belt is critical service item at 180k/8yr"
+        ]
+      },
+      {
+        "name": "D5 235hp PowerPulse",
+        "displacement": 1969,
+        "power": 235,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "PowerPulse: air compressor reduces turbo lag — complex system",
+          "Timing belt at 180k critical"
+        ],
+        "pros": [
+          "Outstanding diesel refinement",
+          "PowerPulse eliminates turbo lag",
+          "Best diesel experience in class"
+        ],
+        "cons": [
+          "PowerPulse adds complexity",
+          "Timing belt at 180k mandatory"
+        ]
+      },
+      {
+        "name": "T8 Recharge PHEV 390hp",
+        "displacement": 1969,
+        "power": 390,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery system inspection at 80,000 km",
+          "PHEV complex — dealer service only",
+          "Charge cable system occasional issues"
+        ],
+        "pros": [
+          "390hp combined — outstanding performance",
+          "EV mode 50km+",
+          "Low tax",
+          "Cross Country with T8 outstanding spec"
+        ],
+        "cons": [
+          "Must charge for best benefit",
+          "PHEV adds complexity to already complex car"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed Geartronic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service oil at 80,000 km — NOT lifetime despite Volvo claim"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Aisin 8HP auto in Volvo. Service every 80,000 km with Volvo-specific fluid. Smooth and generally reliable."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Momentum",
+        "features": [
+          "17\" alloys",
+          "Sensus Connect 9\" touchscreen",
+          "Leather option",
+          "LED headlights",
+          "Full ADAS standard on all V60"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Inscription",
+        "features": [
+          "18\" alloys",
+          "Nappa leather",
+          "Bowers & Wilkins audio option",
+          "Heated+ventilated seats",
+          "Panoramic roof",
+          "Ambient lighting",
+          "Wireless charging"
+        ],
+        "targetBuyer": "Luxury spec"
+      },
+      {
+        "trim": "R-Design",
+        "features": [
+          "19\" sport alloys",
+          "Sport suspension",
+          "Sport seats",
+          "R-Design bodykit",
+          "Black styling",
+          "Lowered 20mm"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Cross Country",
+        "features": [
+          "Raised suspension",
+          "Off-road protection",
+          "All-terrain AWD",
+          "Roof rails",
+          "Distinctive looks",
+          "AWD standard"
+        ],
+        "targetBuyer": "Outdoor/SUV alternative"
+      }
+    ],
+    "note": "Beautiful Scandinavian estate. Same SPA platform as XC60. 529L boot. 97% NCAP.",
+    "summary": "Good reliability. Same platform and notes as XC60. Estate-specific: tailgate struts and boot water.",
+    "buyingTip": "Premium estate alternative to Superb. 97% NCAP. D5 PowerPulse or D4 manual is definitive spec. Cross Country AWD excellent for Slovakia."
+  },
+  {
+    "id": 67,
+    "make": "Opel",
+    "model": "Insignia",
+    "gen": "B (2nd gen)",
+    "years": "2017–2022",
+    "yearFrom": 2017,
+    "yearTo": 2022,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 490,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 10000,
+      "skPriceMax": 26000,
+      "euPriceMin": 9500,
+      "euPriceMax": 27000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good — much better than Astra K. Fleet favourite. 490L estate boot excellent."
+    },
+    "safety": {
+      "ncapYear": 2017,
+      "stars": 5,
+      "adultOccupant": 87,
+      "childOccupant": 80,
+      "pedestrian": 66,
+      "safetyAssist": 62
+    },
+    "engines": [
+      {
+        "name": "1.5 Turbo 140hp",
+        "displacement": 1490,
+        "power": 140,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain watch on early units",
+          "Oil consumption on some"
+        ],
+        "pros": [
+          "Adequate everyday performance",
+          "Economical petrol"
+        ],
+        "cons": [
+          "Chain watch"
+        ]
+      },
+      {
+        "name": "1.6 Turbo 200hp",
+        "displacement": 1598,
+        "power": 200,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain at 100,000 km watch",
+          "Oil consumption"
+        ],
+        "pros": [
+          "Good performance",
+          "Smooth delivery"
+        ],
+        "cons": [
+          "Chain service"
+        ]
+      },
+      {
+        "name": "2.0 Turbo 260hp GSi",
+        "displacement": 1998,
+        "power": 260,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DSG mandatory",
+          "Chain service",
+          "Oil at 8,000 km"
+        ],
+        "pros": [
+          "Outstanding performance",
+          "Comfortable hot saloon"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      },
+      {
+        "name": "1.6 CDTi 110hp / 136hp",
+        "displacement": 1598,
+        "power": 136,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR at 120,000 km",
+          "AdBlue on some"
+        ],
+        "pros": [
+          "Reliable diesel",
+          "Good economy 5.5L/100km",
+          "Fleet standard"
+        ],
+        "cons": [
+          "DPF city"
+        ]
+      },
+      {
+        "name": "2.0 CDTi 170hp",
+        "displacement": 1956,
+        "power": 170,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR at 150,000 km",
+          "AdBlue",
+          "Injectors at very high mileage"
+        ],
+        "pros": [
+          "Strong performance",
+          "Best diesel spec",
+          "Excellent long-distance",
+          "Good towing"
+        ],
+        "cons": [
+          "AdBlue and DPF watch",
+          "More complex than 1.6"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120,000 km"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80,000 km"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Aisin 8-speed auto. Generally good. Service oil at 80,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Design",
+        "features": [
+          "Alloy wheels 17\"",
+          "Climatronic",
+          "IntelliLink 8\" Nav",
+          "Rear sensors",
+          "LED lights",
+          "Cruise",
+          "Emergency braking"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Business",
+        "features": [
+          "18\" alloys",
+          "Nappa leather option",
+          "Heated seats",
+          "Keyless entry",
+          "Adaptive cruise",
+          "360° camera option"
+        ],
+        "targetBuyer": "Fleet spec"
+      },
+      {
+        "trim": "Elite",
+        "features": [
+          "Full leather",
+          "Heated+ventilated seats",
+          "Panoramic roof",
+          "Massage option",
+          "Matrix LED",
+          "Blind spot",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "GSi",
+        "features": [
+          "20\" alloys",
+          "Sport suspension",
+          "Brembo brakes",
+          "Recaro seats",
+          "GSi bodykit",
+          "Lowered suspension"
+        ],
+        "targetBuyer": "Performance spec"
+      }
+    ],
+    "note": "Large family saloon/estate. Better reliability than Astra K. Fleet favourite. 2.0 CDTi 170hp auto is comfortable fleet spec.",
+    "summary": "Good reliability — better than Astra K. 8-speed auto smooth and reliable.",
+    "buyingTip": "Sports Tourer estate 2.0 CDTi 170hp auto is excellent fleet value. Good reliability. Check 1.5T chain on petrol."
+  },
+  {
+    "id": 73,
+    "make": "Lexus",
+    "model": "IS",
+    "gen": "3rd gen (XE30)",
+    "years": "2013–2023",
+    "yearFrom": 2013,
+    "yearTo": 2023,
+    "origin": "Japanese",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 4,
+    "boot": 480,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "business",
+      "luxury",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 14000,
+      "skPriceMax": 38000,
+      "euPriceMin": 13000,
+      "euPriceMax": 39000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "High",
+      "tuvNote": "Excellent. TUV Report: Lexus IS ranked #1 most reliable used car multiple years."
+    },
+    "safety": {
+      "ncapYear": 2014,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 72,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "IS 200t 245hp 2.0T",
+        "displacement": 1998,
+        "power": 245,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain at 100,000 km",
+          "Oil consumption on some units"
+        ],
+        "pros": [
+          "Good performance",
+          "Smooth delivery",
+          "Less popular — more IS 300h available"
+        ],
+        "cons": [
+          "Less reliable than hybrid option",
+          "Higher running costs"
+        ]
+      },
+      {
+        "name": "IS 300h 223hp combined",
+        "displacement": 2494,
+        "power": 223,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "NiMH battery very rarely fails — check health at Lexus",
+          "Inverter cooling at 200,000 km"
+        ],
+        "pros": [
+          "TUV #1 most reliable in class",
+          "4.5L/100km typical",
+          "Outstanding long-term durability",
+          "Lexus dealer care"
+        ],
+        "cons": [
+          "e-CVT sound normal — not a fault",
+          "Rear seat space limited",
+          "Niche model in Slovakia"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed automatic (200t)",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80,000 km"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      },
+      {
+        "name": "e-CVT (300h hybrid)",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "Alloy wheels 17\"",
+          "Standard leather",
+          "10.3\" touchscreen",
+          "Lexus Safety System",
+          "Heated seats",
+          "Mark Levinson audio option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sport",
+        "features": [
+          "Sport suspension",
+          "18\" alloys",
+          "Sport seats",
+          "F Sport option elements"
+        ],
+        "targetBuyer": "Sport"
+      },
+      {
+        "trim": "F Sport",
+        "features": [
+          "18\" F Sport alloys",
+          "Adaptive sport suspension",
+          "Sport seats",
+          "F Sport bodykit",
+          "F Sport steering wheel",
+          "Active rear stabiliser option"
+        ],
+        "targetBuyer": "Sport flagship"
+      },
+      {
+        "trim": "Premier",
+        "features": [
+          "Full leather",
+          "Mark Levinson premium audio 15-speaker",
+          "Panoramic roof",
+          "Head-up display",
+          "Pre-collision system enhanced",
+          "Full luxury"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "TUV Report: Lexus IS ranked #1 most reliable used car in 3-5yr and 6-7yr categories. Japanese luxury at European luxury prices.",
+    "summary": "Excellent reliability. TUV #1 most reliable in class multiple years. IS 300h hybrid most popular.",
+    "buyingTip": "IS 300h hybrid: request free Lexus HV battery health check. Worth premium over W205 C-Class for reliability."
+  },
+  {
+    "id": 93,
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "gen": "W206 (latest)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 455,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "business",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 34000,
+      "skPriceMax": 80000,
+      "euPriceMin": 33000,
+      "euPriceMax": 81000,
+      "mileageAtMidBudget": "5,000–50,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Too new for full data. Massive touchscreen complexity. Extended warranty essential."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 72,
+      "safetyAssist": 94
+    },
+    "engines": [
+      {
+        "name": "C200 2.0T 204hp",
+        "displacement": 1999,
+        "power": 204,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Touchscreen system replacing all controls: reliability concern",
+          "Oil consumption on some",
+          "Early build software issues"
+        ],
+        "pros": [
+          "Good performance",
+          "Smooth delivery",
+          "New platform improvements"
+        ],
+        "cons": [
+          "W206 digital controls replacing physical buttons — high failure risk",
+          "Too new for proper reliability data"
+        ]
+      },
+      {
+        "name": "C220d 2.0d 197hp",
+        "displacement": 1993,
+        "power": 197,
+        "fuel": "diesel",
+        "reliability": "Average",
+        "faults": [
+          "AdBlue 15,000 km",
+          "DPF city",
+          "EGR at 150,000 km",
+          "Same touchscreen concern"
+        ],
+        "pros": [
+          "Better economy than petrol",
+          "Most practical everyday spec"
+        ],
+        "cons": [
+          "Same touchscreen reliability risk as petrol",
+          "W205 was last in class — W206 TBD"
+        ]
+      },
+      {
+        "name": "C300d 2.0d 265hp",
+        "displacement": 1993,
+        "power": 265,
+        "fuel": "diesel",
+        "reliability": "Average",
+        "faults": [
+          "Same concerns + higher boost stress"
+        ],
+        "pros": [
+          "Strong performance",
+          "Excellent motorway"
+        ],
+        "cons": [
+          "Avoid without extended warranty"
+        ]
+      },
+      {
+        "name": "C300e PHEV 313hp",
+        "displacement": 1999,
+        "power": 313,
+        "fuel": "hybrid",
+        "reliability": "Average",
+        "faults": [
+          "PHEV complexity on top of digital control concerns",
+          "Must charge regularly",
+          "High-voltage system dealer only"
+        ],
+        "pros": [
+          "50km EV mode",
+          "Low company tax"
+        ],
+        "cons": [
+          "Most complex C-Class ever — avoid on used market without full warranty"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "9G-Tronic auto",
+        "type": "auto",
+        "reliability": "Average",
+        "faults": [
+          "Service at 60k dealer only",
+          "W206 calibration issues reported"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "9G-Tronic in W206. Service every 60,000 km dealer only. W206 transmission calibration improved vs W205 but still requires attention."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "AMG Line",
+        "features": [
+          "18\" AMG alloys",
+          "AMG aerodynamics",
+          "Sport seats",
+          "12.3\" digital cockpit",
+          "MBUX hyperscreen option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "AMG Line Premium",
+        "features": [
+          "19\" AMG alloys",
+          "360° camera",
+          "Panoramic roof",
+          "Burmester audio",
+          "Augmented reality nav",
+          "Keyless",
+          "Night camera option"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "AMG Line Premium Plus",
+        "features": [
+          "Full leather Nappa",
+          "20\" AMG alloys",
+          "Rear-axle steering option",
+          "Full ADAS",
+          "Massage seats",
+          "Head-up display",
+          "Full connectivity"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "AMG C43",
+        "features": [
+          "AMG sport suspension",
+          "Brembo brakes",
+          "AMG seats",
+          "AMG exhaust",
+          "Performance mode",
+          "Drift mode"
+        ],
+        "targetBuyer": "Performance"
+      }
+    ],
+    "note": "W206 massively complex touchscreen system. Beautiful car but expect expensive problems.",
+    "summary": "Too new for full TUV data. W206 touchscreen replacing all physical controls: reliability concern.",
+    "buyingTip": "W206 is very new. Buy with extended warranty. Test all touchscreen functions thoroughly. C220d AMG Line is the practical spec."
+  },
+  {
+    "id": 99,
+    "make": "Škoda",
+    "model": "Superb",
+    "gen": "B9 Liftback",
+    "years": "2024–2025",
+    "yearFrom": 2024,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 645,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 35000,
+      "skPriceMax": 56000,
+      "euPriceMin": 34000,
+      "euPriceMax": 57000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 2nd safest car in 2024 Euro NCAP at 87%. No diesel in B9."
+    },
+    "safety": {
+      "ncapYear": 2024,
+      "stars": 5,
+      "adultOccupant": 87,
+      "childOccupant": 85,
+      "pedestrian": 73,
+      "safetyAssist": 89
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "Chain tensioner watch — same family as previous"
+        ],
+        "pros": [
+          "Good everyday efficiency",
+          "Adequate family performance",
+          "DSG7 smooth combo"
+        ],
+        "cons": [
+          "Only 150hp in large liftback"
+        ]
+      },
+      {
+        "name": "2.0 TSI 204hp",
+        "displacement": 1984,
+        "power": 204,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain service at 120k",
+          "DSG service critical"
+        ],
+        "pros": [
+          "Strong performance",
+          "Best petrol spec",
+          "Excellent motorway car"
+        ],
+        "cons": [
+          "Higher running costs"
+        ]
+      },
+      {
+        "name": "1.5 TSI eHybrid 204hp PHEV",
+        "displacement": 1498,
+        "power": 204,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new for battery data",
+          "PHEV complexity",
+          "Must charge for benefit"
+        ],
+        "pros": [
+          "204hp combined — quick",
+          "EV mode 100km — best in class range",
+          "Low company tax",
+          "No diesel compromise"
+        ],
+        "cons": [
+          "No diesel for very high mileage use",
+          "PHEV: must charge regularly"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG DQ200",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k — same requirements as always"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ200 dry dual-clutch: avoid heavy stop-go city use. Jerking/hesitation at low speed is normal. Oil service every 60,000 km mandatory. Mechatronics failure is main repair (€800–1,500)."
+      },
+      {
+        "name": "6-speed DSG DQ381 (PHEV)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Selection",
+        "features": [
+          "18\" alloys",
+          "Climatronic tri-zone",
+          "Columbus 13\" Nav",
+          "Digital cockpit Pro",
+          "LED matrix",
+          "Wireless CarPlay",
+          "Heated seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "19\" sport alloys",
+          "Sport seats",
+          "Black styling",
+          "Sportline badges"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Full Nappa leather",
+          "Ventilated+massage seats",
+          "Canton 575W audio",
+          "Panoramic roof",
+          "Ambient lighting 64-colour",
+          "Full premium"
+        ],
+        "targetBuyer": "Flagship luxury"
+      },
+      {
+        "trim": "Founders Edition",
+        "features": [
+          "Special launch edition",
+          "Exclusive colours",
+          "Full L&K spec",
+          "Distinctive wheel design"
+        ],
+        "targetBuyer": "Launch edition"
+      }
+    ],
+    "note": "2nd safest car in 2024 Euro NCAP at 87%. No diesel in B9. First class rear legroom.",
+    "summary": "Too new for full data. B8 platform proven. No diesel — petrol and PHEV only.",
+    "buyingTip": "87% NCAP second safest in class. No diesel: if you do 25k+ km/year, B8 2.0 TDI is still better value. PHEV for low tax."
+  },
+  {
+    "id": 100,
+    "make": "Škoda",
+    "model": "Superb",
+    "gen": "B9 Estate",
+    "years": "2024–2025",
+    "yearFrom": 2024,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 690,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 38000,
+      "skPriceMax": 59000,
+      "euPriceMin": 37000,
+      "euPriceMax": 60000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 690L boot — class leader. 2,200kg towing. Best new estate for Slovakia."
+    },
+    "safety": {
+      "ncapYear": 2024,
+      "stars": 5,
+      "adultOccupant": 87,
+      "childOccupant": 85,
+      "pedestrian": 73,
+      "safetyAssist": 89
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "Chain watch"
+        ],
+        "pros": [
+          "Efficient everyday estate"
+        ],
+        "cons": [
+          "Only 150hp for large estate"
+        ]
+      },
+      {
+        "name": "2.0 TSI 204hp",
+        "displacement": 1984,
+        "power": 204,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain service",
+          "DSG critical"
+        ],
+        "pros": [
+          "Strong estate performance",
+          "Best motorway"
+        ],
+        "cons": [
+          "Running costs"
+        ]
+      },
+      {
+        "name": "1.5 TSI eHybrid 204hp PHEV",
+        "displacement": 1498,
+        "power": 204,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "PHEV complexity",
+          "Must charge"
+        ],
+        "pros": [
+          "EV 100km + estate 690L = outstanding spec",
+          "Low tax + high practicality"
+        ],
+        "cons": [
+          "Must charge regularly"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ200 dry dual-clutch: avoid heavy stop-go city use. Jerking/hesitation at low speed is normal. Oil service every 60,000 km mandatory. Mechatronics failure is main repair (€800–1,500)."
+      },
+      {
+        "name": "6-speed DSG PHEV",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Selection",
+        "features": [
+          "18\" alloys",
+          "Climatronic tri-zone",
+          "Columbus 13\" Nav",
+          "Digital cockpit Pro",
+          "LED matrix",
+          "Wireless CarPlay",
+          "Heated seats",
+          "690L boot"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "19\" sport alloys",
+          "Sport seats",
+          "Black styling",
+          "Estate-specific roof rails"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Full Nappa leather",
+          "Ventilated+massage seats",
+          "Canton 575W",
+          "Panoramic roof",
+          "Full premium spec"
+        ],
+        "targetBuyer": "Flagship"
+      },
+      {
+        "trim": "Scout",
+        "features": [
+          "Off-road styling",
+          "Raised suspension",
+          "Roof rails",
+          "Protective cladding",
+          "AWD option"
+        ],
+        "targetBuyer": "Outdoor/adventure spec"
+      }
+    ],
+    "note": "690L boot — class leader. 2,200kg towing. Best: business comfort + family practicality in one car. No diesel.",
+    "summary": "Same as B9 liftback. Estate-specific: tailgate and boot water checks. 690L boot exceptional.",
+    "buyingTip": "690L + 2,200kg towing + PHEV available = best all-round estate for Slovakia. No diesel is only limitation for very high mileage."
+  },
+  {
+    "id": 101,
+    "make": "BMW",
+    "model": "1 Series",
+    "gen": "F20 (2nd gen)",
+    "years": "2011–2019",
+    "yearFrom": 2011,
+    "yearTo": 2019,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 360,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "daily",
+      "business",
+      "city"
+    ],
+    "pricing": {
+      "skPriceMin": 9000,
+      "skPriceMax": 24000,
+      "euPriceMin": 8500,
+      "euPriceMax": 25000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Good. N47 diesel timing chain critical on pre-2015. Post-2015 B47 much better."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 68,
+      "safetyAssist": 69
+    },
+    "engines": [
+      {
+        "name": "116i N13 109hp",
+        "displacement": 1598,
+        "power": 109,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Timing chain on N13 engine",
+          "Prince engine known chain issues pre-2015"
+        ],
+        "pros": [
+          "Adequate city performance",
+          "Cheap entry spec"
+        ],
+        "cons": [
+          "Chain check on pre-2015"
+        ]
+      },
+      {
+        "name": "118i 136hp N13/B38",
+        "displacement": 1499,
+        "power": 136,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "B38 post-2015 much better",
+          "N13 pre-2015 chain watch"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "Post-2015 B38 is reliable"
+        ],
+        "cons": [
+          "N13: chain check pre-2015"
+        ]
+      },
+      {
+        "name": "120i 184hp N20/B48",
+        "displacement": 1998,
+        "power": 184,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "N20 chain pre-2015",
+          "B48 post-2015 much more reliable",
+          "Oil consumption on N20"
+        ],
+        "pros": [
+          "Strong performance for hatch",
+          "ZF 8HP combo excellent",
+          "Post-2015 B48 recommended"
+        ],
+        "cons": [
+          "N20: chain check pre-2015",
+          "B48: oil consumption watch"
+        ]
+      },
+      {
+        "name": "125i 218hp N20",
+        "displacement": 1997,
+        "power": 218,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "N20 timing chain — more critical at higher power",
+          "Oil consumption",
+          "Cooling"
+        ],
+        "pros": [
+          "Excellent performance",
+          "Sport variant"
+        ],
+        "cons": [
+          "N20 chain all units"
+        ]
+      },
+      {
+        "name": "116d N47 116hp (pre-2015)",
+        "displacement": 1995,
+        "power": 116,
+        "fuel": "diesel",
+        "reliability": "Poor",
+        "faults": [
+          "CRITICAL: N47 timing chain on rear of engine — failure at 100–150k",
+          "Cold start rattle = imminent failure",
+          "Expensive repair"
+        ],
+        "pros": [
+          "Good economy 5.0L/100km"
+        ],
+        "cons": [
+          "N47 chain CRITICAL — cold start test mandatory"
+        ]
+      },
+      {
+        "name": "118d 150hp B47 (post-2015)",
+        "displacement": 1995,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR at 150,000 km",
+          "DPF city",
+          "AdBlue some variants"
+        ],
+        "pros": [
+          "Much better than N47 — no chain issue",
+          "Good economy",
+          "Best diesel spec for F20"
+        ],
+        "cons": [
+          "EGR service at 150k recommended",
+          "DPF city"
+        ]
+      },
+      {
+        "name": "120d 190hp B47",
+        "displacement": 1995,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR and DPF watch",
+          "AdBlue",
+          "Swirl flap on some"
+        ],
+        "pros": [
+          "Strong performance",
+          "Best diesel F20 spec",
+          "Excellent motorway engine"
+        ],
+        "cons": [
+          "Higher running costs"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100,000 km",
+          "BMW clutch expensive"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed ZF Steptronic",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80k — not lifetime"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Sport",
+        "features": [
+          "17\" alloys",
+          "Sport suspension",
+          "Sport seats",
+          "LED DRL"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "iDrive 6",
+          "Leather option",
+          "Climate control",
+          "Nav option"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "M Sport",
+        "features": [
+          "18\" M alloys",
+          "M sport suspension",
+          "M steering",
+          "M bodykit",
+          "Sport seats",
+          "M badges"
+        ],
+        "targetBuyer": "Sport flagship"
+      },
+      {
+        "trim": "M135i",
+        "features": [
+          "19\" alloys",
+          "M Performance engine",
+          "ZF 8HP",
+          "Full M equipment",
+          "Brembo option"
+        ],
+        "targetBuyer": "Performance top"
+      }
+    ],
+    "note": "Budget prestige hatchback. RWD unique in class. 118d is sweet spot.",
+    "summary": "Good reliability overall. Key: N47 diesel chain on pre-2015 CRITICAL. Post-2015 B47 much better.",
+    "buyingTip": "118d B47 (2015+) manual or ZF auto is the smart buy. Pre-2015 N47: cold start test mandatory. RWD: winter tyres essential."
+  }
+]

@@ -1,0 +1,1396 @@
+[
+  {
+    "id": 19,
+    "make": "Toyota",
+    "model": "Hilux",
+    "gen": "7th gen (AN10/AN20)",
+    "years": "2004–2015",
+    "yearFrom": 2004,
+    "yearTo": 2015,
+    "origin": "Japanese",
+    "body": "pickup",
+    "doors": 5,
+    "seats": 5,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "outdoor",
+      "daily",
+      "work"
+    ],
+    "pricing": {
+      "skPriceMin": 12000,
+      "skPriceMax": 22000,
+      "euPriceMin": 11000,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "130,000–300,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Legendary durability. Hilux AN10/AN20 known to run 500,000+ km."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.5 D-4D 120hp / 144hp",
+        "displacement": 2494,
+        "power": 144,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 150,000 km — CRITICAL",
+          "DPF on some variants: city use concern",
+          "Injectors at 300,000 km"
+        ],
+        "pros": [
+          "Outstanding durability — proven 500,000 km farm use",
+          "Simple and tough",
+          "AWD excellent"
+        ],
+        "cons": [
+          "Timing belt at 150k is non-negotiable",
+          "Not comfortable as daily car"
+        ]
+      },
+      {
+        "name": "3.0 D-4D 171hp",
+        "displacement": 2982,
+        "power": 171,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 150,000 km CRITICAL",
+          "Injectors at 300,000 km"
+        ],
+        "pros": [
+          "Strong pulling power",
+          "Excellent towing 3,000kg",
+          "Best engine for work use"
+        ],
+        "cons": [
+          "Timing belt critical service"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "5-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "4-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "CD radio",
+          "ABS"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SR",
+        "features": [
+          "17\" alloys",
+          "Air con",
+          "Rear sensors",
+          "Cruise control"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Invincible",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Leather option",
+          "Navigation",
+          "Rear camera"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Legendary durability. Known to run 500,000+ km. Best second-hand work truck.",
+    "summary": "Excellent reliability. Very few faults at any mileage when serviced.",
+    "buyingTip": "Timing belt at 150k: check stamps. Otherwise among most reliable vehicles ever made."
+  },
+  {
+    "id": 20,
+    "make": "Toyota",
+    "model": "Hilux",
+    "gen": "8th gen (AN120/AN130)",
+    "years": "2016–2025",
+    "yearFrom": 2016,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "pickup",
+    "doors": 5,
+    "seats": 5,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "outdoor",
+      "daily",
+      "work",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 52000,
+      "euPriceMin": 27000,
+      "euPriceMax": 53000,
+      "mileageAtMidBudget": "20,000–150,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Outstanding reliability. More refined than 7th gen. Still work-grade durability."
+    },
+    "safety": {
+      "ncapYear": 2016,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.4 D-4D 150hp",
+        "displacement": 2393,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 150,000 km CRITICAL",
+          "DPF on city-only use",
+          "Injectors at 250,000 km"
+        ],
+        "pros": [
+          "More refined than predecessor",
+          "Good economy 8.5L/100km for pickup",
+          "Excellent towing 3,500kg",
+          "Outstanding durability"
+        ],
+        "cons": [
+          "Timing belt at 150k critical",
+          "City-only DPF concern"
+        ]
+      },
+      {
+        "name": "2.8 D-4D 204hp",
+        "displacement": 2755,
+        "power": 204,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 150,000 km CRITICAL",
+          "DPF city",
+          "AdBlue on some variants"
+        ],
+        "pros": [
+          "Best performance in range",
+          "Strong towing",
+          "Most refined Hilux ever"
+        ],
+        "cons": [
+          "Timing belt critical",
+          "AdBlue watch on some"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "Touchscreen 7\"",
+          "Apple CarPlay",
+          "ABS/ESP",
+          "Rear camera"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Icon",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" nav",
+          "Heated seats",
+          "Rear sensors",
+          "Toyota Safety Sense"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Invincible",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Heated front+rear",
+          "JBL audio",
+          "360° camera",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "Invincible X",
+        "features": [
+          "18\" alloys",
+          "Premium leather",
+          "Full LED",
+          "Wireless charging",
+          "Full luxury spec"
+        ],
+        "targetBuyer": "Luxury pickup"
+      }
+    ],
+    "note": "More refined than 7th gen. Still legendary Hilux durability. Outstanding reliability.",
+    "summary": "Excellent reliability. Toyota benchmark durability. Timing belt at 150k critical.",
+    "buyingTip": "2.8 D-4D with auto is the civilised daily + work spec. Timing belt service at 150k mandatory."
+  },
+  {
+    "id": 21,
+    "make": "Ford",
+    "model": "Ranger",
+    "gen": "Mk3 (T6)",
+    "years": "2012–2021",
+    "yearFrom": 2012,
+    "yearTo": 2021,
+    "origin": "American/European",
+    "body": "pickup",
+    "doors": 5,
+    "seats": 5,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "outdoor",
+      "daily",
+      "work"
+    ],
+    "pricing": {
+      "skPriceMin": 18000,
+      "skPriceMax": 36000,
+      "euPriceMin": 17000,
+      "euPriceMax": 37000,
+      "mileageAtMidBudget": "50,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. More car-like than Hilux. Timing belt critical at 125,000 km."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.2 TDCi 125hp / 150hp",
+        "displacement": 2198,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 125,000 km CRITICAL — different from Toyota",
+          "DPF city",
+          "EGR at 120,000 km"
+        ],
+        "pros": [
+          "Adequate performance",
+          "Good economy 8.0L/100km",
+          "Most common Ranger engine"
+        ],
+        "cons": [
+          "Timing belt at 125k — earlier than Toyota",
+          "DPF city concern"
+        ]
+      },
+      {
+        "name": "3.2 TDCi 200hp",
+        "displacement": 3198,
+        "power": 200,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 150,000 km",
+          "DPF city",
+          "EGR at 150,000 km"
+        ],
+        "pros": [
+          "Strong performance",
+          "Excellent towing 3,500kg",
+          "Best Ranger engine for towing"
+        ],
+        "cons": [
+          "Higher fuel consumption",
+          "Timing belt critical"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "XL",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "Radio",
+          "ABS/ESP"
+        ],
+        "targetBuyer": "Entry/Work"
+      },
+      {
+        "trim": "XLS",
+        "features": [
+          "Alloy wheels 16\"",
+          "Air con",
+          "Touchscreen",
+          "Rear sensors",
+          "Cruise control"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "XLT",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Navigation",
+          "Rear camera",
+          "Heated seats",
+          "Leather option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Limited",
+        "features": [
+          "18\" alloys",
+          "Full leather",
+          "Premium audio",
+          "Full ADAS suite",
+          "Heated+ventilated seats"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "More car-like than Hilux. Timing belt at 125k — check before buying. 3.2 TDCi for towing.",
+    "summary": "Good reliability. Timing belt maintenance is the key watchpoint.",
+    "buyingTip": "Check timing belt service history. 2.2 TDCi manual is affordable everyday spec. 3.2 for towing."
+  },
+  {
+    "id": 22,
+    "make": "Ford",
+    "model": "Ranger",
+    "gen": "Mk4 (T6.2/PUMA)",
+    "years": "2022–2025",
+    "yearFrom": 2022,
+    "yearTo": 2025,
+    "origin": "American/European",
+    "body": "pickup",
+    "doors": 5,
+    "seats": 5,
+    "boot": null,
+    "fuel": [
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "outdoor",
+      "daily",
+      "work"
+    ],
+    "pricing": {
+      "skPriceMin": 36000,
+      "skPriceMax": 64000,
+      "euPriceMin": 35000,
+      "euPriceMax": 65000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "All-new architecture. More refined. Plug-in hybrid option. Still timing belt critical."
+    },
+    "safety": {
+      "ncapYear": 2022,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.0 EcoBlue 150hp / 170hp",
+        "displacement": 1995,
+        "power": 170,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 125,000 km — CRITICAL",
+          "DPF city",
+          "EGR at 120,000 km",
+          "AdBlue"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "Best economy in range",
+          "Adequate towing"
+        ],
+        "cons": [
+          "Timing belt at 125k — critical and early",
+          "AdBlue watch"
+        ]
+      },
+      {
+        "name": "2.0 EcoBlue 205hp",
+        "displacement": 1995,
+        "power": 205,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 125,000 km CRITICAL",
+          "DPF city",
+          "AdBlue"
+        ],
+        "pros": [
+          "Strong performance",
+          "Good towing 3,500kg",
+          "Best diesel spec"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.3 EcoBoost PHEV 280hp",
+        "displacement": 2296,
+        "power": 280,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "PHEV complexity",
+          "Must charge",
+          "Timing belt still applies",
+          "Too new for full data"
+        ],
+        "pros": [
+          "EV mode 45km+",
+          "Low tax",
+          "280hp strong performance"
+        ],
+        "cons": [
+          "PHEV adds complexity",
+          "Must charge"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "10-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "Service at 80k expected"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "XL",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "8\" SYNC4",
+          "Apple CarPlay",
+          "ABS/ESP"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "XLT",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "12\" SYNC4",
+          "Heated seats",
+          "Rear camera",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Limited",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Matrix LED",
+          "Full ADAS",
+          "Head-up display",
+          "Wireless charging"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "Wildtrak",
+        "features": [
+          "18\" alloys",
+          "Orange accents",
+          "Sport suspension",
+          "Adventure styling",
+          "Off-road pack"
+        ],
+        "targetBuyer": "Adventure spec"
+      },
+      {
+        "trim": "Raptor",
+        "features": [
+          "17\" BFG tyres",
+          "Fox suspension",
+          "425hp EcoBoost",
+          "Roll cage styling",
+          "Raptor full spec"
+        ],
+        "targetBuyer": "Performance pickup"
+      }
+    ],
+    "note": "All-new architecture. More refined. Raptor performance variant. Timing belt still critical.",
+    "summary": "Too new for full data. Timing belt at 125k same as Mk3.",
+    "buyingTip": "Timing belt at 125k: mandatory check. 2.0 EcoBlue 170hp auto everyday spec."
+  },
+  {
+    "id": 45,
+    "make": "Volkswagen",
+    "model": "Amarok",
+    "gen": "V6 (1st gen)",
+    "years": "2017–2022",
+    "yearFrom": 2017,
+    "yearTo": 2022,
+    "origin": "German",
+    "body": "pickup",
+    "doors": 5,
+    "seats": 5,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "outdoor",
+      "work",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 52000,
+      "euPriceMin": 27000,
+      "euPriceMax": 53000,
+      "mileageAtMidBudget": "40,000–160,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "The premium pickup. V6 TDI 224hp is outstanding. More car than truck."
+    },
+    "safety": {
+      "ncapYear": 2016,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "V6 TDI 204hp / 224hp",
+        "displacement": 2967,
+        "power": 224,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "ZF 8HP service at 80k critical",
+          "V6 EGR at 150,000 km",
+          "AdBlue 15,000 km",
+          "Timing belt at 180,000 km"
+        ],
+        "pros": [
+          "Outstanding refinement for a pickup",
+          "224hp strong towing 3,100kg",
+          "Premium car interior quality",
+          "Genuinely pleasant to drive"
+        ],
+        "cons": [
+          "Timing belt at 180k",
+          "ZF 8HP service",
+          "AdBlue watch",
+          "Premium price"
+        ]
+      },
+      {
+        "name": "2.0 TDI 140hp / 180hp",
+        "displacement": 1968,
+        "power": 180,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km CRITICAL",
+          "DSG service at 60k",
+          "DPF city",
+          "EGR"
+        ],
+        "pros": [
+          "More affordable entry",
+          "Good economy",
+          "Adequate everyday"
+        ],
+        "cons": [
+          "Timing belt critical",
+          "DSG service"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed ZF Torqueflite auto",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80k",
+          "ZF 8HP is excellent here"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      },
+      {
+        "name": "DSG8 (2.0 TDI)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Trendline",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "Composition Media",
+          "ABS/ESP"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Comfortline",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "Navigation",
+          "Leather option",
+          "Rear sensors",
+          "Cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Highline",
+        "features": [
+          "19\" alloys",
+          "Vienna leather",
+          "Canton audio",
+          "Heated seats",
+          "Keyless",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "Canyon",
+        "features": [
+          "All-terrain styling",
+          "Underbody protection",
+          "Roof rails",
+          "Rock Grey accents",
+          "Adventure pack"
+        ],
+        "targetBuyer": "Adventure spec"
+      }
+    ],
+    "note": "The premium pickup. V6 TDI 224hp is outstanding — more car than truck. Premium interior.",
+    "summary": "Good reliability. V6 TDI stronger long-term than 2.0 TDI. ZF 8HP excellent.",
+    "buyingTip": "V6 TDI with ZF 8HP is the definitive spec. Timing belt and AdBlue the key service items."
+  },
+  {
+    "id": 46,
+    "make": "GWM",
+    "model": "Tank 300",
+    "gen": "1st gen",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "Chinese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 492,
+    "fuel": [
+      "hybrid"
+    ],
+    "usageTags": [
+      "outdoor",
+      "daily",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 42000,
+      "skPriceMax": 58000,
+      "euPriceMin": 41000,
+      "euPriceMax": 59000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Wrangler rival from China. Body-on-frame. PHEV 241hp. Limited EU dealer network."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.0T PHEV 241hp combined",
+        "displacement": 1994,
+        "power": 241,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "PHEV complexity on body-on-frame",
+          "Dealer network very limited in EU",
+          "Water ingress on charging port similar to Wrangler"
+        ],
+        "pros": [
+          "Body-on-frame like Jeep Wrangler",
+          "PHEV EV mode 80km+ — very capable",
+          "241hp strong performance",
+          "Premium interior better than Wrangler"
+        ],
+        "cons": [
+          "GWM dealer network very limited in Slovakia and EU",
+          "Too new for reliability confidence",
+          "Must charge for PHEV benefit"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "Service at 80k expected"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "GWM 8-speed. Too new for history."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Comfort",
+        "features": [
+          "18\" alloys",
+          "Climatronic dual",
+          "10.25\" touchscreen",
+          "Apple CarPlay",
+          "Off-road electronics",
+          "Emergency braking"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Luxury",
+        "features": [
+          "20\" alloys",
+          "Full leather",
+          "360° camera",
+          "ADAS suite",
+          "Panoramic roof",
+          "Wireless charging",
+          "Premium audio"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Wrangler rival. Body-on-frame + PHEV. Better interior than Jeep. Limited EU dealer network.",
+    "summary": "Too new for reliability data. GWM Tank 300 very new in EU market.",
+    "buyingTip": "Check GWM dealer network in Slovakia before buying. Too new — PHEV complexity + limited service = caution."
+  },
+  {
+    "id": 72,
+    "make": "Mitsubishi",
+    "model": "L200",
+    "gen": "5th gen (KK/KL)",
+    "years": "2015–2023",
+    "yearFrom": 2015,
+    "yearTo": 2023,
+    "origin": "Japanese",
+    "body": "pickup",
+    "doors": 5,
+    "seats": 5,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "outdoor",
+      "work",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 18000,
+      "skPriceMax": 34000,
+      "euPriceMin": 17000,
+      "euPriceMax": 35000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. Reliable Japanese pickup. Tough reputation. 4N15 diesel very durable."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.4 MIVEC 4N15 150hp / 181hp",
+        "displacement": 2442,
+        "power": 181,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 120,000 km CRITICAL",
+          "DPF city",
+          "EGR at 150,000 km",
+          "AdBlue on some"
+        ],
+        "pros": [
+          "Outstanding durability — Mitsubishi commercial strength",
+          "Strong towing 3,100kg",
+          "AWD system excellent for off-road"
+        ],
+        "cons": [
+          "Timing belt at 120k: earlier than competitors — check",
+          "DPF city concern"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Club Cab",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "Radio"
+        ],
+        "targetBuyer": "Entry/Work"
+      },
+      {
+        "trim": "Inform",
+        "features": [
+          "17\" alloys",
+          "Air con",
+          "Touchscreen",
+          "Rear sensors",
+          "Cruise control"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "Juro",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Navigation",
+          "Heated seats",
+          "Rear camera",
+          "Keyless"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Barbarian",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Full ADAS",
+          "Heated+ventilated",
+          "Wireless charging",
+          "Premium spec"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Good. 4N15 diesel very durable. Tough reputation. Timing belt at 120k check.",
+    "summary": "Good reliability. 4N15 diesel proven at high mileage.",
+    "buyingTip": "4N15 diesel with manual is tough everyday workhorse. Timing belt at 120k: check history."
+  },
+  {
+    "id": 126,
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "gen": "T5",
+    "years": "2003–2015",
+    "yearFrom": 2003,
+    "yearTo": 2015,
+    "origin": "German",
+    "body": "van",
+    "doors": 5,
+    "seats": null,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "work",
+      "daily",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 8000,
+      "skPriceMax": 22000,
+      "euPriceMin": 7500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "120,000–400,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Commercial benchmark. 2.0 TDI BiTurbo most popular. DSG: service critical."
+    },
+    "safety": {
+      "ncapYear": 2009,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.0 TDI 102hp",
+        "displacement": 1968,
+        "power": 102,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km CRITICAL",
+          "DPF city",
+          "EGR at 150,000 km"
+        ],
+        "pros": [
+          "Most affordable and economical",
+          "Good for light work use"
+        ],
+        "cons": [
+          "Timing belt critical",
+          "Lower performance"
+        ]
+      },
+      {
+        "name": "2.0 TDI BiTurbo 140hp / 180hp",
+        "displacement": 1968,
+        "power": 180,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 140,000 km CRITICAL",
+          "DPF city",
+          "EGR at 150,000 km",
+          "Injectors at 300,000 km"
+        ],
+        "pros": [
+          "Best everyday spec",
+          "Excellent for motorway use",
+          "Strong pulling power",
+          "Outstanding durability"
+        ],
+        "cons": [
+          "Timing belt at 140k — check",
+          "DPF city"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ500",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k CRITICAL — DQ500 is commercial DSG",
+          "Different to passenger car DSG"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ500 wet DSG used in T5/T6 is more robust than DQ200 but still requires 60k oil service. Never miss this."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Startline",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "Radio",
+          "Commercial van spec"
+        ],
+        "targetBuyer": "Entry/Work"
+      },
+      {
+        "trim": "Trendline",
+        "features": [
+          "Alloy wheels 16\"",
+          "Air con",
+          "Radio CD",
+          "Rubber floor mats"
+        ],
+        "targetBuyer": "Base commercial"
+      },
+      {
+        "trim": "Comfortline",
+        "features": [
+          "16\" alloys",
+          "Climatronic",
+          "Rear seat trim",
+          "Carpeted floor",
+          "Touchscreen nav option"
+        ],
+        "targetBuyer": "Passenger/Kombi"
+      },
+      {
+        "trim": "Highline",
+        "features": [
+          "17\" alloys",
+          "Full leather option",
+          "Navigation",
+          "Heated seats",
+          "Panoramic roof option",
+          "Premium spec"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Commercial benchmark. BiTurbo 180hp most popular. DSG: service at 60k critical.",
+    "summary": "Good reliability. Timing belt at 140k is key maintenance item.",
+    "buyingTip": "BiTurbo manual with service history is outstanding value. DSG: check 60k stamps."
+  },
+  {
+    "id": 127,
+    "make": "Volkswagen",
+    "model": "Transporter",
+    "gen": "T6 / T6.1",
+    "years": "2015–2025",
+    "yearFrom": 2015,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "van",
+    "doors": 5,
+    "seats": null,
+    "boot": null,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "work",
+      "daily",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 52000,
+      "euPriceMin": 21000,
+      "euPriceMax": 53000,
+      "mileageAtMidBudget": "20,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Improved T5. T6.1 facelift 2019+ has better infotainment and safety."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.0 TDI 102hp / 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140,000 km CRITICAL",
+          "DPF city",
+          "EGR at 150,000 km",
+          "AdBlue on some"
+        ],
+        "pros": [
+          "Good everyday spec",
+          "Economical",
+          "150hp is the right everyday balance"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI BiTurbo 198hp / 204hp",
+        "displacement": 1968,
+        "power": 204,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Timing belt at 140,000 km CRITICAL",
+          "DPF city",
+          "EGR",
+          "AdBlue"
+        ],
+        "pros": [
+          "Outstanding performance for a van",
+          "Strong towing",
+          "Excellent motorway cruiser",
+          "Best T6 spec"
+        ],
+        "cons": [
+          "Timing belt critical",
+          "AdBlue watch"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ500",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k CRITICAL"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ500 wet DSG. Commercial-spec but still needs 60k service."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Trendline",
+        "features": [
+          "16\" alloys",
+          "Manual AC",
+          "Radio",
+          "Basic infotainment"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Comfortline",
+        "features": [
+          "16\" alloys",
+          "Climatronic",
+          "MIB touchscreen",
+          "Apple CarPlay",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Highline",
+        "features": [
+          "17\" alloys",
+          "Full infotainment",
+          "Heated seats",
+          "Navigation",
+          "Parking assist",
+          "LED lights"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "T6.1 Highline",
+        "features": [
+          "Updated infotainment",
+          "Apple CarPlay standard",
+          "LED standard",
+          "Improved safety systems",
+          "T6.1 facelift features"
+        ],
+        "targetBuyer": "T6.1 top spec"
+      }
+    ],
+    "note": "T6.1 facelift 2019+ is the buy. BiTurbo 204hp auto is the premium everyday spec.",
+    "summary": "Good reliability. Timing belt at 140k key. T6.1 improved infotainment and safety.",
+    "buyingTip": "Buy T6.1 (2019+) for better tech. BiTurbo auto is the commercial premium spec. DSG 60k stamps."
+  }
+]

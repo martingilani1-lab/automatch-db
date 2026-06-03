@@ -1,0 +1,1587 @@
+[
+  {
+    "id": 76,
+    "make": "Mazda",
+    "model": "MX-5",
+    "gen": "Mk4 ND",
+    "years": "2015–2025",
+    "yearFrom": 2015,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "convertible",
+    "doors": 5,
+    "seats": 2,
+    "boot": 130,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "city"
+    ],
+    "pricing": {
+      "skPriceMin": 20000,
+      "skPriceMax": 40000,
+      "euPriceMin": 19000,
+      "euPriceMax": 41000,
+      "mileageAtMidBudget": "20,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Moderate",
+      "tuvNote": "The world's best handling sports car. 92% NCAP. Near-zero faults."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 92,
+      "childOccupant": 80,
+      "pedestrian": 66,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "1.5 Skyactiv-G 132hp",
+        "displacement": 1496,
+        "power": 132,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Minimal — one of Mazda's most reliable engines",
+          "Clutch wear on spirited driving"
+        ],
+        "pros": [
+          "Outstanding balance and handling — best driver's car at any price",
+          "Near-zero fault rate",
+          "Very cheap to run"
+        ],
+        "cons": [
+          "Slower than rivals on paper",
+          "2-seat only",
+          "Small boot 130L"
+        ]
+      },
+      {
+        "name": "2.0 Skyactiv-G 184hp",
+        "displacement": 1998,
+        "power": 184,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Minimal — occasional chain watch",
+          "Slightly higher fuel use"
+        ],
+        "pros": [
+          "More power for motorway use",
+          "Better performance spec",
+          "Still outstanding handling"
+        ],
+        "cons": [
+          "Higher fuel use than 1.5",
+          "More expensive"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 80k on sporty driving — budget accordingly"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k — not the recommended spec"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "MX-5 is at its best with manual. Auto loses the whole point of the car."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Sport",
+        "features": [
+          "16\" alloys",
+          "Manual soft-top",
+          "Sport seats",
+          "LED headlights",
+          "Bose audio option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sport Nav",
+        "features": [
+          "17\" alloys",
+          "Sat-nav",
+          "Bose audio",
+          "Heated seats",
+          "Sport-tuned suspension"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "GT Sport",
+        "features": [
+          "17\" alloys",
+          "Nappa leather",
+          "Brembo brakes",
+          "Full Bose 9-speaker",
+          "Blistering form factor"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "RF (Retractable Fastback)",
+        "features": [
+          "Power folding hardtop",
+          "More coupe-like look",
+          "Same specs as soft-top range",
+          "Premium feel"
+        ],
+        "targetBuyer": "RF variant"
+      }
+    ],
+    "note": "The world's best handling sports car at its price. 92% NCAP. Near-zero mechanical faults.",
+    "summary": "Excellent reliability. Very few faults. Mazda benchmark quality.",
+    "buyingTip": "Manual gearbox — non-negotiable. 2.0 for more everyday use. RF for coupe look. Outstanding long-term reliability."
+  },
+  {
+    "id": 117,
+    "make": "Hyundai",
+    "model": "i30 N",
+    "gen": "2nd gen facelift",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 395,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 32000,
+      "skPriceMax": 46000,
+      "euPriceMin": 31000,
+      "euPriceMax": 47000,
+      "mileageAtMidBudget": "5,000–40,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Benchmark hot hatch. N grin factor. 280hp. Still daily practical."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 69,
+      "safetyAssist": 78
+    },
+    "engines": [
+      {
+        "name": "2.0 T-GDi 250hp / 280hp",
+        "displacement": 1998,
+        "power": 280,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DCT N service at 40,000 km critical",
+          "Oil at 8,000 km strictly",
+          "Carbon buildup on direct injection",
+          "Clutch wear on track use"
+        ],
+        "pros": [
+          "Outstanding performance 0-100 in 6.0s",
+          "Still practical family hatchback",
+          "One of best hot hatches ever made",
+          "DCT fast and engaging"
+        ],
+        "cons": [
+          "DCT service at 40k — more frequent than regular Hyundai",
+          "Oil at 8k non-negotiable",
+          "Track use reduces drivetrain life"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 80k on spirited driving"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed N DCT",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "SERVICE AT 40,000 KM — critical for performance use",
+          "Oil at 8k"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "Hyundai N DCT: service at 40,000 km (not 60k). Performance use stresses clutch pack. Manual recommended for track days."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "i30 N",
+        "features": [
+          "19\" N alloys",
+          "N sport suspension",
+          "N sport seats",
+          "N bodykit",
+          "Performance brakes",
+          "Brembo option",
+          "8-speed N DCT or 6-speed manual"
+        ],
+        "targetBuyer": "Single spec — fully loaded"
+      }
+    ],
+    "note": "Benchmark hot hatch. Practical 5-door. 280hp. N DCT fast and fun.",
+    "summary": "Good reliability. N DCT needs 40k service. Oil at 8k critical.",
+    "buyingTip": "N DCT service at 40k mandatory. Oil at 8k. Track days: budget for consumables. Best hot hatch value."
+  },
+  {
+    "id": 118,
+    "make": "Toyota",
+    "model": "GR Yaris",
+    "gen": "1st gen",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 3,
+    "boot": 174,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 46000,
+      "skPriceMax": 62000,
+      "euPriceMin": 45000,
+      "euPriceMax": 63000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Homologation special. 261hp AWD. Pure driver's car. No rear seat comfort."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "1.6 G16E-GTS 261hp turbo",
+        "displacement": 1618,
+        "power": 261,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil at 5,000 km strictly — non-negotiable for performance engine",
+          "Transmission oil at 20,000 km",
+          "HVAC compressor on some early units",
+          "GR-FOUR AWD service at 40,000 km",
+          "Carbon buildup on direct injection"
+        ],
+        "pros": [
+          "Outstanding AWD performance",
+          "0-100 in 5.5s",
+          "Unique compact homologation car",
+          "Incredibly fun to drive",
+          "GR-FOUR AWD system exceptional"
+        ],
+        "cons": [
+          "3-door only — no rear legroom",
+          "174L boot — very impractical",
+          "Oil changes every 5k non-negotiable",
+          "High running costs for small car"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "GR-FOUR AWD system service at 40k",
+          "Clutch wears faster on sport driving"
+        ],
+        "serviceInterval": null,
+        "specialistNote": "GR-FOUR AWD service at 40,000 km. Manual is the only option — no automatic."
+      },
+      {
+        "name": "8-speed GR-DAT (Circuit Pack)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 40k",
+          "Circuit Pack option only"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "GR-DAT dual-clutch automatic available in Circuit Pack. Fast and engaging. 40k service critical."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "GR Yaris",
+        "features": [
+          "18\" BBS forged alloys",
+          "Torsen front diff",
+          "GR-FOUR AWD",
+          "Sport seats",
+          "LED matrix headlights",
+          "Performance spec standard"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Circuit Pack",
+        "features": [
+          "GR-DAT auto option",
+          "Track-focused cooling",
+          "Upgraded brakes",
+          "Torsen rear diff addition",
+          "Full track spec"
+        ],
+        "targetBuyer": "Performance upgrade"
+      }
+    ],
+    "note": "Homologation special. Rally-derived AWD. 261hp. 3-door only. Incredibly fun.",
+    "summary": "Good reliability. Oil at 5k non-negotiable. AWD system service at 40k.",
+    "buyingTip": "Oil every 5,000 km — NON-NEGOTIABLE. Check oil change history strictly. GR-FOUR AWD service at 40k."
+  },
+  {
+    "id": 119,
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "gen": "Mk8",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 374,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 34000,
+      "skPriceMax": 52000,
+      "euPriceMin": 33000,
+      "euPriceMax": 53000,
+      "mileageAtMidBudget": "5,000–50,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Benchmark GTI. 245hp. Front-diff. DSG only. 2022+ for reliability."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 71,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "2.0 TSI EA888 245hp",
+        "displacement": 1984,
+        "power": 245,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DSG7 DQ381 service at 40,000 km critical",
+          "Oil at 8,000 km strictly",
+          "Chain at 120,000 km",
+          "Carbon buildup",
+          "Early 2020–2021 calibration poor"
+        ],
+        "pros": [
+          "Benchmark hot hatch performance",
+          "245hp well balanced",
+          "Front differential excellent on track",
+          "Practical 5-door"
+        ],
+        "cons": [
+          "DSG service at 40k — critical",
+          "Oil at 8k non-negotiable",
+          "2020–2021 early calibration poor"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG DQ381 (only option)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "SERVICE AT 40,000 KM — performance spec needs this",
+          "Oil at 8k",
+          "2020–2021 calibration poor — 2022+ better"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "GTI Mk8 uses DQ381 wet clutch DSG. Service at 40,000 km for performance use. 2022+ calibration significantly improved."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "GTI",
+        "features": [
+          "18\" Richmond alloys",
+          "Performance pack option",
+          "Adaptive chassis control",
+          "DCC sport",
+          "GTI seats",
+          "GTI interior trim",
+          "Brembo option"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Performance Pack",
+        "features": [
+          "19\" alloys",
+          "Brembo front brakes",
+          "Electronic diff lock",
+          "Performance exhaust",
+          "Full performance spec"
+        ],
+        "targetBuyer": "Performance upgrade"
+      },
+      {
+        "trim": "Clubsport",
+        "features": [
+          "19\" alloys",
+          "265hp version",
+          "Front axle upgrade",
+          "Clubsport spec",
+          "Track-focused setup"
+        ],
+        "targetBuyer": "Track spec"
+      }
+    ],
+    "note": "Benchmark GTI. 245hp + front diff. 2022+ production for best reliability.",
+    "summary": "Good reliability on 2022+. Early 2020–2021 had poor DSG calibration.",
+    "buyingTip": "2022+ ONLY. DSG service at 40k mandatory. Oil at 8k. Performance pack adds Brembo — worth it."
+  },
+  {
+    "id": 128,
+    "make": "BMW",
+    "model": "M2",
+    "gen": "G87 (3rd gen)",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 2,
+    "boot": 390,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 66000,
+      "skPriceMax": 90000,
+      "euPriceMin": 65000,
+      "euPriceMax": 91000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "The best M car currently. S58 twin-turbo inline-6. Pure sports coupe."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "S58 3.0 twin-turbo 460hp",
+        "displacement": 2993,
+        "power": 460,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil at 8,000 km strictly — BMW performance spec",
+          "Chain at 100,000 km",
+          "Carbon buildup at high mileage",
+          "Track use requires more frequent oil changes"
+        ],
+        "pros": [
+          "S58 is one of the best performance engines ever made",
+          "Outstanding 0-100 in 4.1s",
+          "Rewarding to drive",
+          "Better balanced than M3/M4",
+          "Very reliable for output"
+        ],
+        "cons": [
+          "Very expensive",
+          "2-seat practical limitation",
+          "High running costs",
+          "Tyres wear fast"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 60k on sporty driving",
+          "More engaging"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed ZF M DCT",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k",
+          "Faster than manual for lap times but less engaging"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP M-specific tune. Faster than manual. Service at 80,000 km. Both options excellent."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "M2",
+        "features": [
+          "19\" M alloys front / 20\" rear",
+          "Adaptive M suspension",
+          "M sport seats",
+          "M sport exhaust",
+          "M tech all standard"
+        ],
+        "targetBuyer": "Single spec"
+      },
+      {
+        "trim": "M2 Competition",
+        "features": [
+          "All M2 spec plus enhanced cooling",
+          "Carbon ceramic option",
+          "Full track spec additional options"
+        ],
+        "targetBuyer": "Competition upgrade"
+      }
+    ],
+    "note": "The best M car currently. S58 engine outstanding. Pure sports coupe.",
+    "summary": "Good reliability. S58 engine excellent. Oil at 8k non-negotiable.",
+    "buyingTip": "Manual if you want engagement. DCT if you want lap times. Oil at 8k non-negotiable. Best M car ever made."
+  },
+  {
+    "id": 129,
+    "make": "BMW",
+    "model": "M3 / M4",
+    "gen": "G80 / G82",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 480,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 84000,
+      "skPriceMax": 130000,
+      "euPriceMin": 83000,
+      "euPriceMax": 131000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "S58 twin-turbo 510hp. Controversial grille but outstanding dynamics. Competition preferred."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "S58 3.0 twin-turbo 480hp / 510hp Competition",
+        "displacement": 2993,
+        "power": 510,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil at 8,000 km STRICTLY — more frequent on track",
+          "Chain at 100,000 km",
+          "Carbon buildup",
+          "Track use: full engine check at 30,000 km"
+        ],
+        "pros": [
+          "S58 one of best performance engines ever made",
+          "0-100 in 3.9s Competition",
+          "Outstanding dynamics",
+          "Very reliable for output level"
+        ],
+        "cons": [
+          "Very expensive",
+          "Controversial grille design",
+          "Very high running costs",
+          "Tyres and brakes consumables expensive"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual (M3 only)",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 60k on spirited driving"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "8-speed ZF M DCT",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k — recommended spec"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "M-spec ZF 8HP. Fastest quarter-mile setup. Paddleshifts excellent. Service at 80,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "M3 / M4",
+        "features": [
+          "19\"/20\" M alloys",
+          "Adaptive M suspension",
+          "M sport seats",
+          "M exhaust",
+          "xDrive AWD standard"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Competition",
+        "features": [
+          "510hp version",
+          "Enhanced cooling",
+          "Competition-tuned suspension",
+          "Competition interior trim",
+          "xDrive standard"
+        ],
+        "targetBuyer": "Competition spec"
+      },
+      {
+        "trim": "CS",
+        "features": [
+          "Lightweight components",
+          "540hp",
+          "Carbon ceramic brakes standard",
+          "Racing bucket seats",
+          "Track-optimised"
+        ],
+        "targetBuyer": "Hardcore spec"
+      }
+    ],
+    "note": "S58 twin-turbo 510hp Competition. Outstanding dynamics. xDrive AWD for Slovak winters.",
+    "summary": "Good reliability. S58 excellent. Oil at 8k non-negotiable.",
+    "buyingTip": "Competition xDrive for daily+track. Oil at 8k. Track days: budget for consumables. Best performance saloon/coupe 2023."
+  },
+  {
+    "id": 130,
+    "make": "Honda",
+    "model": "Civic Type R",
+    "gen": "FL5",
+    "years": "2022–2025",
+    "yearFrom": 2022,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 420,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 48000,
+      "skPriceMax": 64000,
+      "euPriceMin": 47000,
+      "euPriceMax": 65000,
+      "mileageAtMidBudget": "5,000–25,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Moderate",
+      "tuvNote": "Best front-wheel-drive hot hatch ever made. 329hp. 5-door practical."
+    },
+    "safety": {
+      "ncapYear": 2022,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 71,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "2.0 VTEC Turbo 329hp K20C1",
+        "displacement": 1996,
+        "power": 329,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil at 8,000 km strictly — VTEC requires quality oil",
+          "Carbon buildup on direct injection",
+          "Clutch wear on track use — budget for replacement"
+        ],
+        "pros": [
+          "World record Nurburgring FWD lap time",
+          "329hp front-wheel-drive masterpiece",
+          "5-door — practical daily",
+          "Outstanding driver engagement",
+          "Surprisingly comfortable"
+        ],
+        "cons": [
+          "FWD limits at very high speed on track — understeer at limits",
+          "329hp on front wheels requires skill",
+          "High running costs"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 60k on spirited driving",
+          "Type-R clutch more expensive than standard"
+        ],
+        "serviceInterval": null,
+        "specialistNote": "6-speed manual is the only option. Designed around the manual experience — no automatic available."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Type R",
+        "features": [
+          "20\" forged alloys",
+          "Adaptive dampers",
+          "Brembo brakes",
+          "Type R Recaro seats",
+          "Red badge",
+          "Full performance spec standard",
+          "Rev match manual"
+        ],
+        "targetBuyer": "Single spec — fully loaded"
+      }
+    ],
+    "note": "Best FWD hot hatch ever. World record Nurburgring FWD time. 329hp. 5-door practical.",
+    "summary": "Good reliability. Honda engineering standard. K20C1 proven.",
+    "buyingTip": "Oil at 8k. Manual only — no exception. Clutch: budget for replacement at 60k. Outstanding driver's car."
+  },
+  {
+    "id": 131,
+    "make": "Toyota",
+    "model": "GR86",
+    "gen": "2nd gen",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 2,
+    "boot": 218,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "city"
+    ],
+    "pricing": {
+      "skPriceMin": 34000,
+      "skPriceMax": 46000,
+      "euPriceMin": 33000,
+      "euPriceMax": 47000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Moderate",
+      "tuvNote": "The affordable driver's car. 235hp naturally aspirated. Outstanding handling."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.4 Subaru FA24 235hp",
+        "displacement": 2387,
+        "power": 235,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil at 8,000 km strictly",
+          "Clutch wear on spirited driving",
+          "Timing chain watch at 150,000 km"
+        ],
+        "pros": [
+          "Naturally aspirated — instant linear response",
+          "Outstanding balance and handling",
+          "Very reliable for performance",
+          "Affordable sports car"
+        ],
+        "cons": [
+          "235hp modest on paper",
+          "2+2 seats — limited rear practicality",
+          "FA24 can be thirsty 10L/100km driven hard"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 80k on sporty driving"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "GR86 auto loses some engagement but is faster in some situations. Manual recommended for driving experience."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "GR86",
+        "features": [
+          "17\" alloys",
+          "Sport seats",
+          "Torsen rear diff",
+          "GR84 interior",
+          "LED headlights",
+          "Manual or auto"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Premium",
+        "features": [
+          "18\" alloys",
+          "Leather option",
+          "Premium audio",
+          "Heated seats",
+          "Full LED"
+        ],
+        "targetBuyer": "Premium spec"
+      }
+    ],
+    "note": "The affordable driver's car. FA24 235hp NA. Outstanding handling. Very reliable.",
+    "summary": "Excellent reliability. FA24 Subaru-derived engine outstanding.",
+    "buyingTip": "Oil at 8k. Manual for engagement. Outstanding value driver's car."
+  },
+  {
+    "id": 132,
+    "make": "Ford",
+    "model": "Mustang",
+    "gen": "S650 (7th gen)",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "American",
+    "body": "coupe",
+    "doors": 5,
+    "seats": 2,
+    "boot": null,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 52000,
+      "skPriceMax": 82000,
+      "euPriceMin": 51000,
+      "euPriceMax": 83000,
+      "mileageAtMidBudget": "5,000–25,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "American icon. 5.0 V8 446hp. More electronics than ever. RHD for Europe."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "5.0 Coyote V8 446hp",
+        "displacement": 4951,
+        "power": 446,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil at 8,000 km strictly",
+          "V8 fuel use — 14L/100km typical",
+          "Electronic reliability concern on S650 — too new for full data",
+          "Launch control hardware stress"
+        ],
+        "pros": [
+          "5.0 Coyote V8 — outstanding sound and character",
+          "446hp strong performance",
+          "Manual gearbox available — rare at this level",
+          "American icon"
+        ],
+        "cons": [
+          "Poor fuel economy",
+          "High insurance in Europe",
+          "Too new for reliability data",
+          "Electronic content extensive in S650"
+        ]
+      },
+      {
+        "name": "2.3 EcoBoost 290hp",
+        "displacement": 2300,
+        "power": 290,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain watch",
+          "EcoBoost turbo at high mileage"
+        ],
+        "pros": [
+          "Much more practical fuel economy",
+          "Good performance for size",
+          "More sensible daily choice"
+        ],
+        "cons": [
+          "Loses the V8 character entirely — why buy a Mustang?"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 60k on hard use"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "10-speed Selectshift auto",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "Service at 80k expected"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Ford 10-speed auto. Too new for full reliability data."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Fastback",
+        "features": [
+          "18\" alloys",
+          "8\" SYNC4",
+          "Apple CarPlay",
+          "Manual AC",
+          "Sport seats",
+          "Manual available"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Premium",
+        "features": [
+          "19\" alloys",
+          "12\" SYNC4",
+          "B&O audio",
+          "Heated+ventilated seats",
+          "Wireless charging",
+          "Magneride option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "GT500",
+        "features": [
+          "20\" Shelby alloys",
+          "760hp supercharged V8",
+          "Brembo brakes",
+          "Tremec 7-speed",
+          "Carbon fibre pack",
+          "Ultimate performance"
+        ],
+        "targetBuyer": "Performance flagship"
+      }
+    ],
+    "note": "5.0 V8 446hp. American icon. 6-speed manual available. More electronics than ever on S650.",
+    "summary": "Average reliability — Ford quality at this price level. S650 too new for full data.",
+    "buyingTip": "V8 manual for the pure experience. Check electronics on test drive. Plan for V8 fuel costs."
+  },
+  {
+    "id": 133,
+    "make": "Mercedes-AMG",
+    "model": "A 45 S",
+    "gen": "W177",
+    "years": "2019–2025",
+    "yearFrom": 2019,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 370,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 58000,
+      "skPriceMax": 78000,
+      "euPriceMin": 57000,
+      "euPriceMax": 79000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Most powerful 2.0L engine in production: 421hp. Outstanding but expensive to maintain."
+    },
+    "safety": {
+      "ncapYear": 2019,
+      "stars": 5,
+      "adultOccupant": 93,
+      "childOccupant": 86,
+      "pedestrian": 72,
+      "safetyAssist": 88
+    },
+    "engines": [
+      {
+        "name": "M139 2.0 421hp twin-scroll",
+        "displacement": 1991,
+        "power": 421,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Oil at 7,500 km STRICTLY — the most stressed 2.0L ever made",
+          "Chain service at 80,000 km",
+          "Carbon buildup on direct injection",
+          "4MATIC AWD coupling at 60,000 km",
+          "Coolant system watch",
+          "DSG service at 40,000 km"
+        ],
+        "pros": [
+          "World's most powerful 2.0T production engine",
+          "0-100 in 3.9s",
+          "Practical 5-door hatchback",
+          "Distinctive performance"
+        ],
+        "cons": [
+          "Oil EVERY 7,500 km — non-negotiable for M139 reliability",
+          "Chain at 80k",
+          "Very expensive to maintain",
+          "Only buy with full AMG service history"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed AMG Speedshift DCT",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 40,000 km CRITICAL for AMG use",
+          "Oil at 7,500 km"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "AMG wet DCT. Service at 40,000 km for performance. Oil at 7,500 km mandatory."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "A 45 S",
+        "features": [
+          "19\" AMG alloys",
+          "AMG performance seats",
+          "AMG bodykit",
+          "AMG exhaust",
+          "4MATIC+ AWD",
+          "AMG Performance steering wheel",
+          "All AMG equipment standard"
+        ],
+        "targetBuyer": "Single spec — fully loaded"
+      },
+      {
+        "trim": "Edition 1",
+        "features": [
+          "20\" AMG alloys",
+          "Carbon ceramic option",
+          "Track spec cooling",
+          "Edition 1 badge",
+          "Full performance upgrade"
+        ],
+        "targetBuyer": "Launch edition"
+      }
+    ],
+    "note": "World's most powerful 2.0L: 421hp. Outstanding but very expensive to maintain properly.",
+    "summary": "Average reliability due to extreme engine stress. M139 needs meticulous service.",
+    "buyingTip": "ONLY buy with full AMG dealer service history. Oil at 7,500 km — NON-NEGOTIABLE. Check chain at 80k."
+  },
+  {
+    "id": 134,
+    "make": "Toyota",
+    "model": "GR Supra",
+    "gen": "A90 (5th gen)",
+    "years": "2019–2025",
+    "yearFrom": 2019,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "coupe",
+    "doors": 5,
+    "seats": 2,
+    "boot": 290,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 52000,
+      "skPriceMax": 82000,
+      "euPriceMin": 51000,
+      "euPriceMax": 83000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "BMW Z4 soul in Toyota body. B58 3.0T inline-6. 340hp. Outstanding dynamics."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "B58 3.0T inline-6 340hp / 387hp",
+        "displacement": 2998,
+        "power": 387,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil at 8,000 km strictly — BMW requirement on B58",
+          "Chain service at 100,000 km",
+          "BMW Z4 co-developed — BMW components used throughout"
+        ],
+        "pros": [
+          "B58 is one of the best engines available",
+          "Outstanding 0-100 in 4.3s (340hp) / 3.9s (387hp)",
+          "Excellent daily usability",
+          "GR name means Toyota sports commitment"
+        ],
+        "cons": [
+          "No manual gearbox — auto only",
+          "BMW-heavy maintenance costs",
+          "2-seat only",
+          "290L boot very small"
+        ]
+      },
+      {
+        "name": "2.0T 4-cylinder 258hp",
+        "displacement": 1998,
+        "power": 258,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "BMW N20-derived engine",
+          "Chain watch",
+          "Less character than inline-6"
+        ],
+        "pros": [
+          "More affordable entry",
+          "Adequate performance"
+        ],
+        "cons": [
+          "Loses inline-6 character",
+          "Not the proper Supra"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed ZF automatic (only option)",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80k",
+          "BMW-sourced ZF 8HP"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Pure",
+        "features": [
+          "18\" alloys",
+          "6.5\" infotainment",
+          "Manual AC",
+          "Sport seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Pro",
+        "features": [
+          "19\" alloys",
+          "8.8\" infotainment",
+          "Adaptive suspension",
+          "Wireless CarPlay",
+          "Heated seats",
+          "JBL audio"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "A90 Edition / Special editions",
+        "features": [
+          "Special paint",
+          "Unique graphics",
+          "Full specification",
+          "Collector spec"
+        ],
+        "targetBuyer": "Special editions"
+      }
+    ],
+    "note": "B58 inline-6 outstanding. BMW Z4 co-developed. Auto only. Outstanding performance.",
+    "summary": "Good reliability. B58 engine exceptional. BMW service requirements apply.",
+    "buyingTip": "B58 inline-6 is the only real spec. Oil at 8k. ZF 8HP service at 80k. BMW dealer for service."
+  },
+  {
+    "id": 135,
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "gen": "Mk8",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 374,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 44000,
+      "skPriceMax": 62000,
+      "euPriceMin": 43000,
+      "euPriceMax": 63000,
+      "mileageAtMidBudget": "5,000–40,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "333hp AWD Golf. Drift mode. Best all-weather hot hatch. 2022+ for reliability."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 71,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "2.0 TSI EA888 333hp",
+        "displacement": 1984,
+        "power": 333,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DSG service at 40,000 km critical — performance spec",
+          "Oil at 8,000 km strictly",
+          "Chain at 120,000 km",
+          "4Motion Haldex at 60,000 km",
+          "Carbon buildup",
+          "2020–2021 early calibration poor"
+        ],
+        "pros": [
+          "333hp AWD — outstanding performance",
+          "Practical 5-door",
+          "Drift mode genuine fun",
+          "Best all-weather hot hatch",
+          "Works on track and in snow"
+        ],
+        "cons": [
+          "DSG at 40k + Haldex at 60k = two service items",
+          "Oil at 8k non-negotiable",
+          "2020–2021 early issues"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG DQ381 (only option)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "SERVICE AT 40,000 KM for performance use",
+          "Oil at 8k",
+          "2020–2021 calibration poor — 2022+ better"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "Golf R Mk8 DSG: service at 40,000 km for performance use. 2022+ calibration much improved."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Golf R",
+        "features": [
+          "19\" Pretoria alloys",
+          "Adaptive chassis control DCC",
+          "4Motion AWD",
+          "R sport seats",
+          "R bodykit",
+          "R exhaust",
+          "Brembo option",
+          "All performance spec standard"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "20 Years Edition",
+        "features": [
+          "Special 20th anniversary spec",
+          "Akrapovic exhaust",
+          "Alcantara",
+          "Extra power 333hp from standard",
+          "Collector spec"
+        ],
+        "targetBuyer": "Special edition"
+      }
+    ],
+    "note": "333hp AWD. Drift mode. Best all-weather hot hatch. 2022+ production year only.",
+    "summary": "Good reliability on 2022+. Early 2020–2021 issues. DSG at 40k and Haldex at 60k.",
+    "buyingTip": "2022+ ONLY. DSG at 40k + Haldex at 60k. Oil at 8k. Outstanding all-weather performance car."
+  },
+  {
+    "id": 136,
+    "make": "Hyundai",
+    "model": "i20 N",
+    "gen": "1st gen",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 326,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "city"
+    ],
+    "pricing": {
+      "skPriceMin": 30000,
+      "skPriceMax": 42000,
+      "euPriceMin": 29000,
+      "euPriceMax": 43000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Budget hot hatch. 204hp. Manual only. Outstanding value vs competition."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 85,
+      "childOccupant": 82,
+      "pedestrian": 62,
+      "safetyAssist": 82
+    },
+    "engines": [
+      {
+        "name": "1.6 T-GDi 204hp",
+        "displacement": 1591,
+        "power": 204,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil at 8,000 km strictly",
+          "N clutch wears faster on spirited driving",
+          "Carbon buildup on GDi",
+          "Chain watch"
+        ],
+        "pros": [
+          "204hp fantastic value at price",
+          "Outstanding handling for class",
+          "Manual-only — more engaging",
+          "Available with LSD option"
+        ],
+        "cons": [
+          "FWD only — no AWD like rivals",
+          "204hp vs 280hp+ rivals",
+          "Oil at 8k non-negotiable"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 60k on spirited driving",
+          "N-spec clutch — budget for replacement"
+        ],
+        "serviceInterval": null,
+        "specialistNote": "Manual only in i20 N. No automatic available. The only acceptable choice for this car."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "i20 N",
+        "features": [
+          "18\" N alloys",
+          "Sport suspension",
+          "N seats",
+          "N bodykit",
+          "N exhaust",
+          "Performance brakes",
+          "Limited slip diff option"
+        ],
+        "targetBuyer": "Single spec — well equipped"
+      }
+    ],
+    "note": "Best budget hot hatch. 204hp. Manual only. Outstanding handling. Best value in class.",
+    "summary": "Good reliability. 1.6 T-GDi proven. Oil at 8k important.",
+    "buyingTip": "Oil at 8k. Clutch budget at 60k on spirited driving. LSD option: worth it. Outstanding value."
+  }
+]

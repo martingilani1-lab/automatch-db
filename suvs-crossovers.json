@@ -1,0 +1,7610 @@
+[
+  {
+    "id": 23,
+    "make": "Kia",
+    "model": "Sportage",
+    "gen": "3rd gen (QL)",
+    "years": "2010–2021",
+    "yearFrom": 2010,
+    "yearTo": 2021,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 503,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 8000,
+      "skPriceMax": 22000,
+      "euPriceMin": 7500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "60,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "CRITICAL: 2016–2018 diesel = excellent. 2019+ diesel = poor. Check production date."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 69,
+      "safetyAssist": 68
+    },
+    "engines": [
+      {
+        "name": "1.6 GDi 135hp",
+        "displacement": 1591,
+        "power": 135,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Carbon buildup on GDi at 80k",
+          "Chain watch"
+        ],
+        "pros": [
+          "Adequate everyday",
+          "Reliable"
+        ],
+        "cons": [
+          "Carbon buildup"
+        ]
+      },
+      {
+        "name": "1.7 CRDi 115hp (2016–2018 ONLY)",
+        "displacement": 1685,
+        "power": 115,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 150k"
+        ],
+        "pros": [
+          "What Car? ZERO fault rate 2016–2018",
+          "Best diesel spec"
+        ],
+        "cons": [
+          "DPF city concern"
+        ]
+      },
+      {
+        "name": "2.0 CRDi (2019+) — AVOID",
+        "displacement": 1995,
+        "power": 185,
+        "fuel": "diesel",
+        "reliability": "Poor",
+        "faults": [
+          "Sharp reliability drop from 2019",
+          "High fault rate in surveys"
+        ],
+        "pros": [
+          "Adequate performance"
+        ],
+        "cons": [
+          "DO NOT BUY 2019+ diesel — check production date"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "2",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "7\" touchscreen",
+          "ABS/ESP"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "3",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Apple CarPlay",
+          "Rear sensors",
+          "Smart cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "GT Line",
+        "features": [
+          "18\" alloys",
+          "Sport bodykit",
+          "Sport seats",
+          "LED headlights"
+        ],
+        "targetBuyer": "Sport look"
+      }
+    ],
+    "note": "2016–2018 diesel = outstanding reliability. 2019+ diesel = poor.",
+    "summary": "CRITICAL SPLIT by production year on diesel.",
+    "buyingTip": "ONLY buy diesel with 2016–2018 build date. Petrol: good throughout."
+  },
+  {
+    "id": 24,
+    "make": "Kia",
+    "model": "Sportage",
+    "gen": "4th gen (NQ5)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 620,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 42000,
+      "euPriceMin": 21000,
+      "euPriceMax": 43000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. HEV best spec. 7-year warranty. 620L boot."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 75,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "1.6 T-GDi 150hp",
+        "displacement": 1591,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DCT hesitation in stop-go normal",
+          "Chain watch"
+        ],
+        "pros": [
+          "Good performance",
+          "7-year warranty"
+        ],
+        "cons": [
+          "DCT hesitation normal"
+        ]
+      },
+      {
+        "name": "1.6 T-GDi HEV 230hp",
+        "displacement": 1591,
+        "power": 230,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "6-speed auto clutch at 60k"
+        ],
+        "pros": [
+          "5.5L/100km",
+          "7-year warranty",
+          "Tax advantages"
+        ],
+        "cons": [
+          "More complex than diesel"
+        ]
+      },
+      {
+        "name": "2.0 CRDi 185hp",
+        "displacement": 1999,
+        "power": 185,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "Timing belt at 150k",
+          "AdBlue"
+        ],
+        "pros": [
+          "Strong diesel",
+          "4WD available"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DCT",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "Low-speed hesitation normal"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Hyundai/Kia 7-speed dry DCT (D7GF1): low-speed shudder in traffic is normal. Service at 60,000 km. Not suitable for heavy towing."
+      },
+      {
+        "name": "8-speed auto (diesel)",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "K2",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "10.25\" touchscreen",
+          "Apple CarPlay"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "K4",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Curved display",
+          "Rear sensors",
+          "Smart cruise",
+          "Blind spot"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "K5",
+        "features": [
+          "18\" alloys",
+          "Nappa leather",
+          "Heated+ventilated",
+          "Panoramic roof",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "GT-Line",
+        "features": [
+          "19\" sport alloys",
+          "GT-Line bodykit",
+          "Sport seats"
+        ],
+        "targetBuyer": "Sport look"
+      }
+    ],
+    "note": "Good all-round SUV. HEV best spec for economy.",
+    "summary": "Good reliability. Some early 2021 electrical faults. 2022+ much improved.",
+    "buyingTip": "Prefer 2022+. HEV is smart everyday spec. Check 7-year warranty."
+  },
+  {
+    "id": 25,
+    "make": "Dacia",
+    "model": "Duster",
+    "gen": "1st gen",
+    "years": "2010–2018",
+    "yearFrom": 2010,
+    "yearTo": 2018,
+    "origin": "Romanian/French",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 408,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "lpg"
+    ],
+    "usageTags": [
+      "budget",
+      "outdoor",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 5000,
+      "skPriceMax": 11000,
+      "euPriceMin": 4500,
+      "euPriceMax": 12000,
+      "mileageAtMidBudget": "100,000–220,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "VeryLow",
+      "tuvNote": "Average. 3-STAR NCAP. Cheapest 4WD in Europe. Not for family primary use."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": 3,
+      "adultOccupant": 62,
+      "childOccupant": 56,
+      "pedestrian": 44,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "1.6 SCe 115hp",
+        "displacement": 1598,
+        "power": 115,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Throttle body carbon at 150k"
+        ],
+        "pros": [
+          "Simple and cheap",
+          "No turbo"
+        ],
+        "cons": [
+          "Thirsty 8L/100km"
+        ]
+      },
+      {
+        "name": "1.5 dCi 90hp / 110hp",
+        "displacement": 1461,
+        "power": 110,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR at 100k",
+          "Chain at 150k"
+        ],
+        "pros": [
+          "Excellent economy 5.5L/100km",
+          "4WD available"
+        ],
+        "cons": [
+          "DPF city concern"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "CVT automatic",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Never tow",
+          "Drone normal"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Access",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "Radio"
+        ],
+        "targetBuyer": "Budget"
+      },
+      {
+        "trim": "Comfort",
+        "features": [
+          "16\" alloys",
+          "Air con",
+          "MediaNav",
+          "Rear camera"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Prestige",
+        "features": [
+          "17\" alloys",
+          "Keyless entry",
+          "Leather option"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "3-star NCAP. Best: budget off-road, farm, second car.",
+    "summary": "Average reliability. 3-star NCAP is critical limitation.",
+    "buyingTip": "Only buy as secondary or off-road vehicle. 3-star NCAP = not suitable as primary family car."
+  },
+  {
+    "id": 26,
+    "make": "Dacia",
+    "model": "Duster",
+    "gen": "2nd gen",
+    "years": "2018–2024",
+    "yearFrom": 2018,
+    "yearTo": 2024,
+    "origin": "Romanian/French",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 445,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "lpg"
+    ],
+    "usageTags": [
+      "budget",
+      "outdoor",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 10000,
+      "skPriceMax": 22000,
+      "euPriceMin": 9500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "20,000–100,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "VeryLow",
+      "tuvNote": "Average. Still 3-star NCAP. Cheapest 4WD in Europe."
+    },
+    "safety": {
+      "ncapYear": 2017,
+      "stars": 3,
+      "adultOccupant": 61,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "1.3 TCe 130hp / 150hp",
+        "displacement": 1332,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Timing chain on Renault 1.3 TCe",
+          "Carbon buildup"
+        ],
+        "pros": [
+          "Good performance",
+          "Best petrol spec"
+        ],
+        "cons": [
+          "Chain watch"
+        ]
+      },
+      {
+        "name": "1.5 Blue dCi 95hp / 115hp",
+        "displacement": 1461,
+        "power": 115,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR at 120k",
+          "AdBlue some"
+        ],
+        "pros": [
+          "Best Duster engine — durable and economical",
+          "4WD available"
+        ],
+        "cons": [
+          "DPF city concern"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "CVT",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Never tow",
+          "Drone normal"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Essential",
+        "features": [
+          "Steel wheels",
+          "Manual AC",
+          "8\" MediaNav",
+          "Bluetooth"
+        ],
+        "targetBuyer": "Budget"
+      },
+      {
+        "trim": "Comfort",
+        "features": [
+          "16\" alloys",
+          "Air con",
+          "Rear sensors",
+          "Apple CarPlay"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Prestige",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Keyless entry",
+          "Blind spot"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "3-star NCAP still. Cheapest 4WD in Europe.",
+    "summary": "Same story: cheap, capable off-road, low costs but 3-star NCAP.",
+    "buyingTip": "1.5 dCi 4WD is practical buy. 3-star NCAP — family use: caution."
+  },
+  {
+    "id": 29,
+    "make": "Hyundai",
+    "model": "Tucson",
+    "gen": "3rd gen (TL)",
+    "years": "2015–2020",
+    "yearFrom": 2015,
+    "yearTo": 2020,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 513,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 11000,
+      "skPriceMax": 24000,
+      "euPriceMin": 10500,
+      "euPriceMax": 25000,
+      "mileageAtMidBudget": "60,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 91% NCAP. 5-year Hyundai warranty. 2.0 CRDi 4WD for Slovak winters."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 71,
+      "safetyAssist": 75
+    },
+    "engines": [
+      {
+        "name": "1.6 T-GDi 132hp",
+        "displacement": 1591,
+        "power": 132,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DCT hesitation normal",
+          "Carbon buildup",
+          "Chain watch"
+        ],
+        "pros": [
+          "Good performance",
+          "7-speed DCT smooth"
+        ],
+        "cons": [
+          "DCT hesitation normal"
+        ]
+      },
+      {
+        "name": "2.0 CRDi 136hp / 185hp",
+        "displacement": 1995,
+        "power": 185,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR at 150k",
+          "Timing belt at 150k",
+          "Haldex 60k"
+        ],
+        "pros": [
+          "Strong diesel",
+          "4WD excellent for Slovakia"
+        ],
+        "cons": [
+          "Timing belt + Haldex both need service"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DCT",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "Hesitation normal"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Hyundai/Kia 7-speed dry DCT (D7GF1): low-speed shudder in traffic is normal. Service at 60,000 km. Not suitable for heavy towing."
+      },
+      {
+        "name": "6-speed auto",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "S",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" touchscreen"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Apple CarPlay",
+          "Smart cruise",
+          "Blind spot"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Premium",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Heated+ventilated",
+          "Panoramic roof",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Good. 91% NCAP. 5-year warranty. 2.0 CRDi 4WD excellent for Slovakia.",
+    "summary": "Good reliability. DCT hesitation normal. 5-year warranty covers most.",
+    "buyingTip": "2.0 CRDi 4WD manual is the Slovak spec. Check 5-year warranty."
+  },
+  {
+    "id": 30,
+    "make": "Hyundai",
+    "model": "IONIQ 5",
+    "gen": "1st gen (NE)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 527,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "daily",
+      "longDistance",
+      "eco",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 32000,
+      "skPriceMax": 58000,
+      "euPriceMin": 31000,
+      "euPriceMax": 59000,
+      "mileageAtMidBudget": "10,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "800V ultra-fast charging. EGMP platform. Best tech EV in class."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 69,
+      "safetyAssist": 96
+    },
+    "engines": [
+      {
+        "name": "RWD 218hp 73kWh",
+        "displacement": 0,
+        "power": 218,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Heat pump cold: -20% range below -5°C"
+        ],
+        "pros": [
+          "Best range 481km WLTP",
+          "800V 220kW charging",
+          "V2L 3.6kW"
+        ],
+        "cons": [
+          "Real range ~380km winter"
+        ]
+      },
+      {
+        "name": "AWD 305hp 73kWh",
+        "displacement": 0,
+        "power": 305,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Higher consumption vs RWD"
+        ],
+        "pros": [
+          "AWD excellent for Slovak winter",
+          "0-100 in 5.1s"
+        ],
+        "cons": [
+          "Range real ~350km winter"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed RWD",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      },
+      {
+        "name": "Dual-motor AWD",
+        "type": "ev-dual",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "AWD software-controlled."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Standard",
+        "features": [
+          "19\" alloys",
+          "Heat pump",
+          "12\" curved display",
+          "V2L standard",
+          "Full ADAS",
+          "800V charging"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Lounge",
+        "features": [
+          "20\" alloys",
+          "Relaxation seats",
+          "Dual sunroof",
+          "Bose audio",
+          "Ambient lighting 64-colour"
+        ],
+        "targetBuyer": "Premium"
+      }
+    ],
+    "note": "800V ultra-fast charging. EGMP proven. V2L power output.",
+    "summary": "Good reliability. Battery 8yr/160k warranty.",
+    "buyingTip": "Check battery health and 8yr warranty. Only with home charging setup."
+  },
+  {
+    "id": 31,
+    "make": "Tesla",
+    "model": "Model Y",
+    "gen": "Highland (2024+)",
+    "years": "2024–2025",
+    "yearFrom": 2024,
+    "yearTo": 2025,
+    "origin": "American",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 854,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "daily",
+      "longDistance",
+      "family",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 42000,
+      "skPriceMax": 62000,
+      "euPriceMin": 41000,
+      "euPriceMax": 63000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Good on Highland. Supercharger best in EU. No Tesla service in Slovakia."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 73,
+      "safetyAssist": 98
+    },
+    "engines": [
+      {
+        "name": "Long Range AWD 357hp",
+        "displacement": 0,
+        "power": 357,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "No Tesla service centre in Slovakia",
+          "Software OTA required"
+        ],
+        "pros": [
+          "AWD for Slovak winter",
+          "533km WLTP",
+          "854L boot",
+          "Supercharger best EU network"
+        ],
+        "cons": [
+          "Real ~450km winter",
+          "No Slovakia service centre"
+        ]
+      },
+      {
+        "name": "RWD 283hp",
+        "displacement": 0,
+        "power": 283,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Same Slovakia limitation"
+        ],
+        "pros": [
+          "Best efficiency 13kWh/100km",
+          "533km WLTP"
+        ],
+        "cons": [
+          "No AWD in winter"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed RWD",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      },
+      {
+        "name": "Dual-motor AWD",
+        "type": "ev-dual",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "AWD software-controlled."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Model Y RWD",
+        "features": [
+          "19\" Gemini wheels",
+          "Glass roof",
+          "15.4\" touchscreen",
+          "Autopilot",
+          "Heated seats",
+          "360° cameras"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Long Range AWD",
+        "features": [
+          "20\" Induction wheels option",
+          "Ventilated front seats",
+          "17-speaker audio"
+        ],
+        "targetBuyer": "Long range"
+      },
+      {
+        "trim": "Performance AWD",
+        "features": [
+          "21\" Überturbine wheels",
+          "Track mode",
+          "Performance brakes",
+          "Red calipers"
+        ],
+        "targetBuyer": "Performance"
+      }
+    ],
+    "note": "Highland refresh 2024. Supercharger best in Europe. Build quality improved.",
+    "summary": "Good reliability on Highland. Build quality improved. No service in Slovakia.",
+    "buyingTip": "Long Range AWD preferred. Highland only (2024+). Plan nearest Tesla service centre."
+  },
+  {
+    "id": 32,
+    "make": "MG",
+    "model": "ZS EV",
+    "gen": "MK2 (2021+)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Chinese (SAIC)",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 448,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "city",
+      "daily",
+      "budget",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 19000,
+      "skPriceMax": 32000,
+      "euPriceMin": 18000,
+      "euPriceMax": 33000,
+      "mileageAtMidBudget": "5,000–50,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "Low",
+      "tuvNote": "Average. 4-star 67% NCAP — below class. Cheapest large-range EV."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 4,
+      "adultOccupant": 67,
+      "childOccupant": 62,
+      "pedestrian": 54,
+      "safetyAssist": 72
+    },
+    "engines": [
+      {
+        "name": "Long Range 176hp 72kWh",
+        "displacement": 0,
+        "power": 176,
+        "fuel": "electric",
+        "reliability": "Average",
+        "faults": [
+          "28% non-motor electrical fault rate",
+          "Warranty void without service stamps"
+        ],
+        "pros": [
+          "Cheapest large-range EV in Europe",
+          "7-year warranty if stamps valid"
+        ],
+        "cons": [
+          "67% NCAP — below class average",
+          "High electrical fault rate"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed auto",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "10.25\" touchscreen",
+          "Apple CarPlay",
+          "Rear camera"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Trophy",
+        "features": [
+          "18\" alloys",
+          "Heated seats",
+          "360° camera",
+          "Keyless",
+          "Blind spot",
+          "80kW fast charge"
+        ],
+        "targetBuyer": "Most popular"
+      }
+    ],
+    "note": "CRITICAL: 4-star NCAP 67%. Cheapest large-range EV.",
+    "summary": "Average reliability. 28% non-motor electrical fault rate.",
+    "buyingTip": "Verify 7-year warranty active AND service stamps. Battery health check essential."
+  },
+  {
+    "id": 33,
+    "make": "BYD",
+    "model": "Atto 3",
+    "gen": "1st gen",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "Chinese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 440,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "daily",
+      "family",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 42000,
+      "euPriceMin": 27000,
+      "euPriceMax": 43000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "BYD Blade battery. 5-star NCAP 82%. Check local BYD dealer first."
+    },
+    "safety": {
+      "ncapYear": 2022,
+      "stars": 5,
+      "adultOccupant": 82,
+      "childOccupant": 76,
+      "pedestrian": 65,
+      "safetyAssist": 75
+    },
+    "engines": [
+      {
+        "name": "Extended 204hp 60.5kWh",
+        "displacement": 0,
+        "power": 204,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Dealer network limited in Slovakia",
+          "Software OTA updates"
+        ],
+        "pros": [
+          "Blade battery — safest EV chemistry",
+          "420km WLTP real-world",
+          "Rotating screen"
+        ],
+        "cons": [
+          "Dealer coverage limited",
+          "88kW DC charging only"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed auto",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Comfort",
+        "features": [
+          "18\" alloys",
+          "Rotating 15.6\" touchscreen",
+          "Wireless charging",
+          "Heated seats",
+          "Blind spot",
+          "V2L option"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Excellence",
+        "features": [
+          "19\" alloys",
+          "Panoramic glass roof",
+          "360° camera",
+          "Ventilated seats",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "BYD Blade battery. 5-star NCAP 82%. Check local BYD dealer.",
+    "summary": "Good reliability. Motor and battery reliable. Lighting module on some units.",
+    "buyingTip": "Check BYD dealer network before buying. Blade battery = safest EV chemistry."
+  },
+  {
+    "id": 37,
+    "make": "Mazda",
+    "model": "CX-5",
+    "gen": "2nd gen (KF)",
+    "years": "2017–2025",
+    "yearFrom": 2017,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 506,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 16000,
+      "skPriceMax": 36000,
+      "euPriceMin": 15000,
+      "euPriceMax": 37000,
+      "mileageAtMidBudget": "20,000–120,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Outstanding reliability. TUV very low defect rate. KODO design benchmark."
+    },
+    "safety": {
+      "ncapYear": 2016,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 70,
+      "safetyAssist": 78
+    },
+    "engines": [
+      {
+        "name": "2.0 Skyactiv-G 165hp",
+        "displacement": 1998,
+        "power": 165,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Minimal — most reliable CX-5 engine",
+          "Throttle body carbon at 150k"
+        ],
+        "pros": [
+          "Virtually no known faults",
+          "Outstanding long-term durability"
+        ],
+        "cons": [
+          "Not the most economical"
+        ]
+      },
+      {
+        "name": "2.5 Skyactiv-G Turbo 231hp",
+        "displacement": 2488,
+        "power": 231,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Turbo adds complexity",
+          "Oil at 8k strictly",
+          "Chain at 120k"
+        ],
+        "pros": [
+          "Strong performance",
+          "Excellent SUV spec"
+        ],
+        "cons": [
+          "More complex than NA"
+        ]
+      },
+      {
+        "name": "2.2 Skyactiv-D 150hp / 184hp",
+        "displacement": 2191,
+        "power": 184,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Oil consumption — check between fill-ups",
+          "DPF city",
+          "EGR at 150k"
+        ],
+        "pros": [
+          "Best economy 5.5L/100km",
+          "Strong torque",
+          "AWD available"
+        ],
+        "cons": [
+          "Oil consumption check essential"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed Skyactiv-Drive auto",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Mazda Skyactiv-Drive. Outstanding reliability. Service at 80k."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Centre-Line",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" MZD Connect",
+          "Apple CarPlay",
+          "Emergency braking"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Exclusive-Line",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "BOSE audio",
+          "Heated seats",
+          "Keyless"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Sports-Line",
+        "features": [
+          "19\" alloys",
+          "Sport suspension",
+          "Leather",
+          "Head-up display option"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Takumi",
+        "features": [
+          "19\" alloys",
+          "Nappa leather",
+          "Bose 10-speaker",
+          "360° view",
+          "Full luxury"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "Outstanding reliability. TUV very low defect rate. Beautiful interior.",
+    "summary": "Excellent reliability. Very low fault rate. 2.2 diesel: oil consumption watch.",
+    "buyingTip": "2.0 Skyactiv-G is most reliable engine. 2.2 diesel: check oil level every fill."
+  },
+  {
+    "id": 38,
+    "make": "Honda",
+    "model": "CR-V",
+    "gen": "5th gen (RW)",
+    "years": "2018–2023",
+    "yearFrom": 2018,
+    "yearTo": 2023,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 561,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 20000,
+      "skPriceMax": 40000,
+      "euPriceMin": 19000,
+      "euPriceMax": 41000,
+      "mileageAtMidBudget": "15,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "e:HEV hybrid recommended. Honda reliability. 90% NCAP."
+    },
+    "safety": {
+      "ncapYear": 2018,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 71,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "1.5 VTEC Turbo 173hp",
+        "displacement": 1498,
+        "power": 173,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Oil dilution with petrol in cold climates — KNOWN ISSUE",
+          "Check oil colour before buying",
+          "Worse in short-trip winter driving"
+        ],
+        "pros": [
+          "Good performance"
+        ],
+        "cons": [
+          "OIL DILUTION IN COLD CLIMATE — check oil colour",
+          "Not for Slovak winter short trips"
+        ]
+      },
+      {
+        "name": "2.0 e:HEV 184hp",
+        "displacement": 1993,
+        "power": 184,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Inverter coolant at 160k"
+        ],
+        "pros": [
+          "Outstanding reliability",
+          "4.8L/100km city",
+          "Avoids 1.5T oil dilution issue"
+        ],
+        "cons": [
+          "Higher price",
+          "No plug-in charging"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual (1.5T only)",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "CVT (1.5T)",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Drone normal",
+          "No towing beyond 750kg"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      },
+      {
+        "name": "e-CVT (e:HEV)",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Honda e:HEV uses fixed-ratio direct drive — petrol only drives wheels directly at highway speed. Essentially no transmission failures on e:HEV variants."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "S",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "7\" Honda Connect",
+          "Apple CarPlay",
+          "Honda Sensing"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "9\" touchscreen",
+          "Heated seats",
+          "Keyless",
+          "Blind spot"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "EX",
+        "features": [
+          "19\" alloys",
+          "Leather",
+          "Ventilated seats",
+          "Panoramic roof",
+          "HUD",
+          "360° camera"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "e:HEV hybrid is the recommended spec. Honda reliability.",
+    "summary": "Good reliability. e:HEV excellent. 1.5T oil dilution in cold climate.",
+    "buyingTip": "e:HEV strongly recommended. 1.5T: check oil condition carefully."
+  },
+  {
+    "id": 39,
+    "make": "Audi",
+    "model": "Q5",
+    "gen": "2nd gen (FY)",
+    "years": "2017–2024",
+    "yearFrom": 2017,
+    "yearTo": 2024,
+    "origin": "German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 520,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 18000,
+      "skPriceMax": 58000,
+      "euPriceMin": 17000,
+      "euPriceMax": 59000,
+      "mileageAtMidBudget": "30,000–160,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "CRITICAL: 2019–2021 fuel pump recall. S tronic service at 40k — not 60k."
+    },
+    "safety": {
+      "ncapYear": 2017,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 73,
+      "safetyAssist": 85
+    },
+    "engines": [
+      {
+        "name": "2.0 TDI 163hp / 190hp",
+        "displacement": 1968,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "S tronic service at 40k MANDATORY",
+          "EGR at 150k",
+          "DPF city",
+          "AdBlue",
+          "FUEL PUMP RECALL 2019–2021"
+        ],
+        "pros": [
+          "Best spec: economy + quattro",
+          "Fleet favourite"
+        ],
+        "cons": [
+          "S tronic 40k = most critical item",
+          "Fuel pump recall must be verified"
+        ]
+      },
+      {
+        "name": "2.0 TFSI 190hp / 245hp",
+        "displacement": 1984,
+        "power": 245,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "S tronic service at 40k critical",
+          "Chain watch",
+          "Oil consumption"
+        ],
+        "pros": [
+          "Good performance",
+          "Smooth S tronic"
+        ],
+        "cons": [
+          "S tronic service non-negotiable"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed S tronic",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "SERVICE AT 40,000 KM MANDATORY — not 60k",
+          "Missed interval = clutch failure"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "Audi S tronic: service every 40,000 km (NOT 60k like VW DSG). Missed interval = clutch pack failure €1,500–3,000."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Sport",
+        "features": [
+          "18\" alloys",
+          "Virtual cockpit",
+          "MMI Navigation",
+          "Climatronic tri-zone",
+          "LED headlights",
+          "Quattro AWD standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "S line",
+        "features": [
+          "19\" S line alloys",
+          "S line bodykit",
+          "Sport seats",
+          "Sport suspension option"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Vorsprung",
+        "features": [
+          "20\" alloys",
+          "Matrix LED",
+          "B&O audio",
+          "Panoramic roof",
+          "Massage seats"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "CRITICAL: 2019–2021 fuel pump recall. S tronic 40k service mandatory.",
+    "summary": "Good premium reliability. Fuel pump recall and S tronic 40k service are critical.",
+    "buyingTip": "FIRST: verify fuel pump recall 2019–2021. S tronic 40k stamps. Avoid air suspension on used."
+  },
+  {
+    "id": 40,
+    "make": "BMW",
+    "model": "X5",
+    "gen": "G05 (3rd gen)",
+    "years": "2018–2025",
+    "yearFrom": 2018,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 650,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 30000,
+      "skPriceMax": 90000,
+      "euPriceMin": 29000,
+      "euPriceMax": 91000,
+      "mileageAtMidBudget": "10,000–100,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Good — 2022+ significantly better. Starter motor recall 2019–2020."
+    },
+    "safety": {
+      "ncapYear": 2018,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 72,
+      "safetyAssist": 93
+    },
+    "engines": [
+      {
+        "name": "xDrive30d 286hp B57",
+        "displacement": 2993,
+        "power": 286,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR and DPF watch",
+          "AdBlue",
+          "Starter motor recall 2019–2020"
+        ],
+        "pros": [
+          "Excellent economy for size",
+          "Smooth inline-6"
+        ],
+        "cons": [
+          "AdBlue watch",
+          "Starter motor recall check"
+        ]
+      },
+      {
+        "name": "xDrive40i 340hp B58",
+        "displacement": 2998,
+        "power": 340,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil at 8k strictly",
+          "Chain at 100k",
+          "Starter motor recall 2019–2020"
+        ],
+        "pros": [
+          "B58 one of BMW's best engines",
+          "Outstanding performance",
+          "Very reliable"
+        ],
+        "cons": [
+          "Oil at 8k non-negotiable"
+        ]
+      },
+      {
+        "name": "xDrive45e PHEV 394hp",
+        "displacement": 2998,
+        "power": 394,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery degradation check at 80k",
+          "PHEV complex dealer only"
+        ],
+        "pros": [
+          "EV mode 80km+",
+          "394hp combined",
+          "Low tax"
+        ],
+        "cons": [
+          "Must charge for benefit",
+          "PHEV complexity"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed ZF Steptronic M",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "M Sport",
+        "features": [
+          "20\" M alloys",
+          "M sport suspension",
+          "M steering",
+          "LED headlights"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "xLine",
+        "features": [
+          "20\" alloys",
+          "Air suspension",
+          "Panoramic roof",
+          "Vernasca leather"
+        ],
+        "targetBuyer": "SUV spec"
+      },
+      {
+        "trim": "Firstclass",
+        "features": [
+          "B&W audio",
+          "Executive lounge seats",
+          "Full panoramic roof",
+          "Full luxury spec"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "Best-driving large luxury SUV. 2022+ preferred.",
+    "summary": "Good — 2022+ significantly better. Starter motor recall 2019–2020.",
+    "buyingTip": "Buy 2022+ ONLY. Verify starter motor recall. Extended warranty essential on V8."
+  },
+  {
+    "id": 41,
+    "make": "Mercedes-Benz",
+    "model": "GLE",
+    "gen": "W167 (2nd gen)",
+    "years": "2019–2025",
+    "yearFrom": 2019,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 630,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 38000,
+      "skPriceMax": 100000,
+      "euPriceMin": 37000,
+      "euPriceMax": 101000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Average. 48V mild hybrid on all variants. MBUX excellent. Air suspension watch."
+    },
+    "safety": {
+      "ncapYear": 2019,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 71,
+      "safetyAssist": 92
+    },
+    "engines": [
+      {
+        "name": "GLE 300d 245hp 2.0d",
+        "displacement": 1993,
+        "power": 245,
+        "fuel": "diesel",
+        "reliability": "Average",
+        "faults": [
+          "DPF city",
+          "EGR at 150k",
+          "AdBlue",
+          "MBUX system complexity",
+          "48V BSG fault on some"
+        ],
+        "pros": [
+          "Good economy 7L/100km",
+          "Smooth delivery",
+          "Most practical spec"
+        ],
+        "cons": [
+          "MBUX touchscreen reliability concern",
+          "48V BSG adds complexity"
+        ]
+      },
+      {
+        "name": "GLE 400d 330hp 3.0d",
+        "displacement": 2925,
+        "power": 330,
+        "fuel": "diesel",
+        "reliability": "Average",
+        "faults": [
+          "Timing belt at 180k",
+          "EGR and DPF watch",
+          "AdBlue",
+          "Inline-6 complexity"
+        ],
+        "pros": [
+          "Excellent refinement",
+          "Strong performance",
+          "Best diesel spec"
+        ],
+        "cons": [
+          "Timing belt at 180k critical",
+          "Higher running costs"
+        ]
+      },
+      {
+        "name": "GLE 350de PHEV 320hp",
+        "displacement": 1950,
+        "power": 320,
+        "fuel": "hybrid",
+        "reliability": "Poor",
+        "faults": [
+          "PHEV + air suspension + MBUX = very complex",
+          "Battery degradation at 80k",
+          "Air suspension failure common",
+          "High-voltage system dealer only"
+        ],
+        "pros": [
+          "EV mode 99km",
+          "320hp performance",
+          "Low company tax"
+        ],
+        "cons": [
+          "Most complex GLE — avoid without extended warranty",
+          "Air suspension failure very expensive"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "9G-Tronic automatic",
+        "type": "auto",
+        "reliability": "Average",
+        "faults": [
+          "Service at 60k dealer only",
+          "W167 calibration important"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Mercedes 9G-Tronic in W167. Service every 60,000 km with Mercedes-specific fluid. Dealer service recommended for correct calibration."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "AMG Line",
+        "features": [
+          "20\" AMG alloys",
+          "MBUX 12.3\" display",
+          "Air suspension standard",
+          "LED headlights",
+          "7-seat option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "AMG Line Premium",
+        "features": [
+          "21\" AMG alloys",
+          "360° camera",
+          "Panoramic roof",
+          "Burmester audio",
+          "Keyless",
+          "Night camera option"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "AMG Line Premium Plus",
+        "features": [
+          "Full Nappa leather",
+          "22\" AMG alloys",
+          "Rear-axle steering",
+          "Massage seats",
+          "Head-up display",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Large luxury SUV. All variants have 48V MHEV. Air suspension on all — check all 4 corners.",
+    "summary": "Average reliability. Air suspension failure is the key concern. MBUX complexity.",
+    "buyingTip": "Air suspension: check all 4 corners level before buying. Prefer simple diesel spec. Extended warranty essential."
+  },
+  {
+    "id": 42,
+    "make": "Volvo",
+    "model": "XC90",
+    "gen": "2nd gen (L)",
+    "years": "2015–2025",
+    "yearFrom": 2015,
+    "yearTo": 2025,
+    "origin": "Swedish/Chinese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 721,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 24000,
+      "skPriceMax": 74000,
+      "euPriceMin": 23000,
+      "euPriceMax": 75000,
+      "mileageAtMidBudget": "20,000–140,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "World's safest 7-seat SUV — 97% NCAP. D5 PowerPulse diesel preferred."
+    },
+    "safety": {
+      "ncapYear": 2017,
+      "stars": 5,
+      "adultOccupant": 97,
+      "childOccupant": 92,
+      "pedestrian": 76,
+      "safetyAssist": 98
+    },
+    "engines": [
+      {
+        "name": "D5 PowerPulse 235hp (2017+)",
+        "displacement": 1969,
+        "power": 235,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "PowerPulse compressor complex",
+          "Timing belt at 180k CRITICAL",
+          "EGR at 150k",
+          "AdBlue"
+        ],
+        "pros": [
+          "PowerPulse eliminates turbo lag",
+          "Outstanding diesel refinement",
+          "Excellent long-distance"
+        ],
+        "cons": [
+          "Timing belt at 180k/8yr = most critical service item"
+        ]
+      },
+      {
+        "name": "T8 Recharge PHEV 455hp",
+        "displacement": 1969,
+        "power": 455,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery check at 80k",
+          "PHEV complex dealer only",
+          "Timing belt still applies"
+        ],
+        "pros": [
+          "EV mode 50km+",
+          "455hp combined",
+          "Low tax"
+        ],
+        "cons": [
+          "Must charge for benefit",
+          "PHEV adds complexity"
+        ]
+      },
+      {
+        "name": "B5 AWD 250hp",
+        "displacement": 1969,
+        "power": 250,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 180k",
+          "Oil consumption on some"
+        ],
+        "pros": [
+          "Good everyday performance"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed Geartronic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Aisin 8HP in Volvo. Service at 80,000 km with Volvo-specific fluid."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Momentum",
+        "features": [
+          "19\" alloys",
+          "Sensus 9\" touchscreen",
+          "7-seat standard",
+          "Full ADAS standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Inscription",
+        "features": [
+          "20\" alloys",
+          "Nappa leather",
+          "Bowers & Wilkins audio",
+          "Heated+ventilated seats",
+          "Panoramic roof"
+        ],
+        "targetBuyer": "Luxury spec"
+      },
+      {
+        "trim": "R-Design",
+        "features": [
+          "21\" sport alloys",
+          "Sport suspension",
+          "R-Design bodykit",
+          "Sport seats"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Excellence",
+        "features": [
+          "4-seat rear spec",
+          "Refrigerator",
+          "Massage rear seats",
+          "Full glass roof",
+          "Ultimate luxury"
+        ],
+        "targetBuyer": "Ultra-luxury"
+      }
+    ],
+    "note": "World's safest 7-seat SUV — 97% NCAP. D5 PowerPulse 2017+ preferred.",
+    "summary": "Good reliability. D5 PowerPulse 2017+ resolved earlier hesitation.",
+    "buyingTip": "2019+ for best infotainment. D5 PowerPulse 2017+ diesel to have. Timing belt at 180k/8yr."
+  },
+  {
+    "id": 43,
+    "make": "Jeep",
+    "model": "Wrangler",
+    "gen": "4th gen (JL)",
+    "years": "2018–2025",
+    "yearFrom": 2018,
+    "yearTo": 2025,
+    "origin": "American",
+    "body": "suv",
+    "doors": 5,
+    "seats": 4,
+    "boot": 498,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "outdoor",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 34000,
+      "skPriceMax": 74000,
+      "euPriceMin": 33000,
+      "euPriceMax": 75000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Original 4x4 icon. Not NCAP tested. 4xe PHEV most popular EU spec."
+    },
+    "safety": {
+      "ncapYear": 2018,
+      "stars": null,
+      "adultOccupant": 72,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "4xe PHEV 2.0T 380hp",
+        "displacement": 1995,
+        "power": 380,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Water ingress on charging port",
+          "PHEV complex",
+          "Must charge regularly"
+        ],
+        "pros": [
+          "EV mode 50km+",
+          "380hp outstanding",
+          "Most popular EU spec",
+          "Low tax"
+        ],
+        "cons": [
+          "Water ingress check",
+          "PHEV adds complexity"
+        ]
+      },
+      {
+        "name": "2.0T 272hp",
+        "displacement": 1995,
+        "power": 272,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Water ingress and electrical complexity"
+        ],
+        "pros": [
+          "Good economy for Wrangler",
+          "Popular spec"
+        ],
+        "cons": [
+          "JLR-level complexity"
+        ]
+      },
+      {
+        "name": "3.6 Pentastar V6 285hp",
+        "displacement": 3604,
+        "power": 285,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Higher fuel consumption",
+          "Oil at 8k"
+        ],
+        "pros": [
+          "More reliable long-term than 2.0T",
+          "V6 proven"
+        ],
+        "cons": [
+          "Very thirsty 12L/100km"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed auto",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Sport",
+        "features": [
+          "17\" steel wheels",
+          "Manual AC",
+          "7\" Uconnect",
+          "Off-road capability standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sahara",
+        "features": [
+          "18\" alloys",
+          "Dual-zone AC",
+          "8.4\" Uconnect",
+          "Heated seats",
+          "Keyless",
+          "Leather option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Rubicon",
+        "features": [
+          "Dana 44 axles",
+          "Locking diffs front+rear",
+          "Disconnecting sway bar",
+          "Rock Rails"
+        ],
+        "targetBuyer": "Off-road flagship"
+      }
+    ],
+    "note": "Original 4x4 icon. 4xe PHEV most popular EU spec. Not NCAP tested.",
+    "summary": "Average reliability. Water ingress and electrical complexity. Outstanding off-road.",
+    "buyingTip": "4xe popular EU spec. Check water ingress. Not suitable as family daily. No NCAP test."
+  },
+  {
+    "id": 44,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "gen": "J150 / Prado",
+    "years": "2010–2023",
+    "yearFrom": 2010,
+    "yearTo": 2023,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 500,
+    "fuel": [
+      "diesel",
+      "petrol"
+    ],
+    "usageTags": [
+      "outdoor",
+      "family",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 24000,
+      "skPriceMax": 75000,
+      "euPriceMin": 23000,
+      "euPriceMax": 76000,
+      "mileageAtMidBudget": "80,000–250,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Moderate",
+      "tuvNote": "Legendary durability. 2.8 D-4D the diesel to have. Known to 400k+ km."
+    },
+    "safety": {
+      "ncapYear": 2018,
+      "stars": null,
+      "adultOccupant": 88,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "2.8 D-4D 150hp (2016+)",
+        "displacement": 2755,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 150k — check",
+          "Injectors at very high mileage 300k+"
+        ],
+        "pros": [
+          "Outstanding long-term reliability",
+          "Known to 400k+ km with service",
+          "Torquey for off-road"
+        ],
+        "cons": [
+          "City-only DPF concern"
+        ]
+      },
+      {
+        "name": "4.0 V6 VVT-i 282hp",
+        "displacement": 3956,
+        "power": 282,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Oil consumption at high mileage"
+        ],
+        "pros": [
+          "Most reliable long-term LC engine",
+          "V6 smoothness",
+          "Outstanding durability to 500k+"
+        ],
+        "cons": [
+          "12L/100km fuel consumption"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" touchscreen",
+          "7-seat standard",
+          "Multi-terrain Select",
+          "Crawl Control"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Icon",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Toyota Safety Sense",
+          "Rear camera",
+          "Heated seats"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Invincible",
+        "features": [
+          "18\" alloys",
+          "Full leather",
+          "JBL audio",
+          "Panoramic roof",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "World's most trusted off-roader. 4.0 V6 most reliable engine long-term.",
+    "summary": "Excellent reliability. Very few faults. 4.0 V6 = best long-term.",
+    "buyingTip": "Inspect underneath for rust/damage. 4.0 V6 most reliable. Avoid KDSS suspension."
+  },
+  {
+    "id": 51,
+    "make": "Škoda",
+    "model": "Karoq",
+    "gen": "1st gen pre-facelift",
+    "years": "2017–2021",
+    "yearFrom": 2017,
+    "yearTo": 2021,
+    "origin": "Czech/German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 521,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 15000,
+      "skPriceMax": 28000,
+      "euPriceMin": 14000,
+      "euPriceMax": 29000,
+      "mileageAtMidBudget": "30,000–130,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 521L boot excellent. 1.6 TDI manual is benchmark."
+    },
+    "safety": {
+      "ncapYear": 2017,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 69,
+      "safetyAssist": 69
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "ACT vibration",
+          "Chain at 120k"
+        ],
+        "pros": [
+          "Best petrol spec",
+          "ACT economy"
+        ],
+        "cons": [
+          "ACT vibration"
+        ]
+      },
+      {
+        "name": "1.6 TDI 115hp",
+        "displacement": 1598,
+        "power": 115,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 150k"
+        ],
+        "pros": [
+          "Most reliable Karoq engine",
+          "4.5L/100km",
+          "Proven high mileage"
+        ],
+        "cons": [
+          "DPF city"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp 4x4",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140k",
+          "DPF city",
+          "AdBlue",
+          "Haldex at 60k"
+        ],
+        "pros": [
+          "Strong performance",
+          "4WD available"
+        ],
+        "cons": [
+          "Timing belt + Haldex both need service"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ381 (2.0 TDI)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "Steel/alloy 17\"",
+          "Manual AC",
+          "8\" Bolero",
+          "App-Connect"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" Columbus Nav",
+          "LED DRL",
+          "Smart cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "18\" alloys",
+          "Full LED",
+          "Canton audio",
+          "Heated seats",
+          "Virtual cockpit",
+          "Keyless"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Scout",
+        "features": [
+          "Raised suspension",
+          "Off-road styling",
+          "Roof rails",
+          "4WD option"
+        ],
+        "targetBuyer": "Outdoor spec"
+      }
+    ],
+    "note": "Compact SUV sweet spot. 521L boot. 1.6 TDI manual is benchmark.",
+    "summary": "Good reliability. Pre-facelift DSG had hesitation 2019–2020.",
+    "buyingTip": "1.6 TDI manual 2018–2021 is the benchmark. Facelift 2021+ for better DSG."
+  },
+  {
+    "id": 52,
+    "make": "Škoda",
+    "model": "Karoq",
+    "gen": "Facelift",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 521,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 40000,
+      "euPriceMin": 21000,
+      "euPriceMax": 41000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good facelift. 2.0 TDI 150hp DSG is fleet favourite."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 69,
+      "safetyAssist": 76
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "ACT vibration",
+          "Chain watch"
+        ],
+        "pros": [
+          "Best petrol spec",
+          "ACT economy"
+        ],
+        "cons": [
+          "ACT vibration"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140k",
+          "AdBlue",
+          "DPF city"
+        ],
+        "pros": [
+          "Fleet favourite spec",
+          "Best performance"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp 4x4",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt + Haldex at 60k",
+          "AdBlue"
+        ],
+        "pros": [
+          "Best winter spec: 4x4 + 521L + diesel"
+        ],
+        "cons": [
+          "Both service items needed"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ381",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "9.2\" Columbus",
+          "App-Connect"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "17\" alloys",
+          "Virtual cockpit",
+          "Rear sensors",
+          "Smart cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "18\" alloys",
+          "LED matrix",
+          "Canton audio",
+          "Heated seats",
+          "Wireless CarPlay",
+          "Keyless"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "18\" sport alloys",
+          "Sport seats",
+          "Black styling"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Scout",
+        "features": [
+          "Raised suspension",
+          "Off-road pack",
+          "Protective cladding",
+          "4WD standard"
+        ],
+        "targetBuyer": "Outdoor spec"
+      }
+    ],
+    "note": "Facelift improved. 2.0 TDI 150hp DSG is fleet favourite.",
+    "summary": "Good reliability. Facelift improved vs pre-facelift.",
+    "buyingTip": "2021+ facelift preferred. 2.0 TDI DSG or 4x4 manual. DSG stamps essential."
+  },
+  {
+    "id": 53,
+    "make": "Škoda",
+    "model": "Kodiaq",
+    "gen": "1st gen",
+    "years": "2016–2023",
+    "yearFrom": 2016,
+    "yearTo": 2023,
+    "origin": "Czech/German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 720,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "longDistance",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 18000,
+      "skPriceMax": 38000,
+      "euPriceMin": 17000,
+      "euPriceMax": 39000,
+      "mileageAtMidBudget": "30,000–160,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 7-seat family SUV. 720L boot. 2.0 TDI 4x4 definitive Slovak spec."
+    },
+    "safety": {
+      "ncapYear": 2016,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 71,
+      "safetyAssist": 76
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "ACT vibration",
+          "Chain watch"
+        ],
+        "pros": [
+          "Efficient petrol",
+          "Good everyday"
+        ],
+        "cons": [
+          "ACT marginal for 7-seat"
+        ]
+      },
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140k",
+          "AdBlue",
+          "DPF city"
+        ],
+        "pros": [
+          "Best spec for family use",
+          "Strong towing 2,000kg"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 190hp 4x4",
+        "displacement": 1968,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt critical",
+          "Haldex at 60k",
+          "AdBlue"
+        ],
+        "pros": [
+          "DEFINITIVE: 4x4 + 7 seats + diesel = best Slovak family SUV",
+          "Strong towing 2,500kg"
+        ],
+        "cons": [
+          "Timing belt + Haldex both need service"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DSG DQ381",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "Columbus Nav",
+          "7-seat standard",
+          "LED DRL"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Ambition",
+        "features": [
+          "18\" alloys",
+          "Virtual cockpit",
+          "Rear sensors",
+          "Smart cruise",
+          "Panoramic roof option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Style",
+        "features": [
+          "19\" alloys",
+          "Full LED matrix",
+          "Canton 9-speaker",
+          "Heated/ventilated seats",
+          "Wireless CarPlay"
+        ],
+        "targetBuyer": "Premium"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Full leather",
+          "Ventilated+heated seats",
+          "Canton 575W",
+          "Full luxury spec"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "7-seat family SUV. 720L boot. 2.0 TDI 4x4 excellent for Slovakia.",
+    "summary": "Good reliability. Same VAG platform as Tiguan. DSG service critical.",
+    "buyingTip": "2.0 TDI 190hp 4x4 DSG 2018+ is the benchmark. DSG stamps mandatory."
+  },
+  {
+    "id": 54,
+    "make": "Škoda",
+    "model": "Kodiaq",
+    "gen": "2nd gen",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 910,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 36000,
+      "skPriceMax": 62000,
+      "euPriceMin": 35000,
+      "euPriceMax": 63000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "910L boot — class leading. Big improvement over 1st gen."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 87,
+      "pedestrian": 76,
+      "safetyAssist": 89
+    },
+    "engines": [
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140k",
+          "AdBlue",
+          "DPF city"
+        ],
+        "pros": [
+          "Best family spec: 910L boot + diesel + 7 seats"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 193hp 4x4",
+        "displacement": 1968,
+        "power": 193,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt critical",
+          "Haldex at 60k",
+          "AdBlue"
+        ],
+        "pros": [
+          "Definitive spec: 4x4 + 910L + diesel",
+          "Outstanding"
+        ],
+        "cons": [
+          "Both service items needed"
+        ]
+      },
+      {
+        "name": "1.5 TSI eHybrid 204hp PHEV",
+        "displacement": 1498,
+        "power": 204,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "PHEV complexity",
+          "Must charge"
+        ],
+        "pros": [
+          "EV 100km+",
+          "Low tax",
+          "7 seats + PHEV"
+        ],
+        "cons": [
+          "Must charge regularly"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG DQ381",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Selection",
+        "features": [
+          "19\" alloys",
+          "Climatronic tri-zone",
+          "Columbus 13\" Nav",
+          "Digital cockpit Pro",
+          "LED matrix",
+          "7-seat standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "Sport suspension",
+          "20\" sport alloys",
+          "Sport seats",
+          "Black styling"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "Full Nappa leather",
+          "Ventilated+massage seats",
+          "Canton 575W",
+          "Panoramic roof"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "910L boot — class leading. PHEV option available. Big improvement over 1st gen.",
+    "summary": "Too new for full data. 1st gen platform improved.",
+    "buyingTip": "Best new large family SUV. 910L boot. PHEV for low tax. Check DSG from day 1."
+  },
+  {
+    "id": 55,
+    "make": "Škoda",
+    "model": "Enyaq",
+    "gen": "iV (1st gen)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Czech/German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 585,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "daily",
+      "family",
+      "eco",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 30000,
+      "skPriceMax": 58000,
+      "euPriceMin": 29000,
+      "euPriceMax": 59000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Best-supported EV in Slovakia — VW dealer network everywhere. MEB proven."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 73,
+      "safetyAssist": 85
+    },
+    "engines": [
+      {
+        "name": "iV 80 204hp 82kWh",
+        "displacement": 0,
+        "power": 204,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Heat pump cold: -20% range below -5°C",
+          "Software OTA updates"
+        ],
+        "pros": [
+          "Best spec: 540km WLTP — real 420km winter",
+          "170kW DC charging",
+          "VW dealer everywhere in Slovakia"
+        ],
+        "cons": [
+          "Real range drops in winter"
+        ]
+      },
+      {
+        "name": "iV 80x 4x4 265hp",
+        "displacement": 0,
+        "power": 265,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "AWD more complex",
+          "Higher consumption"
+        ],
+        "pros": [
+          "AWD excellent for Slovak winter",
+          "Best winter spec"
+        ],
+        "cons": [
+          "Range ~380km real winter"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed auto",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "iV",
+        "features": [
+          "19\" alloys",
+          "Heat pump standard",
+          "13\" infotainment",
+          "Wireless CarPlay",
+          "Full ADAS",
+          "LED matrix"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Sportline",
+        "features": [
+          "20\" sport alloys",
+          "Sport suspension",
+          "Sport seats"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Laurin & Klement",
+        "features": [
+          "21\" alloys",
+          "Full leather",
+          "Canton audio 13-speaker",
+          "Panoramic roof",
+          "Massage front seats"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "Best-supported EV in Slovakia. MEB proven. 585L boot.",
+    "summary": "Good reliability. MEB platform. Early suspension concerns resolved.",
+    "buyingTip": "Best EV for Slovakia: VW dealers everywhere. iV 80 is the right spec. Only with home charging."
+  },
+  {
+    "id": 56,
+    "make": "Toyota",
+    "model": "RAV4",
+    "gen": "4th gen (XA40)",
+    "years": "2013–2018",
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 547,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "outdoor",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 14000,
+      "skPriceMax": 28000,
+      "euPriceMin": 13000,
+      "euPriceMax": 29000,
+      "mileageAtMidBudget": "60,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "TUV 4.2% defect rate. Hybrid AWD exceptional in Slovak winters."
+    },
+    "safety": {
+      "ncapYear": 2013,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 65,
+      "safetyAssist": 62
+    },
+    "engines": [
+      {
+        "name": "2.5 Hybrid AWD 197hp",
+        "displacement": 2494,
+        "power": 197,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "NiMH battery at 200k+ — free health check at Toyota"
+        ],
+        "pros": [
+          "RECOMMENDED: AWD via rear electric motor for Slovak winters",
+          "Outstanding economy 6.0L/100km",
+          "Near-zero drivetrain faults"
+        ],
+        "cons": [
+          "NiMH less efficient than Li-ion"
+        ]
+      },
+      {
+        "name": "2.2 D-4D 150hp",
+        "displacement": 2231,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR at 150k",
+          "Timing belt at 150k CRITICAL",
+          "DPF city"
+        ],
+        "pros": [
+          "Outstanding economy 5.5L/100km",
+          "Strong pulling power",
+          "AWD available"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      },
+      {
+        "name": "e-CVT (hybrid)",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "Toyota Touch 2",
+          "ABS/ESP"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Icon",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Toyota Touch 2 Nav",
+          "Rear camera",
+          "Toyota Safety Sense basic"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Excel",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Heated seats",
+          "JBL audio",
+          "Blind spot"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "TUV 4.2% defect rate. Hybrid AWD exceptional in Slovak winters.",
+    "summary": "Excellent reliability. Very few known faults.",
+    "buyingTip": "Hybrid AWD: best spec for Slovakia winters. Request free Toyota HV battery health check."
+  },
+  {
+    "id": 57,
+    "make": "Toyota",
+    "model": "RAV4",
+    "gen": "5th gen (XA50)",
+    "years": "2019–2025",
+    "yearFrom": 2019,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 580,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "outdoor",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 24000,
+      "skPriceMax": 48000,
+      "euPriceMin": 23000,
+      "euPriceMax": 49000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "97% adult NCAP — class best. Hybrid AWD is definitive family SUV for Slovakia."
+    },
+    "safety": {
+      "ncapYear": 2019,
+      "stars": 5,
+      "adultOccupant": 97,
+      "childOccupant": 89,
+      "pedestrian": 84,
+      "safetyAssist": 92
+    },
+    "engines": [
+      {
+        "name": "2.5 Hybrid AWD 222hp",
+        "displacement": 2487,
+        "power": 222,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Li-ion battery: rarely faults",
+          "Inverter coolant at 160k"
+        ],
+        "pros": [
+          "BEST SPEC: 97% NCAP + AWD + Toyota reliability = benchmark Slovakia SUV",
+          "6.0L/100km",
+          "10yr/240k battery warranty"
+        ],
+        "cons": [
+          "No plug-in charging",
+          "Higher price"
+        ]
+      },
+      {
+        "name": "2.5 PHEV AWD 306hp",
+        "displacement": 2487,
+        "power": 306,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Must charge regularly",
+          "PHEV battery check"
+        ],
+        "pros": [
+          "95km EV range",
+          "306hp excellent",
+          "Low tax"
+        ],
+        "cons": [
+          "Must have home charging"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "e-CVT",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" touchscreen",
+          "Toyota Safety Sense 2.0"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Icon",
+        "features": [
+          "18\" alloys",
+          "9\" nav",
+          "Rear camera",
+          "Apple CarPlay",
+          "Adaptive cruise"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Excel",
+        "features": [
+          "Leather",
+          "Ventilated seats",
+          "Panoramic roof",
+          "HUD",
+          "360° camera",
+          "Power rear door"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "97% adult NCAP. Hybrid AWD definitive Slovakia family SUV. Battery 10yr/240k warranty.",
+    "summary": "Excellent reliability. 97% NCAP outstanding.",
+    "buyingTip": "Hybrid AWD is the only sensible spec for Slovakia. 97% NCAP + Toyota reliability = benchmark."
+  },
+  {
+    "id": 58,
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "gen": "3rd gen (BW2)",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 652,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 34000,
+      "skPriceMax": 62000,
+      "euPriceMin": 33000,
+      "euPriceMax": 63000,
+      "mileageAtMidBudget": "5,000–30,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "All-new 3rd gen. 7-seat option. 652L boot. Physical buttons return."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 73,
+      "safetyAssist": 88
+    },
+    "engines": [
+      {
+        "name": "2.0 TDI 150hp",
+        "displacement": 1968,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 140k",
+          "AdBlue",
+          "DPF city"
+        ],
+        "pros": [
+          "Best everyday spec",
+          "Fleet favourite"
+        ],
+        "cons": [
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "2.0 TDI 193hp 4Motion",
+        "displacement": 1968,
+        "power": 193,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt critical",
+          "AdBlue",
+          "DPF city",
+          "4Motion coupling at 60k"
+        ],
+        "pros": [
+          "Definitive Slovak spec: 4Motion + 652L + diesel",
+          "Strong towing 2,500kg"
+        ],
+        "cons": [
+          "Both service items needed"
+        ]
+      },
+      {
+        "name": "1.5 TSI eHybrid 204hp PHEV",
+        "displacement": 1498,
+        "power": 204,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "PHEV complexity",
+          "Must charge"
+        ],
+        "pros": [
+          "EV 100km+",
+          "Low tax",
+          "7 seats + PHEV"
+        ],
+        "cons": [
+          "Must charge regularly"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG DQ381 (diesel/PHEV)",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Life",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "9.2\" touchscreen",
+          "LED headlights",
+          "Front Assist"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Elegance",
+        "features": [
+          "18\" alloys",
+          "Climatronic tri-zone",
+          "12\" Discover Pro nav",
+          "IQ.LIGHT LED matrix",
+          "Heated seats"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "R-Line",
+        "features": [
+          "19\" sport alloys",
+          "R-Line bodykit",
+          "Sport suspension",
+          "Sport seats"
+        ],
+        "targetBuyer": "Sport look"
+      },
+      {
+        "trim": "Akara",
+        "features": [
+          "20\" alloys",
+          "Panoramic roof",
+          "Massage seats",
+          "Full DCC",
+          "Full premium"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "All-new 3rd gen. 7-seat option. 652L boot. Physical buttons — improvement over Golf Mk8.",
+    "summary": "Too new for full TUV data. Early reports positive.",
+    "buyingTip": "2.0 TDI 4Motion is Slovak family spec. Check DSG from first service."
+  },
+  {
+    "id": 59,
+    "make": "Volkswagen",
+    "model": "ID.4",
+    "gen": "1st gen",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 543,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "daily",
+      "family",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 30000,
+      "skPriceMax": 58000,
+      "euPriceMin": 29000,
+      "euPriceMax": 59000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Same MEB as Enyaq. VW dealer support in Slovakia. 543L boot."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 73,
+      "safetyAssist": 88
+    },
+    "engines": [
+      {
+        "name": "RWD 150kW 77kWh",
+        "displacement": 0,
+        "power": 204,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Heat pump cold: -20% range in winter",
+          "Early 2020–2021 suspension issues — resolved"
+        ],
+        "pros": [
+          "Good range 520km WLTP",
+          "VW dealer support in Slovakia",
+          "Heat pump standard"
+        ],
+        "cons": [
+          "Real range ~400km winter"
+        ]
+      },
+      {
+        "name": "AWD GTX 220kW 77kWh",
+        "displacement": 0,
+        "power": 299,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "AWD more complex",
+          "Higher consumption"
+        ],
+        "pros": [
+          "AWD excellent for Slovak winter",
+          "0-100 in 5.4s"
+        ],
+        "cons": [
+          "Range real ~380km winter"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed auto",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      },
+      {
+        "name": "Dual-motor AWD (GTX)",
+        "type": "ev-dual",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "AWD dual motor."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Pro",
+        "features": [
+          "19\" alloys",
+          "Heat pump",
+          "12\" infotainment",
+          "Wireless CarPlay",
+          "Full ADAS",
+          "LED matrix"
+        ],
+        "targetBuyer": "Standard"
+      },
+      {
+        "trim": "Max",
+        "features": [
+          "21\" alloys",
+          "Panoramic roof",
+          "Harman Kardon audio",
+          "Wireless charging"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "GTX",
+        "features": [
+          "20\" GTX alloys",
+          "AWD standard",
+          "GTX bodykit",
+          "Sport seats",
+          "Full premium"
+        ],
+        "targetBuyer": "Performance flagship"
+      }
+    ],
+    "note": "Same MEB as Enyaq. VW dealer support in Slovakia. 543L boot.",
+    "summary": "Good reliability. Early suspension resolved by 2022.",
+    "buyingTip": "Good Enyaq alternative. AWD GTX for winter. Only with home charging."
+  },
+  {
+    "id": 64,
+    "make": "Volvo",
+    "model": "XC60",
+    "gen": "2nd gen (SPA)",
+    "years": "2017–2025",
+    "yearFrom": 2017,
+    "yearTo": 2025,
+    "origin": "Swedish/Chinese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 505,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "business",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 56000,
+      "euPriceMin": 21000,
+      "euPriceMax": 57000,
+      "mileageAtMidBudget": "15,000–120,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "97% adult NCAP. Best safety in class. D5 PowerPulse diesel preferred."
+    },
+    "safety": {
+      "ncapYear": 2017,
+      "stars": 5,
+      "adultOccupant": 97,
+      "childOccupant": 92,
+      "pedestrian": 76,
+      "safetyAssist": 96
+    },
+    "engines": [
+      {
+        "name": "D5 235hp PowerPulse (2017+)",
+        "displacement": 1969,
+        "power": 235,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "PowerPulse compressor complexity",
+          "Timing belt at 180k CRITICAL",
+          "EGR",
+          "AdBlue"
+        ],
+        "pros": [
+          "Outstanding diesel refinement",
+          "PowerPulse eliminates turbo lag",
+          "Best diesel XC60"
+        ],
+        "cons": [
+          "Timing belt at 180k/8yr critical"
+        ]
+      },
+      {
+        "name": "T8 Recharge PHEV 390hp",
+        "displacement": 1969,
+        "power": 390,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery check at 80k",
+          "PHEV complex",
+          "Timing belt still applies"
+        ],
+        "pros": [
+          "EV mode 50km+",
+          "390hp outstanding",
+          "Low tax"
+        ],
+        "cons": [
+          "Must charge",
+          "PHEV complexity"
+        ]
+      },
+      {
+        "name": "D4 190hp 2.0d",
+        "displacement": 1969,
+        "power": 190,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR at 150k",
+          "DPF city",
+          "AdBlue",
+          "Timing belt at 180k CRITICAL"
+        ],
+        "pros": [
+          "Fleet favourite spec",
+          "Good economy 5.5L/100km"
+        ],
+        "cons": [
+          "Timing belt at 180k/8yr = most critical"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed Geartronic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Aisin 8HP in Volvo. Service at 80,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Momentum",
+        "features": [
+          "18\" alloys",
+          "Sensus 9\" touchscreen",
+          "LED headlights",
+          "Full ADAS standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Inscription",
+        "features": [
+          "19\" alloys",
+          "Nappa leather",
+          "B&W audio",
+          "Heated+ventilated seats",
+          "Panoramic roof"
+        ],
+        "targetBuyer": "Luxury spec"
+      },
+      {
+        "trim": "R-Design",
+        "features": [
+          "20\" sport alloys",
+          "Sport suspension",
+          "R-Design bodykit",
+          "Sport seats"
+        ],
+        "targetBuyer": "Sport spec"
+      }
+    ],
+    "note": "97% adult NCAP. Best safety in class. D5 PowerPulse 2017+ diesel to have.",
+    "summary": "Good reliability. 97% NCAP exceptional.",
+    "buyingTip": "2019+ for best infotainment. D5 PowerPulse 2017+ is diesel to have. T8 PHEV: verify battery history."
+  },
+  {
+    "id": 69,
+    "make": "Subaru",
+    "model": "Forester",
+    "gen": "4th gen (SJ)",
+    "years": "2013–2018",
+    "yearFrom": 2013,
+    "yearTo": 2018,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 505,
+    "fuel": [
+      "petrol"
+    ],
+    "usageTags": [
+      "outdoor",
+      "family",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 12000,
+      "skPriceMax": 22000,
+      "euPriceMin": 11000,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "80,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Good. Symmetrical AWD + 220mm clearance. Head gasket watch on EJ engines."
+    },
+    "safety": {
+      "ncapYear": 2013,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 82,
+      "pedestrian": 69,
+      "safetyAssist": 69
+    },
+    "engines": [
+      {
+        "name": "2.0i 150hp EJ20 NA",
+        "displacement": 1995,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Head gasket on some EJ20 — check coolant colour/level",
+          "Oil consumption at high mileage"
+        ],
+        "pros": [
+          "Symmetrical AWD standard",
+          "220mm clearance",
+          "Excellent for Slovak outdoor use"
+        ],
+        "cons": [
+          "Head gasket check essential",
+          "Higher fuel use 9L/100km"
+        ]
+      },
+      {
+        "name": "2.0 XT Turbo 240hp",
+        "displacement": 1995,
+        "power": 240,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Head gasket more common on XT",
+          "Turbo failure at high mileage",
+          "Higher oil consumption"
+        ],
+        "pros": [
+          "Excellent off-road performance",
+          "Strong AWD traction"
+        ],
+        "cons": [
+          "Head gasket critical",
+          "Turbo failure expensive"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "Lineartronic CVT",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Service at 40k",
+          "No towing beyond 1,000kg"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "2.0i",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" infotainment",
+          "Apple CarPlay",
+          "Eyesight option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "XS",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Heated seats",
+          "Roof rails",
+          "Eyesight standard"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "18\" alloys",
+          "Leather option",
+          "Panoramic roof",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Symmetrical AWD + 220mm clearance. Exceptional all-weather.",
+    "summary": "Good reliability. Head gasket on some EJ engines — check. CVT reliable if serviced.",
+    "buyingTip": "Check head gasket — coolant colour and level. CVT service at 40k."
+  },
+  {
+    "id": 70,
+    "make": "Subaru",
+    "model": "Forester",
+    "gen": "5th gen (SK)",
+    "years": "2018–2025",
+    "yearFrom": 2018,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 509,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "outdoor",
+      "family",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 18000,
+      "skPriceMax": 42000,
+      "euPriceMin": 17000,
+      "euPriceMax": 43000,
+      "mileageAtMidBudget": "10,000–80,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Good. 95% NCAP. EyeSight standard. Full-time AWD + 220mm clearance."
+    },
+    "safety": {
+      "ncapYear": 2018,
+      "stars": 5,
+      "adultOccupant": 95,
+      "childOccupant": 89,
+      "pedestrian": 76,
+      "safetyAssist": 84
+    },
+    "engines": [
+      {
+        "name": "2.5i 182hp FA25",
+        "displacement": 2498,
+        "power": 182,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil consumption on some FA25 — check between services",
+          "Chain watch at 150k"
+        ],
+        "pros": [
+          "No head gasket concern on FA25",
+          "Good everyday performance",
+          "Symmetrical AWD",
+          "220mm clearance"
+        ],
+        "cons": [
+          "Oil consumption watch",
+          "Thirsty 9L/100km"
+        ]
+      },
+      {
+        "name": "2.0 e-BOXER 145hp",
+        "displacement": 1995,
+        "power": 145,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "e-BOXER BSG fault",
+          "Oil consumption"
+        ],
+        "pros": [
+          "Better economy 8L/100km",
+          "Smoother stop-start"
+        ],
+        "cons": [
+          "Marginal benefit",
+          "BSG complexity"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Lineartronic CVT",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Service at 40k",
+          "No towing beyond 1,000kg"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "2.0i e-BOXER",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" touchscreen",
+          "EyeSight standard",
+          "AWD standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "XS",
+        "features": [
+          "17\" alloys",
+          "Heated seats",
+          "Roof rails",
+          "Blind spot",
+          "EyeSight"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "18\" alloys",
+          "Leather option",
+          "Panoramic roof",
+          "Full ADAS",
+          "HUD"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "95% NCAP. EyeSight standard. Full-time AWD + 220mm clearance retained.",
+    "summary": "Good reliability. FA24 improved over EJ. e-BOXER adds some complexity.",
+    "buyingTip": "95% NCAP + AWD + 220mm = perfect Slovak outdoor SUV. No head gasket concern this gen."
+  },
+  {
+    "id": 71,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "gen": "J11 (2nd gen)",
+    "years": "2013–2021",
+    "yearFrom": 2013,
+    "yearTo": 2021,
+    "origin": "Japanese/European",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 430,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 9000,
+      "skPriceMax": 22000,
+      "euPriceMin": 8500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Best-selling SUV in Europe. 1.5 dCi diesel manual most reliable."
+    },
+    "safety": {
+      "ncapYear": 2013,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 70,
+      "safetyAssist": 60
+    },
+    "engines": [
+      {
+        "name": "1.5 dCi 110hp",
+        "displacement": 1461,
+        "power": 110,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "DPF city",
+          "EGR at 120k"
+        ],
+        "pros": [
+          "BEST SPEC: outstanding reliability",
+          "4.5L/100km",
+          "Proven to 300k"
+        ],
+        "cons": [
+          "DPF needs motorway run"
+        ]
+      },
+      {
+        "name": "1.2 DIG-T 115hp",
+        "displacement": 1197,
+        "power": 115,
+        "fuel": "petrol",
+        "reliability": "Average",
+        "faults": [
+          "Timing chain on early units",
+          "3-cylinder vibration"
+        ],
+        "pros": [
+          "Good economy 6.0L/100km"
+        ],
+        "cons": [
+          "Chain watch on early units"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "Xtronic CVT",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Drone normal",
+          "Do not tow"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Visia",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "7\" touchscreen"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Acenta",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" touchscreen",
+          "Apple CarPlay",
+          "Around View camera"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "N-Connecta",
+        "features": [
+          "18\" alloys",
+          "Heated seats",
+          "360° camera",
+          "Blind spot",
+          "Full LED"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "Tekna",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Panoramic roof",
+          "Bose audio",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "Best-selling SUV in Europe. 1.5 dCi diesel manual most reliable.",
+    "summary": "Good reliability. 1.5 dCi diesel outstanding.",
+    "buyingTip": "1.5 dCi manual is definitive spec. CVT: do not tow."
+  },
+  {
+    "id": 81,
+    "make": "Ford",
+    "model": "Kuga",
+    "gen": "Mk2 (2nd gen)",
+    "years": "2013–2019",
+    "yearFrom": 2013,
+    "yearTo": 2019,
+    "origin": "American/European",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 456,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 10000,
+      "skPriceMax": 22000,
+      "euPriceMin": 9500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "50,000–180,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. Better reliability than Focus Mk3. 2.0 TDCi AWD popular Slovak spec."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 67,
+      "safetyAssist": 69
+    },
+    "engines": [
+      {
+        "name": "2.0 TDCi 120hp / 150hp",
+        "displacement": 1997,
+        "power": 150,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Timing belt at 150k",
+          "DPF city",
+          "EGR",
+          "Haldex at 60k"
+        ],
+        "pros": [
+          "Best diesel spec",
+          "Good towing",
+          "4WD available"
+        ],
+        "cons": [
+          "Timing belt + Haldex both need service"
+        ]
+      },
+      {
+        "name": "1.5 EcoBoost 150hp",
+        "displacement": 1499,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain at 150k",
+          "Cam phaser rattle cold start"
+        ],
+        "pros": [
+          "Good performance"
+        ],
+        "cons": [
+          "Chain at 150k"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Zetec",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" SYNC2",
+          "Apple CarPlay",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Titanium",
+        "features": [
+          "18\" alloys",
+          "Heated seats",
+          "Keyless",
+          "Adaptive cruise",
+          "360° camera"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "ST-Line",
+        "features": [
+          "19\" alloys",
+          "Sport suspension",
+          "ST-Line bodykit",
+          "Sport seats"
+        ],
+        "targetBuyer": "Sport look"
+      }
+    ],
+    "note": "Better reliability than Focus Mk3. 2.0 TDCi AWD popular Slovak spec.",
+    "summary": "Good reliability. Better than Focus Mk3.",
+    "buyingTip": "2.0 TDCi 150hp AWD is the family spec. Check Haldex service."
+  },
+  {
+    "id": 84,
+    "make": "Toyota",
+    "model": "C-HR",
+    "gen": "1st gen",
+    "years": "2016–2023",
+    "yearFrom": 2016,
+    "yearTo": 2023,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 377,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "city",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 15000,
+      "skPriceMax": 30000,
+      "euPriceMin": 14000,
+      "euPriceMax": 31000,
+      "mileageAtMidBudget": "20,000–100,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Outstanding reliability. 90% NCAP. Small boot (377L) is main trade-off."
+    },
+    "safety": {
+      "ncapYear": 2016,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 84,
+      "pedestrian": 73,
+      "safetyAssist": 72
+    },
+    "engines": [
+      {
+        "name": "1.8 Hybrid 122hp",
+        "displacement": 1798,
+        "power": 122,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Battery NiMH: free health check at Toyota"
+        ],
+        "pros": [
+          "4.5L/100km city",
+          "Near-zero drivetrain faults",
+          "Excellent city car"
+        ],
+        "cons": [
+          "Small boot 377L",
+          "Only e-CVT"
+        ]
+      },
+      {
+        "name": "2.0 Hybrid 184hp",
+        "displacement": 1987,
+        "power": 184,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Li-ion battery: very rarely faults"
+        ],
+        "pros": [
+          "Much better performance",
+          "5.0L/100km mixed"
+        ],
+        "cons": [
+          "Higher price"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "e-CVT (hybrid)",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" touchscreen",
+          "Toyota Safety Sense"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Icon",
+        "features": [
+          "18\" alloys",
+          "Full LED",
+          "Rear camera",
+          "Smart cruise",
+          "Blind spot",
+          "Heated seats"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Excel",
+        "features": [
+          "18\" alloys",
+          "JBL audio",
+          "HUD",
+          "360° camera",
+          "Wireless charging",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Outstanding reliability. 90% NCAP. Small boot (377L) is main trade-off.",
+    "summary": "Excellent reliability. Very few faults.",
+    "buyingTip": "Hybrid is the obvious choice. Request Toyota HV battery health check. Boot small — check if suits needs."
+  },
+  {
+    "id": 85,
+    "make": "Mazda",
+    "model": "CX-5",
+    "gen": "1st gen (KE)",
+    "years": "2012–2017",
+    "yearFrom": 2012,
+    "yearTo": 2017,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 503,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 10000,
+      "skPriceMax": 20000,
+      "euPriceMin": 9500,
+      "euPriceMax": 21000,
+      "mileageAtMidBudget": "80,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Outstanding reliability. First CX-5. Launched Mazda Skyactiv era."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 65,
+      "safetyAssist": 55
+    },
+    "engines": [
+      {
+        "name": "2.0 Skyactiv-G 165hp",
+        "displacement": 1998,
+        "power": 165,
+        "fuel": "petrol",
+        "reliability": "Excellent",
+        "faults": [
+          "Minimal — most reliable CX-5 engine"
+        ],
+        "pros": [
+          "Virtually no known faults",
+          "Outstanding durability"
+        ],
+        "cons": [
+          "Not the most economical"
+        ]
+      },
+      {
+        "name": "2.2 Skyactiv-D 150hp / 175hp",
+        "displacement": 2191,
+        "power": 175,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Oil consumption — check every fill",
+          "DPF city",
+          "EGR at 150k"
+        ],
+        "pros": [
+          "Excellent economy 5.5L/100km",
+          "Strong torque",
+          "AWD available"
+        ],
+        "cons": [
+          "Oil consumption check essential"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "6-speed automatic",
+        "type": "auto",
+        "reliability": "Excellent",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Mazda Skyactiv-Drive. Outstanding reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" MZD Connect",
+          "Bluetooth",
+          "Rear sensors"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE-L",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "Sat-nav",
+          "Blind spot",
+          "Rear camera",
+          "Leather option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Sport Nav",
+        "features": [
+          "19\" alloys",
+          "Full leather",
+          "Bose audio",
+          "Heated seats",
+          "Keyless"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Outstanding reliability. First CX-5. Launched Skyactiv era.",
+    "summary": "Excellent reliability. Very few faults. 2.2 diesel: oil consumption watch.",
+    "buyingTip": "2.0 Skyactiv-G manual is the reliable buy. 2.2 diesel: check oil every fill."
+  },
+  {
+    "id": 86,
+    "make": "Hyundai",
+    "model": "Tucson",
+    "gen": "4th gen (NX4)",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 620,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 44000,
+      "euPriceMin": 21000,
+      "euPriceMax": 45000,
+      "mileageAtMidBudget": "5,000–70,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Good. 620L boot class-leading. 5-year warranty advantage."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 90,
+      "childOccupant": 87,
+      "pedestrian": 75,
+      "safetyAssist": 83
+    },
+    "engines": [
+      {
+        "name": "2.0 CRDi 186hp 4WD",
+        "displacement": 1999,
+        "power": 186,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "DPF city",
+          "EGR",
+          "AdBlue",
+          "Timing belt at 150k",
+          "4WD coupling at 60k"
+        ],
+        "pros": [
+          "Best 4WD spec for Slovakia",
+          "Strong towing",
+          "620L boot + 4WD"
+        ],
+        "cons": [
+          "Timing belt + coupling both need service"
+        ]
+      },
+      {
+        "name": "1.6 T-GDi PHEV 265hp",
+        "displacement": 1591,
+        "power": 265,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Must charge regularly",
+          "PHEV complexity"
+        ],
+        "pros": [
+          "EV mode 62km+",
+          "Low company tax",
+          "AWD 265hp quick"
+        ],
+        "cons": [
+          "Must charge",
+          "PHEV complexity"
+        ]
+      },
+      {
+        "name": "1.6 T-GDi MHEV 48V 180hp",
+        "displacement": 1591,
+        "power": 180,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "48V BSG occasional fault"
+        ],
+        "pros": [
+          "Better economy 5.5L/100km",
+          "Smooth stop-start"
+        ],
+        "cons": [
+          "BSG adds complexity"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DCT",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "Hesitation normal"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Hyundai/Kia 7-speed dry DCT (D7GF1): low-speed shudder in traffic is normal. Service at 60,000 km. Not suitable for heavy towing."
+      },
+      {
+        "name": "8-speed auto (diesel)",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "10.25\" touchscreen",
+          "Apple CarPlay"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Premium",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "Curved dual display",
+          "Blind spot",
+          "LED headlights"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Premium SE",
+        "features": [
+          "19\" alloys",
+          "Leather",
+          "Heated+ventilated",
+          "Panoramic roof",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "N Line",
+        "features": [
+          "19\" sport alloys",
+          "N Line bodykit",
+          "Sport seats",
+          "Sport suspension"
+        ],
+        "targetBuyer": "Sport look"
+      }
+    ],
+    "note": "Good modern family SUV. 620L boot class-leading. 5-year warranty.",
+    "summary": "Good reliability. Some early 2021 concerns. 2022+ improved.",
+    "buyingTip": "2022+ preferred. 2.0 CRDi 4WD for winter. 5-year warranty check."
+  },
+  {
+    "id": 89,
+    "make": "Lexus",
+    "model": "NX",
+    "gen": "1st gen (AZ10)",
+    "years": "2014–2021",
+    "yearFrom": 2014,
+    "yearTo": 2021,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 475,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "business",
+      "luxury",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 20000,
+      "skPriceMax": 45000,
+      "euPriceMin": 19000,
+      "euPriceMax": 46000,
+      "mileageAtMidBudget": "30,000–130,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "High",
+      "tuvNote": "Outstanding reliability. TUV ranks Lexus #1. NX 300h hybrid most popular."
+    },
+    "safety": {
+      "ncapYear": 2014,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 72,
+      "safetyAssist": 75
+    },
+    "engines": [
+      {
+        "name": "NX 300h 2.5 Hybrid 197hp",
+        "displacement": 2494,
+        "power": 197,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Battery NiMH: rare failure — free check at Lexus"
+        ],
+        "pros": [
+          "TUV #1 ranked premium SUV reliability",
+          "4.8L/100km",
+          "Near-zero faults"
+        ],
+        "cons": [
+          "e-CVT drone normal",
+          "More expensive than Audi/BMW but more reliable"
+        ]
+      },
+      {
+        "name": "2.0T 238hp",
+        "displacement": 1998,
+        "power": 238,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Timing chain watch",
+          "Oil consumption on some"
+        ],
+        "pros": [
+          "Good performance",
+          "Only turbocharged NX"
+        ],
+        "cons": [
+          "Less reliable than hybrid"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed auto (2.0T)",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      },
+      {
+        "name": "e-CVT (300h)",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "E",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "10.3\" infotainment",
+          "Heated seats",
+          "Mark Levinson option"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "F Sport",
+        "features": [
+          "18\" F Sport alloys",
+          "Adaptive sport suspension",
+          "Sport seats",
+          "F Sport bodykit"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Luxury",
+        "features": [
+          "20\" alloys",
+          "Mark Levinson 15-speaker",
+          "Panoramic roof",
+          "HUD",
+          "Ventilated seats"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "Outstanding reliability. TUV ranks Lexus #1 consistently.",
+    "summary": "Excellent reliability. TUV top-ranked premium SUV.",
+    "buyingTip": "NX 300h: free battery health check at Lexus. TUV #1 premium SUV for reliability."
+  },
+  {
+    "id": 90,
+    "make": "Dacia",
+    "model": "Duster",
+    "gen": "3rd gen (HMD)",
+    "years": "2024–2025",
+    "yearFrom": 2024,
+    "yearTo": 2025,
+    "origin": "Romanian/French",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 462,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "budget",
+      "outdoor",
+      "daily"
+    ],
+    "pricing": {
+      "skPriceMin": 16000,
+      "skPriceMax": 26000,
+      "euPriceMin": 15000,
+      "euPriceMax": 27000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "VeryLow",
+      "tuvNote": "NEW 2024 Duster. Still 3-star NCAP. CMF-B platform. Hybrid added."
+    },
+    "safety": {
+      "ncapYear": 2024,
+      "stars": 3,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "1.2 TCe 130hp 4WD",
+        "displacement": 1199,
+        "power": 130,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "Chain watch on Renault TCe"
+        ],
+        "pros": [
+          "4WD + budget = outstanding value",
+          "190mm clearance"
+        ],
+        "cons": [
+          "Chain watch"
+        ]
+      },
+      {
+        "name": "1.6 Hybrid 140hp",
+        "displacement": 1598,
+        "power": 140,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new for hybrid in Duster"
+        ],
+        "pros": [
+          "Better economy than petrol",
+          "No plug needed"
+        ],
+        "cons": [
+          "E-Tech gearbox complexity"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 100k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "E-Tech hybrid auto",
+        "type": "hybrid-auto",
+        "reliability": "Good",
+        "faults": [
+          "Complex multi-mode",
+          "Too new"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Renault E-Tech multi-mode gearbox. Service at 60,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Essential",
+        "features": [
+          "16\" steel wheels",
+          "Manual AC",
+          "10.1\" touchscreen",
+          "Apple CarPlay"
+        ],
+        "targetBuyer": "Budget"
+      },
+      {
+        "trim": "Extreme",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "10.1\" nav",
+          "Keyless"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Extreme 4WD",
+        "features": [
+          "Same as Extreme + 4WD",
+          "Off-road mode",
+          "Best outdoor spec"
+        ],
+        "targetBuyer": "Outdoor 4WD spec"
+      }
+    ],
+    "note": "NEW 2024. Still 3-star NCAP. Hybrid option added. Better CMF-B platform.",
+    "summary": "Too new for full data. CMF-B from Clio/Captur proven.",
+    "buyingTip": "Still 3-star NCAP — not for families as primary. 4WD manual for farm/outdoor."
+  },
+  {
+    "id": 91,
+    "make": "Subaru",
+    "model": "Outback",
+    "gen": "6th gen (BT)",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "estate",
+    "doors": 5,
+    "seats": 5,
+    "boot": 522,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "outdoor",
+      "family",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 50000,
+      "euPriceMin": 27000,
+      "euPriceMax": 51000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Good. 93% NCAP. Only estate with 213mm clearance and permanent AWD."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 93,
+      "childOccupant": 87,
+      "pedestrian": 76,
+      "safetyAssist": 88
+    },
+    "engines": [
+      {
+        "name": "2.5i 169hp FA24",
+        "displacement": 2498,
+        "power": 169,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil consumption on some FA24",
+          "CVT service at 40k CRITICAL"
+        ],
+        "pros": [
+          "Permanent symmetrical AWD",
+          "213mm clearance",
+          "Unique estate+SUV"
+        ],
+        "cons": [
+          "Thirsty 9.5L/100km"
+        ]
+      },
+      {
+        "name": "2.5i e-BOXER 169hp",
+        "displacement": 2498,
+        "power": 169,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "e-BOXER BSG fault",
+          "Oil consumption",
+          "CVT service at 40k"
+        ],
+        "pros": [
+          "Better economy 8.5L/100km",
+          "Same AWD capability"
+        ],
+        "cons": [
+          "e-BOXER adds complexity"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Lineartronic CVT",
+        "type": "cvt",
+        "reliability": "Good",
+        "faults": [
+          "Service at 40k CRITICAL",
+          "No towing beyond 750kg"
+        ],
+        "serviceInterval": "40,000 km",
+        "specialistNote": "CVT: never tow beyond manufacturer limit. Service oil at 40–60,000 km. CVT replacement expensive (€2,000–4,000) if neglected."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "SE",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "11.6\" touchscreen",
+          "EyeSight standard",
+          "AWD standard",
+          "Roof rails"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE Premium",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Heated seats",
+          "Blind spot",
+          "Power rear door"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "SE Touring",
+        "features": [
+          "Full leather",
+          "Ventilated seats",
+          "Harman Kardon audio",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "93% NCAP. Only estate with 213mm clearance and permanent AWD.",
+    "summary": "Good reliability. FA24 proven. CVT: no towing beyond 750kg.",
+    "buyingTip": "Unique: only estate with genuine off-road. 213mm clearance + AWD = ideal Slovak outdoor car."
+  },
+  {
+    "id": 92,
+    "make": "Land Rover",
+    "model": "Defender",
+    "gen": "L663 (New)",
+    "years": "2020–2025",
+    "yearFrom": 2020,
+    "yearTo": 2025,
+    "origin": "British",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 587,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "outdoor",
+      "luxury",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 45000,
+      "skPriceMax": 110000,
+      "euPriceMin": 44000,
+      "euPriceMax": 111000,
+      "mileageAtMidBudget": "5,000–50,000 km"
+    },
+    "reliability": {
+      "overall": "Average",
+      "repairCost": "High",
+      "tuvNote": "Icon reborn. JLR reliability concerns documented — extended warranty essential."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 84,
+      "pedestrian": 72,
+      "safetyAssist": 87
+    },
+    "engines": [
+      {
+        "name": "D250 249hp inline-6 diesel",
+        "displacement": 2996,
+        "power": 249,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "EGR and DPF watch",
+          "AdBlue",
+          "JLR electrical complexity"
+        ],
+        "pros": [
+          "Best everyday diesel spec",
+          "Smooth inline-6",
+          "Most popular diesel Defender"
+        ],
+        "cons": [
+          "JLR electrical issues"
+        ]
+      },
+      {
+        "name": "P400 3.0T inline-6 400hp",
+        "displacement": 2996,
+        "power": 400,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Inline-6 better than P300 4-cyl",
+          "Oil consumption watch",
+          "Oil at 8k strictly"
+        ],
+        "pros": [
+          "Outstanding performance",
+          "Better reliability than P300"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      },
+      {
+        "name": "P400e PHEV 2.0T 404hp",
+        "displacement": 1997,
+        "power": 404,
+        "fuel": "hybrid",
+        "reliability": "Average",
+        "faults": [
+          "Water ingress on charging port",
+          "PHEV + JLR complexity = multiple failure modes",
+          "Battery dealer only"
+        ],
+        "pros": [
+          "EV mode 43km+",
+          "404hp quick",
+          "Popular EU tax spec"
+        ],
+        "cons": [
+          "Most complex Defender — extended warranty essential"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed ZF automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8HP is one of the most reliable automatic gearboxes ever made. Used across BMW, Audi, Rolls-Royce. Oil service every 80,000 km recommended though officially sealed-for-life."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "S",
+        "features": [
+          "18\" alloys",
+          "Pivi Pro 10\"",
+          "Standard leather",
+          "LED headlights",
+          "Terrain Response 2"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "19\" alloys",
+          "Heated leather",
+          "Surround camera",
+          "Blind spot",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Mid"
+      },
+      {
+        "trim": "HSE",
+        "features": [
+          "20\" alloys",
+          "Full Windsor leather",
+          "Meridian audio",
+          "Panoramic roof",
+          "HUD",
+          "Air suspension",
+          "Wade sensing"
+        ],
+        "targetBuyer": "Top spec"
+      },
+      {
+        "trim": "X",
+        "features": [
+          "21\" alloys",
+          "Full SVO leather",
+          "Meridian 3D audio",
+          "Full off-road capability"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "Icon reborn. Serious off-road and premium luxury. Extended warranty essential.",
+    "summary": "Average reliability. JLR electrical complexity documented. Outstanding off-road.",
+    "buyingTip": "BUY WITH EXTENDED WARRANTY. Check all electronics. Air suspension: all 4 corners level."
+  },
+  {
+    "id": 96,
+    "make": "Kia",
+    "model": "EV3",
+    "gen": "1st gen",
+    "years": "2024–2025",
+    "yearFrom": 2024,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 460,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "city",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 30000,
+      "skPriceMax": 42000,
+      "euPriceMin": 29000,
+      "euPriceMax": 43000,
+      "mileageAtMidBudget": "5,000–15,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "Very new — just launched 2024. EGMP-derived. 7-year Kia warranty."
+    },
+    "safety": {
+      "ncapYear": 2024,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "Long Range 150kW 81.4kWh",
+        "displacement": 0,
+        "power": 204,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Too new for fault history"
+        ],
+        "pros": [
+          "560km WLTP — real 440km",
+          "7-year warranty + 8-year battery",
+          "Kia quality improving"
+        ],
+        "cons": [
+          "Too new for reliability data"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed auto",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Wind",
+        "features": [
+          "18\" alloys",
+          "Panoramic roof",
+          "Heated seats",
+          "Smart cruise",
+          "Blind spot",
+          "Full LED"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Earth",
+        "features": [
+          "19\" alloys",
+          "Full ADAS",
+          "360° camera",
+          "Ventilated seats",
+          "Premium audio",
+          "HUD"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Very new — just launched 2024. 560km WLTP. 7-year warranty.",
+    "summary": "Too new for EU data. EGMP proven in EV6.",
+    "buyingTip": "Very new — buy with full warranty. LR spec for range. 7+8yr warranty = strong protection."
+  },
+  {
+    "id": 97,
+    "make": "Hyundai",
+    "model": "IONIQ 6",
+    "gen": "1st gen (CE)",
+    "years": "2022–2025",
+    "yearFrom": 2022,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "hatchback",
+    "doors": 5,
+    "seats": 5,
+    "boot": 401,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "daily",
+      "longDistance",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 38000,
+      "skPriceMax": 58000,
+      "euPriceMin": 37000,
+      "euPriceMax": 59000,
+      "mileageAtMidBudget": "5,000–40,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "800V ultra-fast charging. Most efficient EV in Europe. 614km WLTP RWD."
+    },
+    "safety": {
+      "ncapYear": 2022,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 85,
+      "pedestrian": 71,
+      "safetyAssist": 96
+    },
+    "engines": [
+      {
+        "name": "RWD 151kW 77.4kWh",
+        "displacement": 0,
+        "power": 229,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Heat pump cold consideration"
+        ],
+        "pros": [
+          "Most efficient EV in Europe — 14kWh/100km",
+          "614km WLTP",
+          "800V 220kW charging",
+          "Best range EV for Slovakia long-distance"
+        ],
+        "cons": [
+          "Real range ~490km winter"
+        ]
+      },
+      {
+        "name": "AWD 239kW 77.4kWh",
+        "displacement": 0,
+        "power": 325,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "AWD more complex",
+          "Higher consumption"
+        ],
+        "pros": [
+          "AWD excellent for Slovak winters",
+          "0-100 in 5.1s"
+        ],
+        "cons": [
+          "Range real ~410km winter"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed RWD",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      },
+      {
+        "name": "Dual-motor AWD",
+        "type": "ev-dual",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "AWD software-controlled."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Standard",
+        "features": [
+          "18\" alloys",
+          "Heat pump",
+          "12\" curved display",
+          "V2L standard",
+          "800V charging",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Lounge",
+        "features": [
+          "20\" alloys",
+          "Relaxation seats",
+          "Dual sunroof",
+          "Bose audio",
+          "Ambient lighting"
+        ],
+        "targetBuyer": "Luxury spec"
+      }
+    ],
+    "note": "800V ultra-fast charging. Most efficient EV in Europe. 614km WLTP.",
+    "summary": "Good reliability. EGMP proven.",
+    "buyingTip": "RWD for maximum range. AWD for winter. Most efficient EV — best for Slovak long-distance."
+  },
+  {
+    "id": 98,
+    "make": "Toyota",
+    "model": "C-HR",
+    "gen": "2nd gen (XB10)",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 388,
+    "fuel": [
+      "hybrid",
+      "phev"
+    ],
+    "usageTags": [
+      "city",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 44000,
+      "euPriceMin": 27000,
+      "euPriceMax": 45000,
+      "mileageAtMidBudget": "5,000–25,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "Hybrid and PHEV only. Outstanding Toyota reliability. 91% NCAP."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 87,
+      "pedestrian": 76,
+      "safetyAssist": 92
+    },
+    "engines": [
+      {
+        "name": "2.0 Hybrid 197hp",
+        "displacement": 1987,
+        "power": 197,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Too new",
+          "Li-ion battery — no issues expected"
+        ],
+        "pros": [
+          "Best everyday spec",
+          "5.0L/100km mixed"
+        ],
+        "cons": [
+          "Higher price"
+        ]
+      },
+      {
+        "name": "2.0 PHEV 220hp 67km",
+        "displacement": 1987,
+        "power": 220,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "Must charge regularly"
+        ],
+        "pros": [
+          "67km EV range — best in class for small PHEV",
+          "Low emission zone access"
+        ],
+        "cons": [
+          "Must have home charging"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "e-CVT",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Design",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "Toyota Safety Sense 3.0",
+          "Heated seats"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "GR Sport",
+        "features": [
+          "20\" GR alloys",
+          "Sport suspension",
+          "GR bodykit",
+          "GR seats"
+        ],
+        "targetBuyer": "Sport look"
+      },
+      {
+        "trim": "Premiere",
+        "features": [
+          "Full LED matrix",
+          "JBL audio",
+          "HUD",
+          "360° camera",
+          "Wireless CarPlay",
+          "Full premium"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Hybrid and PHEV only. Outstanding Toyota reliability. 91% NCAP.",
+    "summary": "Excellent reliability — Toyota benchmark.",
+    "buyingTip": "2.0 hybrid preferred. PHEV for low-tax access."
+  },
+  {
+    "id": 102,
+    "make": "Mitsubishi",
+    "model": "Outlander PHEV",
+    "gen": "3rd gen (GG)",
+    "years": "2019–2023",
+    "yearFrom": 2019,
+    "yearTo": 2023,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 463,
+    "fuel": [
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "outdoor",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 20000,
+      "skPriceMax": 38000,
+      "euPriceMin": 19000,
+      "euPriceMax": 39000,
+      "mileageAtMidBudget": "20,000–90,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Pioneer PHEV SUV. 7 seats. Twin electric motors AWD. 54km EV range."
+    },
+    "safety": {
+      "ncapYear": 2019,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 68,
+      "safetyAssist": 75
+    },
+    "engines": [
+      {
+        "name": "2.4 PHEV 224hp combined",
+        "displacement": 2359,
+        "power": 224,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Battery degradation at 100k+ — EV range test essential",
+          "Charging port contact wear",
+          "PHEV complex dealer only"
+        ],
+        "pros": [
+          "Pioneer PHEV proven since 2013",
+          "Twin-motor AWD",
+          "54km EV range",
+          "Capable off-road"
+        ],
+        "cons": [
+          "Must charge regularly",
+          "Complex high-voltage system"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Reduction gear auto",
+        "type": "ev-auto",
+        "reliability": "Good",
+        "faults": [
+          "No conventional gearbox service"
+        ],
+        "serviceInterval": null,
+        "specialistNote": "Twin-motor PHEV. No conventional gearbox. Service = battery/high-voltage at Mitsubishi dealer."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Inform",
+        "features": [
+          "18\" alloys",
+          "Manual AC",
+          "7\" touchscreen",
+          "Apple CarPlay",
+          "7-seat standard"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Juro",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "8\" touchscreen",
+          "Heated seats",
+          "Keyless",
+          "360° camera"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Exceed",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Heated+ventilated",
+          "Bose audio",
+          "Panoramic roof",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "Pioneer PHEV SUV. 7 seats. Twin-motor AWD. 54km EV range.",
+    "summary": "Good reliability. PHEV proven since 2013. Battery degradation watch on high-km.",
+    "buyingTip": "Check battery EV range at dealer. Twin-motor AWD excellent for Slovak winter."
+  },
+  {
+    "id": 103,
+    "make": "Toyota",
+    "model": "Yaris Cross",
+    "gen": "1st gen",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 397,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "city",
+      "family",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 34000,
+      "euPriceMin": 21000,
+      "euPriceMax": 35000,
+      "mileageAtMidBudget": "5,000–45,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Low",
+      "tuvNote": "91% NCAP. Hybrid AWD via rear electric motor — exceptional for Slovak winters."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 81,
+      "safetyAssist": 90
+    },
+    "engines": [
+      {
+        "name": "1.5 AWD-i Hybrid 116hp",
+        "displacement": 1490,
+        "power": 116,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Li-ion battery very rarely faults"
+        ],
+        "pros": [
+          "RECOMMENDED: AWD via rear electric motor — excellent Slovak winter traction",
+          "4.5L/100km city",
+          "91% NCAP + Toyota reliability + AWD"
+        ],
+        "cons": [
+          "No plug-in charging"
+        ]
+      },
+      {
+        "name": "1.5 Hybrid 116hp",
+        "displacement": 1490,
+        "power": 116,
+        "fuel": "hybrid",
+        "reliability": "Excellent",
+        "faults": [
+          "Li-ion battery rarely faults"
+        ],
+        "pros": [
+          "4.5L/100km city outstanding",
+          "TNGA-B proven"
+        ],
+        "cons": [
+          "No AWD"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "e-CVT",
+        "type": "ecvt",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Toyota e-CVT uses a planetary gearset — no belt, no pulleys, no wear items. Engine drone under acceleration is petrol charging the battery — completely normal. Near-zero transmission failures across all Toyota hybrids."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active",
+        "features": [
+          "16\" alloys",
+          "Manual AC",
+          "7\" touchscreen",
+          "Toyota Safety Sense"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Icon",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" nav",
+          "Apple CarPlay",
+          "Rear camera",
+          "Smart cruise",
+          "Blind spot"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Excel",
+        "features": [
+          "18\" alloys",
+          "Full ADAS",
+          "HUD",
+          "360° camera",
+          "Heated steering",
+          "Full LED matrix"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "91% NCAP. Hybrid AWD — exceptional for Slovak winters.",
+    "summary": "Excellent reliability. TNGA-B proven.",
+    "buyingTip": "AWD-i hybrid is the definitive Slovak spec. 91% NCAP + Toyota + AWD = near-perfect small SUV."
+  },
+  {
+    "id": 104,
+    "make": "SEAT/CUPRA",
+    "model": "Formentor",
+    "gen": "2nd gen (KH)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Spanish/German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 450,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "daily",
+      "performance",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 28000,
+      "skPriceMax": 52000,
+      "euPriceMin": 27000,
+      "euPriceMax": 53000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "Sportiest SUV on VAG platform. 310hp 4Drive exceptional."
+    },
+    "safety": {
+      "ncapYear": 2020,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 67,
+      "safetyAssist": 79
+    },
+    "engines": [
+      {
+        "name": "1.5 TSI 150hp",
+        "displacement": 1498,
+        "power": 150,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "ACT vibration",
+          "Chain watch"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "Sport look at 1.5 TSI price"
+        ],
+        "cons": [
+          "ACT vibration"
+        ]
+      },
+      {
+        "name": "2.0 TSI 245hp",
+        "displacement": 1984,
+        "power": 245,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DSG service critical",
+          "Oil at 8k"
+        ],
+        "pros": [
+          "Strong performance",
+          "Best non-4Drive spec"
+        ],
+        "cons": [
+          "DSG service critical"
+        ]
+      },
+      {
+        "name": "2.0 TSI 310hp 4Drive",
+        "displacement": 1984,
+        "power": 310,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "DSG service critical",
+          "Oil at 8k",
+          "4Drive coupling at 60k"
+        ],
+        "pros": [
+          "Outstanding performance",
+          "4Drive + 310hp = best Formentor",
+          "All-weather excellent"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      },
+      {
+        "name": "1.5 TSI eHybrid 204hp",
+        "displacement": 1498,
+        "power": 204,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "PHEV complexity",
+          "Must charge"
+        ],
+        "pros": [
+          "EV mode 60km+",
+          "Low tax"
+        ],
+        "cons": [
+          "Must charge regularly"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "7-speed DSG DQ381",
+        "type": "dct-wet",
+        "reliability": "Good",
+        "faults": [
+          "Service at 60k"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "DQ381 wet dual-clutch: much more robust than DQ200. Oil service every 60,000 km with specific VW fluid only. Generally excellent reliability."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "V2",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "10\" infotainment",
+          "LED headlights"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "V3",
+        "features": [
+          "19\" alloys",
+          "12\" digital cockpit",
+          "Blind spot",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "CUPRA",
+        "features": [
+          "20\" CUPRA alloys",
+          "Sport suspension",
+          "CUPRA seats",
+          "Full performance spec"
+        ],
+        "targetBuyer": "Performance flagship"
+      }
+    ],
+    "note": "Sportiest SUV on VAG platform. 310hp 4Drive exceptional.",
+    "summary": "Good reliability. VAG platform proven.",
+    "buyingTip": "Most driver-focused VAG SUV. eHybrid for tax. 4Drive for all-weather."
+  },
+  {
+    "id": 105,
+    "make": "Honda",
+    "model": "CR-V",
+    "gen": "4th gen (RM)",
+    "years": "2012–2018",
+    "yearFrom": 2012,
+    "yearTo": 2018,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 589,
+    "fuel": [
+      "petrol",
+      "diesel"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 10000,
+      "skPriceMax": 22000,
+      "euPriceMin": 9500,
+      "euPriceMax": 23000,
+      "mileageAtMidBudget": "80,000–200,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "589L boot — class best for age. 1.6 i-DTEC diesel outstanding economy."
+    },
+    "safety": {
+      "ncapYear": 2012,
+      "stars": 5,
+      "adultOccupant": 89,
+      "childOccupant": 82,
+      "pedestrian": 67,
+      "safetyAssist": 62
+    },
+    "engines": [
+      {
+        "name": "1.6 i-DTEC 120hp AWD",
+        "displacement": 1597,
+        "power": 120,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "CRITICAL: timing belt at 200,000 km or 10 years",
+          "AWD coupling service at 60k",
+          "DPF city",
+          "Injectors early 2012–2013"
+        ],
+        "pros": [
+          "Outstanding economy 5.5L/100km",
+          "Best spec: economy + 4WD + 589L boot",
+          "AWD excellent for Slovakia"
+        ],
+        "cons": [
+          "Timing belt at 200k/10yr CRITICAL",
+          "Injector check 2012–2013"
+        ]
+      },
+      {
+        "name": "2.0 i-VTEC 155hp",
+        "displacement": 1997,
+        "power": 155,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Throttle body carbon at 150k"
+        ],
+        "pros": [
+          "Reliable Honda engine",
+          "Good everyday"
+        ],
+        "cons": [
+          "Not economical — 9L/100km"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 120k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "9-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": null
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "S",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "Honda Connect 7\""
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "SE",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "8\" nav",
+          "Heated seats",
+          "Keyless",
+          "Honda Sensing option"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "EX",
+        "features": [
+          "18\" alloys",
+          "Leather",
+          "Ventilated seats",
+          "Panoramic roof",
+          "Honda Sensing standard"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "589L boot — class best for age. 1.6 i-DTEC outstanding economy.",
+    "summary": "Good reliability. 1.6 i-DTEC timing belt critical.",
+    "buyingTip": "1.6 i-DTEC manual: outstanding economy. CRITICAL: timing belt at 200k/10yr."
+  },
+  {
+    "id": 108,
+    "make": "Toyota",
+    "model": "Land Cruiser",
+    "gen": "300 Series (J300)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 700,
+    "fuel": [
+      "diesel"
+    ],
+    "usageTags": [
+      "outdoor",
+      "luxury",
+      "family",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 70000,
+      "skPriceMax": 115000,
+      "euPriceMin": 69000,
+      "euPriceMax": 116000,
+      "mileageAtMidBudget": "5,000–40,000 km"
+    },
+    "reliability": {
+      "overall": "Excellent",
+      "repairCost": "Moderate",
+      "tuvNote": "Ultimate off-road SUV. 3.3 V6 diesel twin-turbo 309hp. Long waiting list."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 84,
+      "pedestrian": 73,
+      "safetyAssist": 82
+    },
+    "engines": [
+      {
+        "name": "3.3 V6 D-4D 309hp twin-turbo",
+        "displacement": 3346,
+        "power": 309,
+        "fuel": "diesel",
+        "reliability": "Excellent",
+        "faults": [
+          "Too new for full history",
+          "V6 complex but Toyota quality expected",
+          "AdBlue refill"
+        ],
+        "pros": [
+          "309hp twin-turbo V6 — outstanding",
+          "Toyota legendary reliability expected",
+          "7 seats + genuine off-road"
+        ],
+        "cons": [
+          "Very expensive",
+          "Long waiting list",
+          "AdBlue watch"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "10-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "Service at 80k expected"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Toyota 10-speed auto. Too new for full history."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "GX",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "12.3\" multimedia",
+          "7-seat standard",
+          "Multi-terrain Select",
+          "Crawl Control"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "VX",
+        "features": [
+          "20\" alloys",
+          "Leather",
+          "Heated+ventilated",
+          "Panoramic roof",
+          "JBL 14-speaker",
+          "HUD",
+          "360° camera"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "ZX",
+        "features": [
+          "Full leather Nappa",
+          "Mark Levinson",
+          "Massage seats",
+          "Full air suspension"
+        ],
+        "targetBuyer": "Flagship luxury"
+      }
+    ],
+    "note": "Ultimate off-road SUV. 3.3 V6 diesel 309hp twin-turbo. Long waiting list.",
+    "summary": "Excellent reliability — Toyota legendary. Too new for full TUV data.",
+    "buyingTip": "Most reliable large 7-seat off-road SUV. Outstanding long-term value."
+  },
+  {
+    "id": 113,
+    "make": "Nissan",
+    "model": "Qashqai",
+    "gen": "J12 (3rd gen)",
+    "years": "2021–2025",
+    "yearFrom": 2021,
+    "yearTo": 2025,
+    "origin": "Japanese/European",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 504,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 24000,
+      "skPriceMax": 40000,
+      "euPriceMin": 23000,
+      "euPriceMax": 41000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "91% NCAP. e-Power hybrid: no plug needed, outstanding city efficiency."
+    },
+    "safety": {
+      "ncapYear": 2021,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 71,
+      "safetyAssist": 80
+    },
+    "engines": [
+      {
+        "name": "1.5 e-Power 190hp",
+        "displacement": 1497,
+        "power": 190,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "e-Power system complexity — dealer service",
+          "Too new for full history"
+        ],
+        "pros": [
+          "Unique: feels fully electric but no charging needed",
+          "Outstanding city economy 5.5L/100km",
+          "190hp smooth instant torque"
+        ],
+        "cons": [
+          "More complex than conventional",
+          "Higher price"
+        ]
+      },
+      {
+        "name": "1.3 DIG-T 140hp / 158hp",
+        "displacement": 1332,
+        "power": 158,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Chain on Renault/Nissan 1.3 unit"
+        ],
+        "pros": [
+          "Good everyday performance",
+          "Economical 6.0L/100km"
+        ],
+        "cons": [
+          "Chain watch"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "7-speed DCT",
+        "type": "dct-dry",
+        "reliability": "Good",
+        "faults": [
+          "Hesitation normal"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "Hyundai/Kia 7-speed dry DCT (D7GF1): low-speed shudder in traffic is normal. Service at 60,000 km. Not suitable for heavy towing."
+      },
+      {
+        "name": "Single-speed auto (e-Power)",
+        "type": "ev-single",
+        "reliability": "Good",
+        "faults": [
+          "e-Power system dealer service only"
+        ],
+        "serviceInterval": null,
+        "specialistNote": "e-Power: petrol charges battery, electric drives wheels. No plug needed."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Acenta",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "8\" ProPilot",
+          "Apple CarPlay"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "N-Connecta",
+        "features": [
+          "19\" alloys",
+          "Climatronic",
+          "9\" display",
+          "Heated seats",
+          "ProPilot Assist",
+          "Blind spot"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Tekna",
+        "features": [
+          "20\" alloys",
+          "Leather",
+          "Panoramic roof",
+          "BOSE audio",
+          "Full ADAS",
+          "HUD",
+          "Wireless charging"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "91% NCAP. e-Power hybrid: no plug needed, outstanding city efficiency.",
+    "summary": "Good reliability. e-Power excellent for city.",
+    "buyingTip": "e-Power for city: outstanding economy without plugging in. 91% NCAP excellent."
+  },
+  {
+    "id": 115,
+    "make": "Audi",
+    "model": "Q7",
+    "gen": "2nd gen (4M)",
+    "years": "2015–2024",
+    "yearFrom": 2015,
+    "yearTo": 2024,
+    "origin": "German",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 770,
+    "fuel": [
+      "petrol",
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 24000,
+      "skPriceMax": 78000,
+      "euPriceMin": 23000,
+      "euPriceMax": 79000,
+      "mileageAtMidBudget": "30,000–160,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "High",
+      "tuvNote": "Full-size 7-seat luxury SUV. CRITICAL: fuel pump recall 2020–2021."
+    },
+    "safety": {
+      "ncapYear": 2015,
+      "stars": 5,
+      "adultOccupant": 91,
+      "childOccupant": 84,
+      "pedestrian": 71,
+      "safetyAssist": 86
+    },
+    "engines": [
+      {
+        "name": "3.0 TDI V6 218hp / 272hp",
+        "displacement": 2967,
+        "power": 272,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "S tronic/Tiptronic service at 40–80k",
+          "EGR at 150k",
+          "AdBlue",
+          "Timing belt at 150k",
+          "FUEL PUMP RECALL 2020–2021"
+        ],
+        "pros": [
+          "Best spec: V6 diesel + 7 seats + economy",
+          "Fleet favourite",
+          "Strong towing 3,500kg"
+        ],
+        "cons": [
+          "Fuel pump recall MUST be verified",
+          "Timing belt critical"
+        ]
+      },
+      {
+        "name": "3.0 TFSI V6 333hp",
+        "displacement": 2995,
+        "power": 333,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Tiptronic service at 80k",
+          "V6 oil consumption",
+          "Fuel pump recall 2020–2021"
+        ],
+        "pros": [
+          "Smooth V6 performance",
+          "Excellent long-distance"
+        ],
+        "cons": [
+          "High running costs"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed Tiptronic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "ZF 8-speed Tiptronic in Q7. Service at 80,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Sport",
+        "features": [
+          "19\" alloys",
+          "Virtual cockpit",
+          "MMI Navigation Plus",
+          "7-seat standard",
+          "Air suspension standard",
+          "Matrix LED"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "S line",
+        "features": [
+          "20\" S line alloys",
+          "S line bodykit",
+          "Sport seats",
+          "S line interior"
+        ],
+        "targetBuyer": "Sport spec"
+      },
+      {
+        "trim": "Vorsprung",
+        "features": [
+          "21\" alloys",
+          "B&O Sound",
+          "Panoramic roof",
+          "Massage seats",
+          "Night vision",
+          "Full luxury"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "Full-size 7-seat luxury SUV. CRITICAL: 2020–2021 fuel pump recall.",
+    "summary": "Good premium reliability. Same fuel pump recall as Q5. Air suspension expensive.",
+    "buyingTip": "Check 2020–2021 fuel pump recall. Air suspension: all 4 corners level."
+  },
+  {
+    "id": 116,
+    "make": "Kia",
+    "model": "EV9",
+    "gen": "1st gen (MV)",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 333,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "family",
+      "longDistance",
+      "luxury"
+    ],
+    "pricing": {
+      "skPriceMin": 62000,
+      "skPriceMax": 90000,
+      "euPriceMin": 61000,
+      "euPriceMax": 91000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "7-seat flagship EV. 800V ultra-fast charging. 92% NCAP. 7-year warranty."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 92,
+      "childOccupant": 89,
+      "pedestrian": 77,
+      "safetyAssist": 93
+    },
+    "engines": [
+      {
+        "name": "AWD 283kW 99.8kWh",
+        "displacement": 0,
+        "power": 384,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "Software OTA updates"
+        ],
+        "pros": [
+          "AWD for Slovak winters",
+          "0-100 in 5.3s",
+          "7-year warranty",
+          "800V 240kW charging"
+        ],
+        "cons": [
+          "Very expensive",
+          "Range real ~400km winter"
+        ]
+      },
+      {
+        "name": "RWD 204kW 99.8kWh",
+        "displacement": 0,
+        "power": 282,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Too new"
+        ],
+        "pros": [
+          "Best range: 563km WLTP — real 450km",
+          "7-year warranty"
+        ],
+        "cons": [
+          "Very expensive"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Single-speed RWD",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      },
+      {
+        "name": "Dual-motor AWD",
+        "type": "ev-dual",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "AWD software-controlled."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Earth",
+        "features": [
+          "21\" alloys",
+          "12.3\" curved display",
+          "7-seat standard",
+          "V2L standard",
+          "800V charging",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "GT-Line S",
+        "features": [
+          "Full premium",
+          "Nappa leather",
+          "Relaxation rear seats",
+          "BOSE 14-speaker",
+          "Panoramic dual roof",
+          "Massage seats"
+        ],
+        "targetBuyer": "Luxury flagship"
+      }
+    ],
+    "note": "7-seat flagship EV. 800V charging. 92% NCAP. V2L power.",
+    "summary": "Good reliability. EGMP proven.",
+    "buyingTip": "7-year warranty is key. Check warranty and stamps. Best 7-seat electric for Slovakia."
+  },
+  {
+    "id": 120,
+    "make": "Peugeot",
+    "model": "2008",
+    "gen": "2nd gen (A7)",
+    "years": "2019–2025",
+    "yearFrom": 2019,
+    "yearTo": 2025,
+    "origin": "French",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 434,
+    "fuel": [
+      "petrol",
+      "electric"
+    ],
+    "usageTags": [
+      "city",
+      "daily",
+      "family"
+    ],
+    "pricing": {
+      "skPriceMin": 15000,
+      "skPriceMax": 34000,
+      "euPriceMin": 14000,
+      "euPriceMax": 35000,
+      "mileageAtMidBudget": "5,000–60,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "SAME as 208: buy 2020+ ONLY for petrol. e-2008 good entry EV."
+    },
+    "safety": {
+      "ncapYear": 2019,
+      "stars": 5,
+      "adultOccupant": 84,
+      "childOccupant": 76,
+      "pedestrian": 69,
+      "safetyAssist": 76
+    },
+    "engines": [
+      {
+        "name": "1.2 PureTech 100hp (2020+ only)",
+        "displacement": 1199,
+        "power": 100,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Oil spec critical — same as 208",
+          "Pre-2020: AVOID",
+          "Change oil at 10k with correct fluid"
+        ],
+        "pros": [
+          "Good economy 6.0L/100km",
+          "Adequate performance"
+        ],
+        "cons": [
+          "Oil spec non-negotiable",
+          "Pre-2020: avoid"
+        ]
+      },
+      {
+        "name": "e-2008 136hp 50kWh",
+        "displacement": 0,
+        "power": 136,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "Range anxiety in Slovak winter — real ~180km cold",
+          "Software updates",
+          "Charging port seal"
+        ],
+        "pros": [
+          "Good city range 320km WLTP",
+          "100kW DC charging",
+          "Low running costs"
+        ],
+        "cons": [
+          "Real range limited in cold"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Good",
+        "faults": [
+          "Clutch at 100k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "EAT8 8-speed auto",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Service at 80k"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Aisin 8-speed. Reliable. Service at 80k."
+      },
+      {
+        "name": "Single-speed auto (e-2008)",
+        "type": "ev-single",
+        "reliability": "Excellent",
+        "faults": [],
+        "serviceInterval": null,
+        "specialistNote": "Single-speed electric."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Active Pack",
+        "features": [
+          "16\" alloys",
+          "Manual AC",
+          "10\" i-Cockpit",
+          "Apple CarPlay",
+          "Emergency braking"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Allure Pack",
+        "features": [
+          "17\" alloys",
+          "Climatronic",
+          "3D i-Cockpit",
+          "Keyless",
+          "Blind spot",
+          "Heated seats"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "GT",
+        "features": [
+          "17\" alloys",
+          "Sport bodykit",
+          "GT seats",
+          "GT interior",
+          "Full ADAS"
+        ],
+        "targetBuyer": "Sport/top spec"
+      }
+    ],
+    "note": "SAME note as 208: PureTech pre-2020 timing chain critical. 2020+ resolved.",
+    "summary": "Good — but PureTech timing chain issue same as 208. Buy 2020+ only.",
+    "buyingTip": "2020+ ONLY for petrol. Check production date. e-2008 solid entry EV."
+  },
+  {
+    "id": 121,
+    "make": "Dacia",
+    "model": "Bigster",
+    "gen": "1st gen",
+    "years": "2025–2025",
+    "yearFrom": 2025,
+    "yearTo": 2025,
+    "origin": "Romanian/French",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 667,
+    "fuel": [
+      "petrol",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "budget",
+      "outdoor"
+    ],
+    "pricing": {
+      "skPriceMin": 22000,
+      "skPriceMax": 32000,
+      "euPriceMin": 21000,
+      "euPriceMax": 33000,
+      "mileageAtMidBudget": "5,000–10,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "VeryLow",
+      "tuvNote": "Brand new 2025. 667L boot at Duster price. Not yet NCAP tested."
+    },
+    "safety": {
+      "ncapYear": 2025,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "1.2 TCe 130hp",
+        "displacement": 1199,
+        "power": 130,
+        "fuel": "petrol",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "Chain watch on Renault TCe"
+        ],
+        "pros": [
+          "667L boot at budget price",
+          "CMF-B platform proven"
+        ],
+        "cons": [
+          "Chain watch",
+          "Not yet NCAP tested"
+        ]
+      },
+      {
+        "name": "1.6 Hybrid 155hp",
+        "displacement": 1598,
+        "power": 155,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "Too new for hybrid in Bigster"
+        ],
+        "pros": [
+          "Better economy than petrol",
+          "No plug needed",
+          "E-Tech efficiency"
+        ],
+        "cons": [
+          "E-Tech gearbox complexity"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "6-speed manual",
+        "type": "manual",
+        "reliability": "Excellent",
+        "faults": [
+          "Clutch at 100k"
+        ],
+        "serviceInterval": null,
+        "specialistNote": null
+      },
+      {
+        "name": "E-Tech hybrid auto",
+        "type": "hybrid-auto",
+        "reliability": "Good",
+        "faults": [
+          "Complex multi-mode",
+          "Too new"
+        ],
+        "serviceInterval": "60,000 km",
+        "specialistNote": "E-Tech multi-mode. Service at 60,000 km."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Expression",
+        "features": [
+          "17\" alloys",
+          "Manual AC",
+          "10.1\" Media",
+          "Apple CarPlay"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Extreme",
+        "features": [
+          "18\" alloys",
+          "Climatronic",
+          "10.1\" nav",
+          "Rear camera",
+          "Keyless"
+        ],
+        "targetBuyer": "Most popular"
+      },
+      {
+        "trim": "Extreme 4WD",
+        "features": [
+          "Same as Extreme + 4WD",
+          "Off-road mode",
+          "667L boot standard",
+          "Roof rails"
+        ],
+        "targetBuyer": "Outdoor 4WD spec"
+      }
+    ],
+    "note": "Brand new 2025. 667L boot at Duster price. CMF-B. Not yet NCAP tested.",
+    "summary": "Too new for any data. CMF-B platform proven.",
+    "buyingTip": "Too new — wait 12 months for NCAP. 667L boot at this price is exceptional value."
+  },
+  {
+    "id": 122,
+    "make": "Hyundai",
+    "model": "IONIQ 5 N",
+    "gen": "1st gen",
+    "years": "2023–2025",
+    "yearFrom": 2023,
+    "yearTo": 2025,
+    "origin": "Korean",
+    "body": "suv",
+    "doors": 5,
+    "seats": 5,
+    "boot": 490,
+    "fuel": [
+      "electric"
+    ],
+    "usageTags": [
+      "performance",
+      "daily",
+      "eco"
+    ],
+    "pricing": {
+      "skPriceMin": 62000,
+      "skPriceMax": 78000,
+      "euPriceMin": 61000,
+      "euPriceMax": 79000,
+      "mileageAtMidBudget": "5,000–20,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Low",
+      "tuvNote": "World's first true performance electric. N Grin Shift: 650hp for 10 seconds."
+    },
+    "safety": {
+      "ncapYear": 2023,
+      "stars": 5,
+      "adultOccupant": 88,
+      "childOccupant": 82,
+      "pedestrian": 69,
+      "safetyAssist": 96
+    },
+    "engines": [
+      {
+        "name": "AWD 478hp N Boost 84kWh",
+        "displacement": 0,
+        "power": 478,
+        "fuel": "electric",
+        "reliability": "Good",
+        "faults": [
+          "N Boost mode stresses battery — check charge cycles on used",
+          "Performance mode increases brake/tyre wear significantly",
+          "Software OTA updates"
+        ],
+        "pros": [
+          "Outstanding 0-100 in 3.4s",
+          "N Grin Shift 650hp for 10 seconds — extraordinary",
+          "Simulated gear changes and engine sound",
+          "Most fun electric car available"
+        ],
+        "cons": [
+          "Very expensive",
+          "Range drops significantly in N modes — real ~250km hard driving",
+          "Tyres wear fast"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "Dual-motor AWD",
+        "type": "ev-dual",
+        "reliability": "Excellent",
+        "faults": [
+          "N mode performance use increases wear"
+        ],
+        "serviceInterval": null,
+        "specialistNote": "AWD with N-specific torque vectoring. Simulated gear changes. No physical maintenance."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "IONIQ 5 N",
+        "features": [
+          "21\" N alloys",
+          "Sport bucket seats",
+          "Active cooling",
+          "e-ASD simulated sound",
+          "N Grin Shift",
+          "Battery pre-conditioning",
+          "Full ADAS",
+          "Bose 16-speaker"
+        ],
+        "targetBuyer": "Only trim — fully loaded"
+      }
+    ],
+    "note": "World's first true performance electric. N Grin Shift: 650hp for 10 seconds.",
+    "summary": "Good reliability. EGMP proven. N modes stress battery more.",
+    "buyingTip": "Battery health check essential on used. Best performance EV you can buy."
+  },
+  {
+    "id": 125,
+    "make": "Mazda",
+    "model": "CX-80",
+    "gen": "1st gen",
+    "years": "2024–2025",
+    "yearFrom": 2024,
+    "yearTo": 2025,
+    "origin": "Japanese",
+    "body": "suv",
+    "doors": 5,
+    "seats": 7,
+    "boot": 258,
+    "fuel": [
+      "diesel",
+      "hybrid"
+    ],
+    "usageTags": [
+      "family",
+      "luxury",
+      "longDistance"
+    ],
+    "pricing": {
+      "skPriceMin": 52000,
+      "skPriceMax": 75000,
+      "euPriceMin": 51000,
+      "euPriceMax": 76000,
+      "mileageAtMidBudget": "5,000–15,000 km"
+    },
+    "reliability": {
+      "overall": "Good",
+      "repairCost": "Moderate",
+      "tuvNote": "First 6-cyl Mazda since 2012. 3.3 inline-6 diesel outstanding. 7 seats."
+    },
+    "safety": {
+      "ncapYear": 2024,
+      "stars": null,
+      "adultOccupant": null,
+      "childOccupant": null,
+      "pedestrian": null,
+      "safetyAssist": null
+    },
+    "engines": [
+      {
+        "name": "3.3 e-Skyactiv D 254hp inline-6",
+        "displacement": 3283,
+        "power": 254,
+        "fuel": "diesel",
+        "reliability": "Good",
+        "faults": [
+          "Too new for full history",
+          "First Mazda inline-6 since 2012 — promising but limited data",
+          "Timing belt service expected at 150k"
+        ],
+        "pros": [
+          "Outstanding diesel refinement — inline-6 characteristic",
+          "254hp strong for 7-seat SUV",
+          "Mazda reliability expected"
+        ],
+        "cons": [
+          "Too new for confidence",
+          "Timing belt service expected"
+        ]
+      },
+      {
+        "name": "2.5 e-Skyactiv PHEV 327hp",
+        "displacement": 2488,
+        "power": 327,
+        "fuel": "hybrid",
+        "reliability": "Good",
+        "faults": [
+          "PHEV complexity on first Mazda PHEV in this size",
+          "Too new — no history",
+          "Must charge regularly"
+        ],
+        "pros": [
+          "Best performance spec",
+          "EV mode 60km+",
+          "327hp excellent"
+        ],
+        "cons": [
+          "PHEV complexity",
+          "Must charge"
+        ]
+      }
+    ],
+    "transmissions": [
+      {
+        "name": "8-speed automatic",
+        "type": "auto",
+        "reliability": "Good",
+        "faults": [
+          "Too new",
+          "Service at 80k expected"
+        ],
+        "serviceInterval": "80,000 km",
+        "specialistNote": "Mazda 8-speed auto. Too new for history."
+      }
+    ],
+    "equipment": [
+      {
+        "trim": "Homura",
+        "features": [
+          "20\" alloys",
+          "Climatronic tri-zone",
+          "12.3\" infotainment",
+          "7-seat standard",
+          "Full ADAS",
+          "LED matrix",
+          "Wireless CarPlay"
+        ],
+        "targetBuyer": "Entry"
+      },
+      {
+        "trim": "Takumi",
+        "features": [
+          "20\" alloys",
+          "Nappa leather",
+          "BOSE 12-speaker",
+          "Heated+ventilated seats",
+          "Panoramic roof",
+          "360° camera",
+          "HUD",
+          "Full luxury"
+        ],
+        "targetBuyer": "Top spec"
+      }
+    ],
+    "note": "First 6-cyl Mazda since 2012. 3.3 inline-6 diesel outstanding. 7 seats. Competes with XC90.",
+    "summary": "Too new for data. Inline-6 diesel unique selling point.",
+    "buyingTip": "Very new — wait for 12-month reliability data. Inline-6 diesel is unique. Better value than XC90 if reliability proves."
+  }
+]
