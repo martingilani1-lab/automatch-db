@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoMatch — EU Car Advisor</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚗</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.9/babel.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:#0e0e0f;color:#f0f0f0;min-height:100vh}
+.w{max-width:520px;margin:0 auto;padding:16px}
+.hdr{text-align:center;padding:20px 0 10px}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:2.4rem;letter-spacing:2px}.logo span{color:#e8ff47}
+.tg{font-size:.78rem;color:#6b6b72;margin-top:2px}
+.hero{text-align:center;padding:40px 0}
+.hero h2{font-family:'Bebas Neue',sans-serif;font-size:2rem;color:#e8ff47;margin-bottom:8px}
+.hero p{color:#6b6b72;font-size:.9rem;margin-bottom:24px;line-height:1.6}
+.btn-go{background:#e8ff47;color:#0e0e0f;border:none;border-radius:6px;padding:15px 40px;font-weight:700;font-size:1rem;cursor:pointer;transition:all .2s;font-family:'DM Sans',sans-serif}
+.btn-go:hover{background:#d4eb3a;transform:translateY(-1px);box-shadow:0 4px 20px rgba(232,255,71,.2)}
+.btn-go:disabled{opacity:.4;cursor:default;transform:none;box-shadow:none}
+.load-msg{color:#e8ff47;font-size:.85rem;margin-bottom:14px;animation:pulse 1.5s infinite}
+.err-msg{color:#ff6b35;font-size:.85rem;margin-bottom:14px}
+.db-ok{color:#6bdb8a;font-size:.8rem;margin-bottom:14px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+/* Question shell */
+.qshell{background:#181818;border:1px solid #2a2a2e;border-radius:14px;padding:22px;margin-top:14px;animation:slideUp .3s ease}
+@keyframes slideUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.q-anim{animation:slideUp .25s ease}
+.ptrack{height:3px;background:#2a2a2e;border-radius:2px;margin-bottom:18px;overflow:hidden}
+.pfill{height:100%;background:#e8ff47;border-radius:2px;transition:width .4s ease}
+.step-info{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.step-num{font-size:.72rem;color:#6b6b72}
+.step-cat{font-size:.68rem;color:#e8ff47;background:rgba(232,255,71,.08);padding:2px 8px;border-radius:10px;font-weight:600}
+.q-text{font-size:1.15rem;font-weight:600;margin-bottom:18px;line-height:1.4}
+.opt-btn{width:100%;text-align:left;background:#1c1c1e;border:1px solid #2a2a2e;border-radius:8px;padding:14px 16px;color:#f0f0f0;font-size:.92rem;cursor:pointer;margin-bottom:8px;transition:all .15s;font-family:'DM Sans',sans-serif}
+.opt-btn:hover{border-color:#e8ff47;background:#1f1f22}
+.opt-btn.sel{border-color:#e8ff47;background:rgba(232,255,71,.08)}
+.opt-desc{font-size:.75rem;color:#6b6b72;margin-top:3px}
+.nav-row{display:flex;gap:10px;margin-top:18px}
+.btn-back{flex:1;background:none;border:1px solid #2a2a2e;border-radius:6px;padding:12px;color:#6b6b72;cursor:pointer;font-family:'DM Sans',sans-serif;font-size:.88rem;transition:all .12s}
+.btn-back:hover{border-color:#e8ff47;color:#e8ff47}
+.btn-next{flex:2;background:#e8ff47;color:#0e0e0f;border:none;border-radius:6px;padding:12px;font-weight:700;cursor:pointer;font-size:.92rem;font-family:'DM Sans',sans-serif;transition:all .12s}
+.btn-next:disabled{opacity:.35;cursor:default}
+.btn-next:not(:disabled):hover{background:#d4eb3a}
+.slider-wrap{padding:16px 0}
+.slider-val{font-family:'Bebas Neue',sans-serif;font-size:3.2rem;color:#e8ff47;text-align:center}
+.slider-input{width:100%;margin:14px 0;accent-color:#e8ff47;height:6px}
+/* Identity cards */
+.id-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.id-card{background:#1c1c1e;border:1px solid #2a2a2e;border-radius:10px;padding:14px;cursor:pointer;transition:all .15s;text-align:center}
+.id-card:hover{border-color:#e8ff47;background:#1f1f22}
+.id-card.sel{border-color:#e8ff47;background:rgba(232,255,71,.08)}
+.id-emoji{font-size:1.8rem;margin-bottom:6px}
+.id-label{font-weight:600;font-size:.88rem;margin-bottom:3px}
+.id-desc{font-size:.72rem;color:#6b6b72;line-height:1.4}
+/* Loading phase */
+.load-phase{text-align:center;padding:60px 0}
+.load-phase .spin-big{width:48px;height:48px;border:3px solid #2a2a2e;border-top-color:#e8ff47;border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 20px}
+.load-steps{list-style:none;padding:0}
+.load-steps li{font-size:.85rem;color:#6b6b72;margin-bottom:8px;transition:all .3s}
+.load-steps li.done{color:#6bdb8a}
+.load-steps li.active{color:#e8ff47;font-weight:600}
+@keyframes spin{to{transform:rotate(360deg)}}
+/* Results */
+.results-hdr{text-align:center;margin:24px 0 14px}
+.results-hdr h3{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;color:#e8ff47}
+.id-reveal{text-align:center;background:rgba(232,255,71,.04);border:1px solid rgba(232,255,71,.12);border-radius:10px;padding:14px;margin-bottom:16px}
+.id-reveal-emoji{font-size:2rem}
+.id-reveal-label{font-size:.88rem;font-weight:600;color:#e8ff47;margin-top:4px}
+.card{background:#181818;border:1px solid #2a2a2e;border-radius:14px;padding:18px;margin-bottom:14px;animation:fadeIn .3s both}
+.card.best{border-color:#e8ff47;box-shadow:0 0 20px rgba(232,255,71,.06)}
+@keyframes fadeIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
+.card-badges{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.num-badge{background:rgba(232,255,71,.12);color:#e8ff47;font-size:.72rem;font-weight:700;padding:3px 9px;border-radius:4px}
+.rel-pill{font-size:.66rem;font-weight:600;padding:3px 8px;border-radius:4px}
+.origin-tag{font-size:.72rem;color:#6b6b72}
+.match-pct{font-size:1.1rem;font-weight:700;color:#e8ff47}
+.cmake{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;color:#e8ff47;line-height:1.1}
+.cmodel{font-size:1.15rem;font-weight:700;line-height:1.2}
+.cgen{font-size:.78rem;color:#6b6b72;margin-bottom:8px}
+.score-reason{font-size:.78rem;color:#aaa;margin-bottom:10px;line-height:1.4}
+.mbar{height:6px;background:#2a2a2e;border-radius:3px;overflow:hidden;margin-bottom:4px}
+.mfill{height:100%;background:linear-gradient(90deg,#e8ff47,#6bdb8a);border-radius:3px;transition:width .8s ease}
+.cgrid{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px;margin-bottom:12px}
+.cgrid-item{background:#1c1c1e;border-radius:6px;padding:8px;text-align:center}
+.cgrid-label{font-size:.6rem;color:#6b6b72;text-transform:uppercase;letter-spacing:.06em}
+.cgrid-val{font-size:.82rem;font-weight:600;margin-top:2px}
+.cprice{font-size:.88rem;color:#e8ff47;font-weight:600}
+.cmileage{font-size:.72rem;color:#6b6b72;margin-bottom:10px}
+.cfuels{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.cfuel-tag{font-size:.72rem;background:rgba(232,255,71,.06);color:#aaa;padding:3px 8px;border-radius:4px}
+.safety-row{display:flex;align-items:center;gap:6px;margin-bottom:12px}
+.safety-label{font-size:.66rem;color:#6b6b72;text-transform:uppercase;min-width:36px}
+.nstar{font-size:.95rem;color:#333}.nstar.on{color:#e8ff47}
+.ncap-pct{font-size:.72rem;color:#888;margin-left:4px}
+.links{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:12px}
+.link-btn{font-size:.7rem;padding:5px 11px;border-radius:5px;text-decoration:none;border:1px solid;font-weight:600;transition:all .12s}
+.link-as{background:rgba(255,107,53,.06);border-color:rgba(255,107,53,.25);color:#ff8c5a}
+.link-ab{background:rgba(100,200,100,.06);border-color:rgba(100,200,100,.25);color:#7bdb8a}
+.link-mo{background:rgba(100,150,255,.06);border-color:rgba(100,150,255,.25);color:#88aaff}
+.link-btn:hover{filter:brightness(1.3)}
+.card-actions{display:flex;gap:6px}
+.btn-pin{flex:1;background:#1c1c1e;border:1px solid #2a2a2e;border-radius:6px;padding:10px;color:#aaa;font-size:.8rem;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .12s}
+.btn-pin.on{border-color:#e8ff47;color:#e8ff47;background:rgba(232,255,71,.06)}
+.btn-more{flex:2;background:rgba(232,255,71,.07);border:1px solid rgba(232,255,71,.2);border-radius:6px;padding:10px;color:#e8ff47;font-size:.82rem;font-weight:600;cursor:pointer;text-align:center;font-family:'DM Sans',sans-serif;transition:all .12s}
+.btn-more:hover{background:rgba(232,255,71,.14)}
+/* Compare table */
+.compare-wrap{background:#181818;border:1px solid #e8ff47;border-radius:14px;padding:16px;margin-bottom:16px;overflow-x:auto}
+.compare-wrap h4{font-family:'Bebas Neue',sans-serif;color:#e8ff47;margin-bottom:10px;font-size:1.1rem}
+.compare-table{width:100%;border-collapse:collapse;font-size:.78rem}
+.compare-table th{text-align:left;padding:6px 8px;color:#6b6b72;border-bottom:1px solid #2a2a2e;font-size:.7rem;text-transform:uppercase}
+.compare-table td{padding:6px 8px;border-bottom:1px solid rgba(255,255,255,.04)}
+.compare-table td:first-child{color:#6b6b72;font-weight:600}
+.compare-clear{background:none;border:1px solid #2a2a2e;border-radius:6px;padding:6px 12px;color:#6b6b72;font-size:.75rem;cursor:pointer;margin-top:8px;font-family:'DM Sans',sans-serif}
+/* More info panel */
+.more-panel{margin-top:16px;padding-top:16px;border-top:1px solid #2a2a2e;animation:slideUp .2s ease}
+.mp-section{margin-bottom:18px}
+.mp-title{font-weight:700;font-size:.9rem;margin-bottom:8px}
+.mp-hint{font-size:.72rem;color:#6b6b72;margin-bottom:8px}
+.mp-filter{font-size:.72rem;color:#e8ff47;font-weight:400}
+.eng-card{background:#1c1c1e;border:1px solid #2a2a2e;border-radius:8px;padding:11px 13px;margin-bottom:6px;cursor:pointer;transition:all .12s}
+.eng-card:hover{border-color:#3a3a3e}.eng-card.open{border-color:rgba(232,255,71,.2)}
+.eng-hdr{display:flex;justify-content:space-between;align-items:center}
+.eng-left{display:flex;flex-direction:column;gap:4px}
+.eng-name{font-weight:600;font-size:.85rem}
+.eng-tags{display:flex;gap:5px;flex-wrap:wrap}
+.eng-badge{font-size:.64rem;font-weight:600;padding:2px 7px;border-radius:3px}
+.chevron{font-size:.7rem;color:#6b6b72;transition:transform .2s}
+.eng-body{padding-top:10px;border-top:1px solid rgba(255,255,255,.04);margin-top:8px;animation:slideUp .2s ease}
+.sub-label{font-size:.66rem;font-weight:700;text-transform:uppercase;color:#555;margin:8px 0 4px}
+.fault-item{font-size:.78rem;color:#ffb74d;margin-bottom:3px;line-height:1.5}
+.pro-item{font-size:.78rem;color:#a5d6a7;margin-bottom:3px;line-height:1.5}
+.con-item{font-size:.78rem;color:#ef9a9a;margin-bottom:3px;line-height:1.5}
+.tx-card{background:#1c1c1e;border:1px solid #2a2a2e;border-radius:8px;padding:11px 13px;margin-bottom:6px;cursor:pointer;transition:all .12s}
+.tx-card:hover{border-color:#3a3a3e}.tx-card.open{border-color:rgba(232,255,71,.2)}
+.fault-block{margin-bottom:12px}
+.fault-hdr{display:flex;justify-content:space-between;align-items:center;margin-bottom:4px}
+.fault-area{font-weight:600;font-size:.82rem}
+.fault-sev{font-size:.64rem;font-weight:600;padding:2px 7px;border-radius:3px}
+.fault-detail{font-size:.78rem;color:#9999aa;line-height:1.5}
+.pros-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.pc-label{font-size:.66rem;font-weight:700;text-transform:uppercase;margin-bottom:6px}
+.pc-label.g{color:#4caf50}.pc-label.r{color:#f44336}
+.pc-item{font-size:.78rem;margin-bottom:4px;line-height:1.5}
+.pc-item.g{color:#a5d6a7}.pc-item.r{color:#ef9a9a}
+.ncap-detail{padding:6px 0}
+.ncap-stars-row{display:flex;align-items:center;gap:4px;margin-bottom:10px}
+.ns-lg{font-size:1.4rem;color:#333}.ns-lg.on{color:#e8ff47}
+.ns-label{font-size:.82rem;color:#aaa;margin-left:6px}
+.ncap-bar{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.ncap-bl{font-size:.75rem;color:#6b6b72;min-width:100px}
+.ncap-track{flex:1;height:7px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden}
+.ncap-fill{height:100%;border-radius:4px;transition:width .5s}
+.ncap-pv{font-size:.75rem;color:#aaa;min-width:32px;text-align:right}
+.ncap-verdict{font-size:.8rem;font-weight:600;margin-top:6px}
+.ncap-na{font-size:.8rem;color:#ff9800;padding:8px 0}
+.eq-item{background:#1c1c1e;border:1px solid #2a2a2e;border-radius:8px;padding:10px;margin-bottom:6px}
+.eq-trim{font-weight:700;font-size:.85rem;margin-bottom:2px}
+.eq-target{font-size:.7rem;color:#e8ff47;margin-bottom:4px}
+.eq-feats{font-size:.75rem;color:#9999aa;line-height:1.5}
+.buy-tip{background:rgba(232,255,71,.04);border:1px solid rgba(232,255,71,.12);border-radius:8px;padding:12px;margin-top:12px}
+.bt-label{font-size:.72rem;font-weight:700;color:#e8ff47;margin-bottom:4px}
+.bt-text{font-size:.82rem;color:#ccc;line-height:1.55}
+.loading-spin{display:flex;align-items:center;gap:10px;padding:16px 0;color:#6b6b72;font-size:.85rem}
+.spin{width:18px;height:18px;border:2px solid #2a2a2e;border-top-color:#e8ff47;border-radius:50%;animation:spin .6s linear infinite}
+.restart{width:100%;margin-top:20px;background:none;border:1px solid #2a2a2e;border-radius:8px;padding:13px;color:#6b6b72;font-size:.88rem;cursor:pointer;font-family:'DM Sans',sans-serif;transition:all .15s}
+.restart:hover{border-color:#e8ff47;color:#e8ff47}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const {useState,useEffect,useRef}=React;
+
+const DB_BASE="https://raw.githubusercontent.com/martingilani1-lab/automatch-db/main/";
+const DB_FILES=["hatchbacks.json","sedans-estates.json","suvs-crossovers.json","pickups-vans.json","performance.json"];
+let DB=[];
+
+const RC={Excellent:"#6bdb8a",Good:"#e8ff47",Average:"#ff9944",Poor:"#ff6b35"};
+const OF={Japanese:"🇯🇵",Korean:"🇰🇷","Czech/German":"🇨🇿",German:"🇩🇪",French:"🇫🇷",Swedish:"🇸🇪","Swedish/Chinese":"🇸🇪",American:"🇺🇸","American/European":"🇺🇸","Romanian/French":"🇷🇴",British:"🇬🇧",Chinese:"🇨🇳","Chinese (SAIC)":"🇨🇳","Spanish/German":"🇪🇸"};
+const FK={Petrol:"petrol",Diesel:"diesel",Electric:"electric",Hybrid:"hybrid"};
+const fmt=v=>v>=1000?Math.round(v/1000)+"k":v;
+const fl=f=>({petrol:"⛽ Petrol",diesel:"🛢️ Diesel",electric:"⚡ Electric",hybrid:"⚡ Hybrid",phev:"⚡ PHEV",lpg:"💧 LPG"}[f]||f);
+const bl=b=>({hatchback:"Hatchback",estate:"Estate",suv:"SUV",mpv:"MPV",pickup:"Pickup",convertible:"Convertible",coupe:"Coupe"}[b]||b);
+
+function norm(c){
+  if(c._n)return c;
+  if(c.budgetMin!=null&&typeof c.reliability==="string"){c._n=true;return c;}
+  const p=c.pricing||{},r=c.reliability||{},s=c.safety||{};
+  Object.assign(c,{_n:true,budgetMin:p.skPriceMin??p.euPriceMin??0,budgetMax:p.skPriceMax??p.euPriceMax??99999,mileageRange:p.mileageAtMidBudget||"",reliability:r.overall??"Average",repair:r.repairCost??"Moderate",ncapStars:s.stars??null,ncapAdult:s.adultOccupant??null,ncapChild:s.childOccupant??null,ncapPed:s.pedestrian??null,ncapAssist:s.safetyAssist??null,ncapYear:s.ncapYear??null,luxury:c.usageTags?.includes("luxury")?3:c.usageTags?.includes("business")?2:1,longTrip:c.usageTags?.includes("longDistance")??false,faults:{summary:r.tuvNote??c.note,buyingTip:c.buyingTip},yearTo:c.yearTo??2025,tx:Array.isArray(c.transmissions)?c.transmissions.map(t=>typeof t==="string"?t:t.name||""):[]});
+  return c;
+}
+
+// ── Identity options ──
+const IDENTITIES=[
+  {v:"family",emoji:"🏠",l:"Family & Practicality",desc:"Safe, spacious, reliable for daily family life"},
+  {v:"business",emoji:"💼",l:"Business & Comfort",desc:"Professional, refined, comfortable for commutes"},
+  {v:"adventure",emoji:"🏔️",l:"Adventure & Capability",desc:"Off-road ready, tough, capable in any condition"},
+  {v:"performance",emoji:"⚡",l:"Performance & Fun",desc:"Fast, engaging, exciting to drive every day"},
+  {v:"eco",emoji:"🌱",l:"Economy & Efficiency",desc:"Lowest running costs, great fuel economy"},
+  {v:"style",emoji:"✨",l:"Style & Luxury",desc:"Premium feel, head-turning design, top equipment"}
+];
+
+// ── Questions with emojis and categories ──
+const QUESTIONS=[
+  {id:"body_style",cat:"LIFESTYLE",emoji:"🚗",q:"What kind of vehicle are you looking for?",choices:[{l:"🚙 Hatchback",v:"hatchback"},{l:"🚐 Estate / Wagon",v:"estate"},{l:"🏔️ SUV / Crossover",v:"suv"},{l:"🏎️ Saloon / Liftback",v:"hatchback"},{l:"🛻 Pick-up / Van",v:"pickup"},{l:"💨 Sports / Coupe",v:"sports"},{l:"🤷 I'm open to anything",v:"any"}]},
+  {id:"passengers",cat:"LIFESTYLE",emoji:"👥",q:"How many people will usually ride with you?",choices:[{l:"🧍 Just me",v:"1"},{l:"👫 1–2 passengers",v:"2"},{l:"👨‍👩‍👧‍👦 Family of 4–5",v:"4"},{l:"🚌 5+ / need 7 seats",v:"7"}]},
+  {id:"kids_pets",cat:"LIFESTYLE",emoji:"👶",q:"Do you have kids or pets?",choices:[{l:"👶 Kids",v:"Kids"},{l:"🐕 Pets",v:"Pets"},{l:"👶🐕 Both",v:"Both"},{l:"❌ Neither",v:"Neither"}]},
+  {id:"usage",cat:"DAILY NEEDS",emoji:"🛣️",q:"How will you mostly use this car?",choices:[{l:"🏙️ City driving — short trips, parking",v:"city"},{l:"🛣️ Daily commute — 20-60km each way",v:"commute"},{l:"🗺️ Mix of city and motorway",v:"mixed"},{l:"🏗️ Work vehicle — tools, cargo, sites",v:"work"},{l:"🏔️ Off-road / rural / farm",v:"offroad"}]},
+  {id:"distance",cat:"DAILY NEEDS",emoji:"📏",q:"How many kilometres per year?",choices:[{l:"🐌 Under 10,000 km",v:8000},{l:"🚶 10,000–20,000 km",v:15000},{l:"🚗 20,000–30,000 km",v:25000},{l:"🏎️ Over 30,000 km",v:35000}]},
+  {id:"parking",cat:"DAILY NEEDS",emoji:"🅿️",q:"What's your parking situation?",choices:[{l:"😰 Tight city spaces",v:"tight"},{l:"🅿️ Normal street or lot",v:"normal"},{l:"🏠 Own garage or driveway",v:"garage"}]},
+  {id:"longtrip",cat:"DAILY NEEDS",emoji:"✈️",q:"Do you take long road trips?",choices:[{l:"🗺️ Yes, regularly (holidays, family visits)",v:"yes"},{l:"🛣️ Occasionally — a few times a year",v:"sometimes"},{l:"🏙️ Rarely — mostly city driving",v:"no"}]},
+  {id:"fuel",cat:"EQUIPMENT",emoji:"⛽",q:"Fuel preference?",choices:[{l:"⛽ Petrol — simple and affordable",v:"Petrol"},{l:"🛢️ Diesel — I drive a lot, need economy",v:"Diesel"},{l:"⚡ Electric — zero fuel costs",v:"Electric"},{l:"🔋 Hybrid — best of both worlds",v:"Hybrid"},{l:"🤷 Not sure — show me what works",v:"Still open"}]},
+  {id:"transmission",cat:"EQUIPMENT",emoji:"⚙️",q:"Transmission preference?",choices:[{l:"🕹️ Manual — I like control",v:"Manual"},{l:"🅰️ Automatic — easy and smooth",v:"Automatic"},{l:"🤷 Either is fine",v:"Either is fine"}]},
+  {id:"luggage",cat:"EQUIPMENT",emoji:"🧳",q:"How much boot space do you need?",choices:[{l:"🎒 Minimal — just a bag",v:"small"},{l:"🛒 Medium — weekly shopping, suitcase",v:"medium"},{l:"⛷️ Large — sports gear, strollers",v:"large"},{l:"📦 Maximum — work cargo, furniture",v:"max"}]},
+  {id:"luxury",cat:"EQUIPMENT",emoji:"🎛️",q:"What level of equipment do you expect?",choices:[{l:"🔧 Basic — just needs to work reliably",v:"basic"},{l:"👍 Some nice features — heated seats, sensors",v:"mid"},{l:"💎 Full package — leather, cameras, all the tech",v:"full"}]},
+  {id:"priority",cat:"PURCHASE",emoji:"⭐",q:"What's the MOST important thing for you?",choices:[{l:"🛡️ Reliability — must be bulletproof",v:"reliability"},{l:"🏎️ Performance — power and handling",v:"performance"},{l:"💰 Economy — cheapest to run",v:"economy"},{l:"🛋️ Comfort — smooth and quiet ride",v:"comfort"},{l:"🦺 Safety — best crash protection",v:"safety"},{l:"✨ Style — looks and premium feel",v:"style"}]},
+  {id:"reliability",cat:"PURCHASE",emoji:"🔧",q:"How important is reliability?",choices:[{l:"🏆 Critical — must be rock solid, no surprises",v:"critical"},{l:"👍 Important — but I can accept minor trade-offs",v:"important"},{l:"🤷 Flexible — willing to risk for the right car",v:"flexible"}]},
+  {id:"budget",cat:"PURCHASE",emoji:"💰",q:"What's your budget?",type:"slider",min:5000,max:100000,step:1000,def:18000},
+  {id:"max_age",cat:"PURCHASE",emoji:"📅",q:"How old a car would you consider?",choices:[{l:"✨ Brand new only",v:"1 year"},{l:"📅 Up to 3 years old",v:"3 years"},{l:"📅 Up to 5 years old",v:"5 years"},{l:"📅 Up to 8 years old",v:"8 years"},{l:"📅 Up to 12 years old",v:"12 years"},{l:"♻️ Any age — doesn't matter",v:"Any age"}]},
+  {id:"awd",cat:"PURCHASE",emoji:"🏔️",q:"Do you need all-wheel drive?",choices:[{l:"✅ Yes — I drive in snow/off-road regularly",v:"yes"},{l:"🤷 Nice to have but not essential",v:"maybe"},{l:"❌ No — front or rear wheel drive is fine",v:"no"}]}
+];
+
+// ── Scoring ──
+function matchesTx(c,tp){if(!tp||tp==="Either is fine")return true;const t=(c.tx||[]).join(" ").toLowerCase();if(tp==="Manual")return t.includes("manual");if(tp==="Automatic")return/auto|dsg|cvt|dct|ecvt|amt|ev/.test(t);return true;}
+
+function scoreCar(car,a,identity){
+  car=norm(car);let s=50;const budget=a.budget||18000;
+  // Budget
+  if(car.budgetMin<=budget&&car.budgetMax>=budget*0.5)s+=12;
+  else if(car.budgetMin<=budget*1.2)s+=5;
+  else if(car.budgetMin>budget*1.4)s-=25;
+  // Age
+  const maxAge={"1 year":2024,"3 years":2022,"5 years":2020,"8 years":2017,"12 years":2013,"Any age":2000};
+  if(a.max_age&&maxAge[a.max_age]&&(car.yearTo||2025)<maxAge[a.max_age])s-=20;
+  // Fuel
+  const fk=FK[a.fuel];if(fk&&!car.fuel.includes(fk)&&a.fuel!=="Still open")s-=30;
+  // Transmission
+  if(!matchesTx(car,a.transmission))s-=20;
+  // Body type
+  const bt=a.body_style;
+  if(bt&&bt!=="any"){
+    if(bt==="suv"&&car.body==="suv")s+=8;
+    else if(bt==="estate"&&car.body==="estate")s+=8;
+    else if(bt==="pickup"&&car.body==="pickup")s+=10;
+    else if(bt==="sports"&&["convertible","coupe"].includes(car.body))s+=10;
+    else if(bt!==car.body)s-=15;
+  }
+  // Reliability
+  if(car.reliability==="Excellent")s+=12;else if(car.reliability==="Good")s+=5;else if(car.reliability==="Poor")s-=12;
+  if(a.reliability==="critical"){if(car.reliability==="Excellent")s+=10;else if(car.reliability==="Poor")s-=15;}
+  // Priority
+  if(a.priority==="safety"&&car.ncapStars>=5)s+=12;
+  if(a.priority==="safety"&&car.ncapStars<=3)s-=10;
+  if(a.priority==="economy"&&car.repair==="VeryLow")s+=10;
+  if(a.priority==="performance"&&car.body==="suv")s-=5;
+  if(a.priority==="comfort"&&car.longTrip)s+=8;
+  // Luggage
+  const boot=car.boot||0;
+  if(a.luggage==="max"&&boot>=500)s+=10;else if(a.luggage==="max"&&boot<350)s-=10;
+  if(a.luggage==="large"&&boot>=400)s+=6;
+  if(a.luggage==="small"&&boot>500)s-=3;
+  // Kids/pets
+  if(a.kids_pets!=="Neither"&&car.seats>=5&&car.ncapStars>=4)s+=6;
+  if(a.kids_pets!=="Neither"&&car.ncapStars<=2)s-=10;
+  // Long trips
+  if(a.longtrip==="yes"&&car.longTrip)s+=8;
+  if(a.longtrip==="yes"&&boot<350)s-=5;
+  // Passengers
+  if(a.passengers==="7"&&car.seats<7)s-=15;
+  if(a.passengers==="4"&&car.seats<5)s-=10;
+  // Usage
+  if(a.usage==="city"&&car.body==="pickup")s-=15;
+  if(a.usage==="offroad"&&car.body==="suv")s+=8;
+  if(a.usage==="work"&&["pickup","suv"].includes(car.body))s+=8;
+  // Identity bonuses
+  if(identity==="family"&&car.ncapStars>=5&&car.seats>=5&&boot>=400)s+=10;
+  if(identity==="business"&&car.luxury>=2)s+=8;
+  if(identity==="adventure"&&car.body==="suv")s+=8;
+  if(identity==="performance"&&["sports","convertible","coupe"].includes(car.body))s+=10;
+  if(identity==="eco"&&car.repair==="VeryLow")s+=10;
+  if(identity==="eco"&&car.fuel.includes("electric"))s+=8;
+  if(identity==="style"&&car.luxury>=3)s+=10;
+  return Math.max(10,Math.min(99,s));
+}
+
+function getScoreReason(c,a,identity){
+  const r=[];
+  if(identity){const id=IDENTITIES.find(i=>i.v===identity);if(id)r.push(id.emoji+" "+id.l);}
+  if(c.reliability==="Excellent")r.push("🏆 Top reliability");
+  if(c.ncapStars>=5)r.push("🛡️ 5-star safety");
+  if(a.fuel&&c.fuel.includes(FK[a.fuel]))r.push("⛽ "+a.fuel+" available");
+  if(c.boot>=500)r.push("📦 Large boot "+c.boot+"L");
+  if(c.seats>=7)r.push("👥 7 seats");
+  if(c.budgetMax<=a.budget)r.push("💰 Within budget");
+  if(c.longTrip&&a.longtrip==="yes")r.push("🗺️ Great for long trips");
+  return r.slice(0,3).join(" · ")||"Good overall match";
+}
+
+function getLinks(c){const mk=c.make.toLowerCase().replace(/[^a-z0-9]/g,"-"),md=c.model.toLowerCase().replace(/[^a-z0-9]/g,"-");return{as:`https://www.autoscout24.com/lst/${mk}/${md}`,ab:`https://www.autobazar.eu/inzeraty/${mk}-${md}/`,mo:`https://suchen.mobile.de/fahrzeuge/search.html?q=${encodeURIComponent(c.make+" "+c.model)}`};}
+
+function App(){
+  const[phase,setPhase]=useState("hero");
+  const[dbLoaded,setDbLoaded]=useState(false);
+  const[dbError,setDbError]=useState(false);
+  const[identity,setIdentity]=useState(null);
+  const[qStep,setQStep]=useState(0);
+  const[ans,setAns]=useState({});
+  const[budget,setBudget]=useState(18000);
+  const[results,setResults]=useState([]);
+  const[openMore,setOpenMore]=useState({});
+  const[faultDB,setFaultDB]=useState({});
+  const[loadFault,setLoadFault]=useState({});
+  const[openEng,setOpenEng]=useState({});
+  const[pinned,setPinned]=useState([]);
+  const[loadStep,setLoadStep]=useState(0);
+  const[animKey,setAnimKey]=useState(0);
+
+  useEffect(()=>{(async()=>{try{
+    const r=await Promise.all(DB_FILES.map(f=>fetch(DB_BASE+f).then(r=>{if(!r.ok)throw new Error(f);return r.json();})));
+    DB.splice(0,DB.length,...r.flat());setDbLoaded(true);
+  }catch(e){console.error("DB:",e);setDbError(true);}})();},[]);
+
+  function startLoading(){
+    setPhase("loading");setLoadStep(0);
+    const steps=[500,900,1400,2000];
+    steps.forEach((ms,i)=>setTimeout(()=>setLoadStep(i+1),ms));
+    setTimeout(()=>{
+      const a={...ans,budget};
+      const scored=DB.map(car=>{const c=norm(car);return{car:c,score:scoreCar(c,a,identity)};}).sort((a,b)=>b.score-a.score).slice(0,20);
+      if(scored.length)scored[0].isBest=true;
+      setResults(scored);setPhase("results");
+    },2500);
+  }
+
+  async function loadDetail(car){
+    const id=car.id;if(faultDB[id]||loadFault[id])return;
+    setLoadFault(p=>({...p,[id]:true}));
+    try{
+      const c=norm(car);
+      const prompt=`You are an automotive expert. Generate JSON for: ${c.make} ${c.model} ${c.gen} (${c.years}).
+Return ONLY valid JSON:
+{"e":[{"engine":"name","reliability":"Excellent|Good|Average|Poor","faults":["f1"],"pros":["p1"],"cons":["c1"]}],"t":[{"type":"name","reliability":"Excellent|Good|Average|Poor","detail":"str","tip":"str"}],"c":[{"area":"str","severity":"Critical|High|Medium|Low","detail":"str"}],"pros":["p1","p2","p3"],"cons":["c1","c2","c3"],"q":[{"trim":"name","features":"str"}],"b":"buying tip"}
+e[]=2-5 engines, t[]=1-3 tx, c[]=3-6 faults, q[]=2-4 trims. Note: ${c.note||""}`;
+      const r=await fetch("https://api.anthropic.com/v1/messages",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({model:"claude-sonnet-4-20250514",max_tokens:1000,messages:[{role:"user",content:prompt}]})});
+      const data=await r.json();const text=data.content?.map(b=>b.text||"").join("")||"";
+      setFaultDB(p=>({...p,[id]:JSON.parse(text.replace(/```json|```/g,"").trim())}));
+    }catch(e){console.error(e);setFaultDB(p=>({...p,[id]:{e:[],t:[],c:[],pros:[],cons:[],q:[],b:"Could not load data."}}));}
+    setLoadFault(p=>({...p,[id]:false}));
+  }
+
+  const Q=QUESTIONS,q=Q[qStep],isSlider=q?.type==="slider",canNext=isSlider||!!ans[q?.id];
+  const togglePin=id=>setPinned(p=>p.includes(id)?p.filter(x=>x!==id):[...p,id]);
+  const goStep=(dir)=>{setAnimKey(k=>k+1);if(dir>0){if(qStep<Q.length-1)setQStep(s=>s+1);else startLoading();}else setQStep(s=>s-1);};
+
+  return(
+    <div className="w">
+      <header className="hdr"><div className="logo">Auto<span>Match</span></div><div className="tg">EU Car Advisor{dbLoaded?` · ${DB.length} Models`:""}</div></header>
+
+      {phase==="hero"&&(
+        <div className="hero">
+          <h2>Find Your Perfect Car</h2>
+          <p>Answer a few questions about your lifestyle and needs — we'll match you with the best cars on the EU market, with reliability data, engine faults, and safety ratings.</p>
+          {dbError&&<div className="err-msg">⚠️ Could not load database. Check your connection and refresh.</div>}
+          {!dbLoaded&&!dbError&&<div className="load-msg">⟳ Loading car database...</div>}
+          {dbLoaded&&<div className="db-ok">✓ {DB.length} cars loaded from database</div>}
+          <button className="btn-go" disabled={!dbLoaded} onClick={()=>setPhase("identity")}>Find My Car →</button>
+        </div>
+      )}
+
+      {phase==="identity"&&(
+        <div className="qshell">
+          <div className="q-text">What best describes what you're looking for?</div>
+          <div className="id-grid">
+            {IDENTITIES.map(id=>(
+              <div key={id.v} className={`id-card${identity===id.v?" sel":""}`} onClick={()=>setIdentity(id.v)}>
+                <div className="id-emoji">{id.emoji}</div>
+                <div className="id-label">{id.l}</div>
+                <div className="id-desc">{id.desc}</div>
+              </div>
+            ))}
+          </div>
+          <div className="nav-row">
+            <button className="btn-back" onClick={()=>setPhase("hero")}>← Back</button>
+            <button className="btn-next" disabled={!identity} onClick={()=>{setPhase("quiz");setQStep(0);setAnimKey(0);}}>Continue →</button>
+          </div>
+        </div>
+      )}
+
+      {phase==="quiz"&&(
+        <div className="qshell">
+          <div className="ptrack"><div className="pfill" style={{width:((qStep+1)/Q.length*100)+"%"}}/></div>
+          <div key={animKey} className="q-anim">
+            <div className="step-info">
+              <span className="step-num">{qStep+1} / {Q.length}</span>
+              {q.cat&&<span className="step-cat">{q.cat}</span>}
+            </div>
+            <div className="q-text">{q.emoji&&<span>{q.emoji} </span>}{q.q}</div>
+            {isSlider?(
+              <div className="slider-wrap">
+                <div className="slider-val">€{budget.toLocaleString()}</div>
+                <input className="slider-input" type="range" min={q.min} max={q.max} step={q.step} value={budget} onChange={e=>setBudget(+e.target.value)}/>
+              </div>
+            ):(
+              q.choices.map(c=><button key={c.v} className={`opt-btn${ans[q.id]===c.v?" sel":""}`} onClick={()=>setAns(p=>({...p,[q.id]:c.v}))}>{c.l}</button>)
+            )}
+          </div>
+          <div className="nav-row">
+            {qStep>0&&<button className="btn-back" onClick={()=>goStep(-1)}>← Back</button>}
+            <button className="btn-next" disabled={!canNext} onClick={()=>goStep(1)}>{qStep===Q.length-1?"🔍 Show Results":"Continue →"}</button>
+          </div>
+        </div>
+      )}
+
+      {phase==="loading"&&(
+        <div className="load-phase">
+          <div className="spin-big"/>
+          <h3 style={{fontFamily:"'Bebas Neue'",color:"#e8ff47",fontSize:"1.3rem",marginBottom:16}}>Analysing {DB.length} Cars...</h3>
+          <ul className="load-steps">
+            <li className={loadStep>=1?"done":loadStep===0?"active":""}>🔍 Scanning {DB.length} models...</li>
+            <li className={loadStep>=2?"done":loadStep===1?"active":""}>⚙️ Matching your preferences...</li>
+            <li className={loadStep>=3?"done":loadStep===2?"active":""}>📊 Ranking by compatibility...</li>
+            <li className={loadStep>=4?"done":loadStep===3?"active":""}>✅ Preparing your results...</li>
+          </ul>
+        </div>
+      )}
+
+      {phase==="results"&&(<>
+        <div className="results-hdr"><h3>Your Top Matches</h3><div className="tg">{results.length} cars ranked for you</div></div>
+
+        {identity&&(
+          <div className="id-reveal">
+            <div className="id-reveal-emoji">{IDENTITIES.find(i=>i.v===identity)?.emoji}</div>
+            <div className="id-reveal-label">Looking for: {IDENTITIES.find(i=>i.v===identity)?.l}</div>
+          </div>
+        )}
+
+        {pinned.length>=2&&(
+          <div className="compare-wrap">
+            <h4>📊 Compare ({pinned.length} cars)</h4>
+            <table className="compare-table">
+              <thead><tr><th>Spec</th>{results.filter(r=>pinned.includes(r.car.id)).map(({car:c})=><th key={c.id}>{c.make} {c.model}</th>)}</tr></thead>
+              <tbody>
+                {[
+                  {l:"Match",f:r=>r.score+"%"},
+                  {l:"Price",f:r=>"€"+fmt(r.car.budgetMin)+"–€"+fmt(r.car.budgetMax)},
+                  {l:"Type",f:r=>bl(r.car.body)},
+                  {l:"Reliability",f:r=>r.car.reliability},
+                  {l:"Seats",f:r=>r.car.seats||"—"},
+                  {l:"Boot",f:r=>(r.car.boot||"—")+"L"},
+                  {l:"Safety",f:r=>r.car.ncapStars!=null?r.car.ncapStars+"★":"N/A"},
+                  {l:"Fuel",f:r=>r.car.fuel.join(", ")},
+                ].map(row=><tr key={row.l}><td>{row.l}</td>{results.filter(r=>pinned.includes(r.car.id)).map(r=><td key={r.car.id}>{row.f(r)}</td>)}</tr>)}
+              </tbody>
+            </table>
+            <button className="compare-clear" onClick={()=>setPinned([])}>Clear comparison</button>
+          </div>
+        )}
+
+        {results.map(({car,score,isBest},i)=>{
+          const c=norm(car),fd=faultDB[c.id],isOpen=openMore[c.id],isPinned=pinned.includes(c.id),lnk=getLinks(c);
+          const reason=getScoreReason(c,{...ans,budget},identity);
+          return(
+            <div key={c.id} className={`card${isBest?" best":""}`} style={{animationDelay:`${i*0.05}s`}}>
+              <div className="card-top">
+                <div className="card-badges">
+                  <span className="num-badge">{isBest?"★ #1":`#${i+1}`}</span>
+                  <span className="rel-pill" style={{background:(RC[c.reliability]||"#888")+"22",color:RC[c.reliability]||"#888",border:`1px solid ${RC[c.reliability]||"#888"}44`}}>{c.reliability}</span>
+                  <span className="origin-tag">{OF[car.origin]||"🌍"} {car.origin}</span>
+                </div>
+                <div className="match-pct">{score}%</div>
+              </div>
+              <div className="cmake">{c.make}</div><div className="cmodel">{c.model}</div><div className="cgen">{c.gen} · {c.years}</div>
+              <div className="mbar"><div className="mfill" style={{width:score+"%"}}/></div>
+              <div className="score-reason">💡 {reason}</div>
+              <div className="cgrid">
+                <div className="cgrid-item"><div className="cgrid-label">Type</div><div className="cgrid-val">{bl(c.body)}</div></div>
+                <div className="cgrid-item"><div className="cgrid-label">Seats</div><div className="cgrid-val">{c.seats||"—"}</div></div>
+                <div className="cgrid-item"><div className="cgrid-label">Boot</div><div className="cgrid-val">{c.boot?c.boot+"L":"—"}</div></div>
+                <div className="cgrid-item"><div className="cgrid-label">Repair</div><div className="cgrid-val">{c.repair==="VeryLow"?"V.Low":c.repair}</div></div>
+              </div>
+              <div className="cprice">€{fmt(c.budgetMin)} – €{fmt(c.budgetMax)}</div>
+              <div className="cmileage">{c.mileageRange}</div>
+              <div className="cfuels">{c.fuel.map(f=><span key={f} className="cfuel-tag">{fl(f)}</span>)}</div>
+              <div className="safety-row">
+                <span className="safety-label">Safety</span>
+                {c.ncapStars!=null?[1,2,3,4,5].map(n=><span key={n} className={`nstar${n<=c.ncapStars?" on":""}`}>★</span>):<span style={{fontSize:".75rem",color:"#6b6b72"}}>Not tested</span>}
+                {c.ncapAdult!=null&&<span className="ncap-pct">{c.ncapAdult}%</span>}
+              </div>
+              <div className="links">
+                <a className="link-btn link-as" href={lnk.as} target="_blank" rel="noopener noreferrer">🔍 AutoScout24</a>
+                <a className="link-btn link-ab" href={lnk.ab} target="_blank" rel="noopener noreferrer">🇸🇰 AutoBazar</a>
+                <a className="link-btn link-mo" href={lnk.mo} target="_blank" rel="noopener noreferrer">🔍 Mobile.de</a>
+              </div>
+              <div className="card-actions">
+                <button className={`btn-pin${isPinned?" on":""}`} onClick={()=>togglePin(c.id)}>{isPinned?"📌 Pinned":"📌 Compare"}</button>
+                <button className="btn-more" onClick={()=>{setOpenMore(p=>({...p,[c.id]:!p[c.id]}));if(!openMore[c.id])loadDetail(car);}}>{isOpen?"▲ Less info":"▼ More info"}</button>
+              </div>
+
+              {isOpen&&(<div className="more-panel">
+                {loadFault[c.id]&&<div className="loading-spin"><div className="spin"/><span>Analysing {c.make} {c.model}...</span></div>}
+                {!loadFault[c.id]&&fd&&(<>
+                  {fd.e?.length>0&&(<div className="mp-section">
+                    <div className="mp-title">🔩 Engine Options {ans.fuel&&ans.fuel!=="Still open"&&<span className="mp-filter">· {ans.fuel}</span>}</div>
+                    <div className="mp-hint">Tap to see faults, pros & cons</div>
+                    {fd.e.filter(e=>{if(!ans.fuel||ans.fuel==="Still open")return true;const n=(e.engine||"").toLowerCase();if(ans.fuel==="Diesel")return/tdi|cdi|dci|d-4d|bluehdi|cdti|skyactiv-d/.test(n);if(ans.fuel==="Electric")return/kwh|ev|electric/.test(n);if(ans.fuel==="Hybrid")return/hybrid|phev|e:hev|e-tech/.test(n);return true;}).map((e,ei)=>{
+                      const k=`${c.id}-e${ei}`,isE=openEng[k],rc=RC[e.reliability]||"#888";
+                      return(<div key={k} className={`eng-card${isE?" open":""}`} onClick={()=>setOpenEng(p=>({...p,[k]:!p[k]}))}>
+                        <div className="eng-hdr"><div className="eng-left"><span className="eng-name">{e.engine}</span><div className="eng-tags"><span className="eng-badge" style={{background:rc+"22",color:rc,border:`1px solid ${rc}44`}}>{e.reliability}</span></div></div><span className="chevron">{isE?"▲":"▼"}</span></div>
+                        {isE&&(<div className="eng-body">
+                          {e.faults?.length>0&&<><div className="sub-label">⚠️ Known faults</div>{e.faults.map((f,fi)=><div key={fi} className="fault-item">· {f}</div>)}</>}
+                          {e.pros?.length>0&&<><div className="sub-label">✅ Pros</div>{e.pros.map((p,pi)=><div key={pi} className="pro-item">· {p}</div>)}</>}
+                          {e.cons?.length>0&&<><div className="sub-label">❌ Cons</div>{e.cons.map((cn,ci)=><div key={ci} className="con-item">· {cn}</div>)}</>}
+                        </div>)}
+                      </div>);
+                    })}
+                  </div>)}
+
+                  {fd.t?.length>0&&(<div className="mp-section">
+                    <div className="mp-title">⚙️ Transmissions {ans.transmission&&ans.transmission!=="Either is fine"&&<span className="mp-filter">· {ans.transmission}</span>}</div>
+                    {fd.t.filter(t=>{if(!ans.transmission||ans.transmission==="Either is fine")return true;const n=(t.type||"").toLowerCase();if(ans.transmission==="Manual")return n.includes("manual");return!n.includes("manual");}).map((t,ti)=>{
+                      const k=`${c.id}-t${ti}`,isT=openEng[k],rc=RC[t.reliability]||"#888";
+                      return(<div key={k} className={`tx-card${isT?" open":""}`} onClick={()=>setOpenEng(p=>({...p,[k]:!p[k]}))}>
+                        <div className="eng-hdr"><div className="eng-left"><span className="eng-name">{t.type}</span><span className="eng-badge" style={{background:rc+"22",color:rc,border:`1px solid ${rc}44`}}>{t.reliability}</span></div><span className="chevron">{isT?"▲":"▼"}</span></div>
+                        {isT&&<div className="eng-body">{t.detail&&<div style={{fontSize:".78rem",color:"#9999aa",marginBottom:4}}>{t.detail}</div>}{t.tip&&<div style={{fontSize:".78rem",color:"#e8ff47",marginTop:4}}>💡 {t.tip}</div>}</div>}
+                      </div>);
+                    })}
+                  </div>)}
+
+                  {fd.c?.length>0&&(<div className="mp-section">
+                    <div className="mp-title">⚠️ Common Problems</div>
+                    {c.faults?.summary&&<div style={{fontSize:".78rem",color:"#9999aa",marginBottom:8}}>{c.faults.summary}</div>}
+                    {fd.c.map((f,fi)=>{const sc={Critical:"#f44336",High:"#ff9800",Medium:"#e8ff47",Low:"#4caf50"}[f.severity]||"#888";return(
+                      <div key={fi} className="fault-block"><div className="fault-hdr"><span className="fault-area">{f.area}</span><span className="fault-sev" style={{background:sc+"22",color:sc,border:`1px solid ${sc}44`}}>{f.severity}</span></div><div className="fault-detail">{f.detail}</div></div>
+                    );})}
+                  </div>)}
+
+                  {(fd.pros||fd.cons)&&(<div className="mp-section">
+                    <div className="mp-title">👍👎 Pros & Cons</div>
+                    <div className="pros-grid">
+                      {fd.pros?.length>0&&<div><div className="pc-label g">Pros</div>{fd.pros.map((p,i)=><div key={i} className="pc-item g">✓ {p}</div>)}</div>}
+                      {fd.cons?.length>0&&<div><div className="pc-label r">Cons</div>{fd.cons.map((cn,i)=><div key={i} className="pc-item r">✗ {cn}</div>)}</div>}
+                    </div>
+                  </div>)}
+
+                  <div className="mp-section">
+                    <div className="mp-title">🛡️ Safety — Euro NCAP</div>
+                    {c.ncapStars!=null?(<div className="ncap-detail">
+                      <div className="ncap-stars-row">{[1,2,3,4,5].map(n=><span key={n} className={`ns-lg${n<=c.ncapStars?" on":""}`}>★</span>)}<span className="ns-label">{c.ncapStars}/5{c.ncapYear?` · ${c.ncapYear}`:""}</span></div>
+                      {[{l:"Adult",v:c.ncapAdult},{l:"Child",v:c.ncapChild},{l:"Pedestrian",v:c.ncapPed},{l:"Safety Assist",v:c.ncapAssist}].filter(b=>b.v!=null).map(b=>(
+                        <div key={b.l} className="ncap-bar"><span className="ncap-bl">{b.l}</span><div className="ncap-track"><div className="ncap-fill" style={{width:b.v+"%",background:b.v>=90?"#4caf50":b.v>=75?"#e8ff47":b.v>=60?"#ff9800":"#f44336"}}/></div><span className="ncap-pv">{b.v}%</span></div>
+                      ))}
+                      <div className="ncap-verdict" style={{color:c.ncapStars>=5?"#4caf50":c.ncapStars>=4?"#e8ff47":"#ff9800"}}>{c.ncapStars>=5?"Outstanding safety":c.ncapStars>=4?"Good — 4 stars":c.ncapStars>=3?"⚠️ Below average":"⚠️ Poor rating"}</div>
+                    </div>):<div className="ncap-na">⚠️ Not tested by Euro NCAP</div>}
+                  </div>
+
+                  {((car.equipment?.length>0)||(fd.q?.length>0))&&(<div className="mp-section">
+                    <div className="mp-title">🎛️ Equipment Levels</div>
+                    {(car.equipment||fd.q).map((eq,eqi)=>(<div key={eqi} className="eq-item"><div className="eq-trim">{eq.trim}</div>{eq.targetBuyer&&<div className="eq-target">{eq.targetBuyer}</div>}<div className="eq-feats">{Array.isArray(eq.features)?eq.features.join(" · "):eq.features}</div></div>))}
+                  </div>)}
+
+                  <div className="buy-tip"><div className="bt-label">💡 Buying Tip</div><div className="bt-text">{fd.b||c.buyingTip||c.faults?.buyingTip||"Check service history."}</div></div>
+                </>)}
+              </div>)}
+            </div>
+          );
+        })}
+        <button className="restart" onClick={()=>{setPhase("hero");setIdentity(null);setQStep(0);setAns({});setBudget(18000);setResults([]);setOpenMore({});setFaultDB({});setLoadFault({});setOpenEng({});setPinned([]);setLoadStep(0);}}>↻ Start Over</button>
+      </>)}
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
+</script>
+</body>
+</html>
